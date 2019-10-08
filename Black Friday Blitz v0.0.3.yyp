@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "13fc02cc-12e3-4a8a-9ee3-54cfa2de9ab5",
+            "Value": {
+                "id": "f49f941e-1136-4015-9d85-67baa63f07b8",
+                "resourcePath": "sprites\\spr_EnemyTankWalk\\spr_EnemyTankWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1624d2b0-29aa-413a-b6d6-5d2a1a34571a",
             "Value": {
                 "id": "9213aff5-eb2f-4f64-952b-258b5d17a1b1",
@@ -380,6 +388,14 @@
                 "id": "4cbc0108-d15f-4073-9e4a-5afb77df157e",
                 "resourcePath": "rooms\\room2\\room2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "759c465c-bfaa-4c7d-91a4-9343affd8043",
+            "Value": {
+                "id": "0d3fefce-87b0-4516-b78d-1a967ce3e9d7",
+                "resourcePath": "sprites\\spr_EnemyTankAttack\\spr_EnemyTankAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -671,10 +687,18 @@
             }
         },
         {
+            "Key": "cf3e79df-c542-43ab-b3d7-dbe39288f774",
+            "Value": {
+                "id": "8b5417b9-ddfd-4f8d-90cf-2257e1ed5a2d",
+                "resourcePath": "sprites\\spr_EnemyBasicAttack\\spr_EnemyBasicAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d1e91aff-74ea-4870-9df3-339eed5adbe3",
             "Value": {
                 "id": "31809278-4cb7-419b-9768-8be4b7c148ab",
-                "resourcePath": "sprites\\spr_Enemy\\spr_Enemy.yy",
+                "resourcePath": "sprites\\spr_EnemyBasicWalk\\spr_EnemyBasicWalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -772,6 +796,14 @@
                 "id": "b348a005-4314-400a-9f04-35aca6905c7e",
                 "resourcePath": "views\\ee421cb0-4e28-4e44-8f97-5aa0744658b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0d2e008-7eed-4a92-a605-ff353de5b86f",
+            "Value": {
+                "id": "66448b01-eef2-469e-be7e-1e1dbfdaf0f6",
+                "resourcePath": "sprites\\spr_EnemyBasicHurt\\spr_EnemyBasicHurt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
