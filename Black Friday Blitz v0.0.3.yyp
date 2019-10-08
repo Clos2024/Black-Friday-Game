@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "17694330-a887-4d2f-bd09-ec479a1ebcae",
+            "Value": {
+                "id": "0148f86c-bf82-4319-9019-b713270e9ae5",
+                "resourcePath": "sprites\\spr_WetFloor\\spr_WetFloor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1942a54d-4468-42ad-bef2-4ebc26907e71",
             "Value": {
                 "id": "787d7a51-3da6-499b-9b78-015cf9db76de",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "1c6f7807-cad0-4620-9d3c-a17788a31a99",
                 "resourcePath": "sprites\\spr_TennisBallTower\\spr_TennisBallTower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1b0d9259-4f73-4d25-8a1a-c0a6f51dd7af",
+            "Value": {
+                "id": "e116c806-0823-4516-b091-c94974c22b86",
+                "resourcePath": "sprites\\spr_TennisBallLauncher\\spr_TennisBallLauncher.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "69d95dcb-2c95-4259-8a47-af7b5ee1297b",
+            "Value": {
+                "id": "25b2b9f5-2100-40d5-8152-4cdf4499e30e",
+                "resourcePath": "sprites\\spr_Catapult\\spr_Catapult.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6cdd3b0f-7bf7-444c-9d37-758302e6826a",
             "Value": {
                 "id": "4561a349-cb91-4f4b-b06e-dcf0908393fa",
@@ -471,6 +495,14 @@
             }
         },
         {
+            "Key": "9253cee1-a59d-4798-8f8d-f9cc641db71f",
+            "Value": {
+                "id": "7e95db44-c302-44f4-903f-8fd39c17281a",
+                "resourcePath": "sprites\\spr_TennisBallLauncherSel\\spr_TennisBallLauncherSel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92a8e74a-d2dc-4417-b46e-139465c9f9be",
             "Value": {
                 "id": "3751a2db-5ee8-4e79-972e-5b2ce4a76280",
@@ -519,11 +551,27 @@
             }
         },
         {
+            "Key": "a3105f65-a25b-4008-8398-87e43c784bf6",
+            "Value": {
+                "id": "7bc5bb7b-b2bb-474f-b6b2-90a120e48760",
+                "resourcePath": "sprites\\spr_CircuitBoard\\spr_CircuitBoard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a4d3cd57-80f0-40c8-bc61-f6c9ea6aa3ff",
             "Value": {
                 "id": "f29532b4-f232-49ae-807c-3a5d96aa0912",
                 "resourcePath": "objects\\obj_Player\\obj_Player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a745bb0f-ada9-4670-a4e7-e0472a054614",
+            "Value": {
+                "id": "6968ab22-72ee-47bf-8d3d-8f80888f48a9",
+                "resourcePath": "sprites\\spr_Box\\spr_Box.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -604,6 +652,14 @@
                 "id": "dacdb92e-3969-407c-9ddb-f61001023756",
                 "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bcada73c-fa5d-4efc-a435-a86b83a159fe",
+            "Value": {
+                "id": "53c040ae-7d23-4291-ae8d-b6e7a99bb6f3",
+                "resourcePath": "sprites\\spr_PlasticBall\\spr_PlasticBall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -764,6 +820,14 @@
                 "id": "24df1be6-41c5-46d7-9193-d71a68c7f194",
                 "resourcePath": "views\\e93ba2f9-61d1-4a2e-8e69-ac0faa3692f7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea7d753b-fb8b-481f-afac-b9ea3b315c40",
+            "Value": {
+                "id": "759dac7d-3efa-475b-b107-9c652f092cee",
+                "resourcePath": "sprites\\spr_Airpods\\spr_Airpods.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
