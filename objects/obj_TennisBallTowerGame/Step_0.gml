@@ -35,3 +35,14 @@ if(enemy2 != noone){
 if(TennisHealth <= 0){
 	instance_destroy();
 }
+
+if(TennisTowerSelected = true)
+{
+	sprite_index = spr_TennisBallLauncherSel;
+
+}
+else if(TennisTowerSelected = false)
+{
+	sprite_index = spr_TennisBallLauncher;
+	
+}
