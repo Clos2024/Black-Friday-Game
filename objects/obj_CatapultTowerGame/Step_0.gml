@@ -1,9 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(CatHealth < 0){
-	instance_destroy();
-}
-
 var xIndicator = collision_line(x,y,x-1000,y,obj_CatapultIndicator,false,true);
 
 if(xIndicator != noone){
@@ -15,29 +11,31 @@ var CatapultClicked = collision_point(mouse_x,mouse_y,obj_CatapultTowerGame,fals
 if(CatapultClicked != noone){
 	CatapultOn = CatapultClicked;
 	
-	if(recycle = true){
-		sprite_index = spr_CatapultGameRecycle;
-	}
-	else{
-		sprite_index = spr_CatapultGame;
-	}
-}
-
-if(mouse_check_button_pressed(mb_left)){
 	if(position_meeting(mouse_x,mouse_y, CatapultOn)){
-		CatapultOn.CatapultGameSelected = true;
-	}
-	else{
-		CatapultOn.CatapultGameSelected = false;
+		if(mouse_check_button_released(mb_left)){
+			CatapultOn.MoveX = true;
+			CatapultOn.recycle = false;
+		}
 	}
 }
 
-if(CatapultGameSelected = true){
+if(mouse_check_button_pressed(mb_left) && MoveX = true){
+	MoveX = false;
+}
+
+if(CatHealth < 0){
+	instance_destroy();
+}
+
+if(recycle = true && MoveX = false){
+	sprite_index = spr_CatapultGameRecycle;
+}
+
+if(MoveX = true && recycle = false){
 	sprite_index = spr_CatapultGameSel;
 }
-else{
+
+if(MoveX = false && recycle = false){
 	sprite_index = spr_CatapultGame;
 }
-
-
 

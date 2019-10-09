@@ -8,7 +8,7 @@ if(TowerClicked != noone){
 	TowerOne = TowerClicked;
 	
 	if(position_meeting(mouse_x,mouse_y, TowerOne)){
-		if(mouse_check_button_pressed(mb_right)){
+		if(mouse_check_button_released(mb_right)){
 			TowerOne.recycle = true;
 		}
 	}
@@ -22,15 +22,17 @@ if(instance_exists(obj_TennisBallTowerGame)){
 		}
 	}
 }
-
+ 
 if(TowerClicked2 != noone){
 	TowerTwo = TowerClicked2;
 	
 	if(position_meeting(mouse_x,mouse_y, TowerTwo)){
-		if(mouse_check_button_pressed(mb_right)){
+		if(mouse_check_button_released(mb_right)){
 			TowerTwo.recycle = true;
+			TowerTwo.MoveX = false;
 		}
 	}
+	
 }
 
 if(instance_exists(obj_CatapultTowerGame)){
