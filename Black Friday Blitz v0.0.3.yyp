@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "11ffc28c-126a-4fef-b6f8-dc0ff0ad7f04",
+            "Value": {
+                "id": "0845fc8b-1ad6-457b-91eb-f3bc1ab513b5",
+                "resourcePath": "sprites\\spr_CircuitBoard\\spr_CircuitBoard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13fc02cc-12e3-4a8a-9ee3-54cfa2de9ab5",
             "Value": {
                 "id": "f49f941e-1136-4015-9d85-67baa63f07b8",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "3aa801e4-78e5-4c3b-8ca2-0cbe9206ace6",
+            "Value": {
+                "id": "df9cca57-0e29-4de9-83c9-6c97f01d9caf",
+                "resourcePath": "sprites\\spr_MetalBar\\spr_MetalBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c9388eb-729f-4d08-b8a2-a3b122c022da",
             "Value": {
                 "id": "a1dff890-b975-4d71-a36d-d58728db2ca0",
@@ -307,6 +323,14 @@
             "Value": {
                 "id": "d15eb8f1-ed75-4316-8458-42413d9c1b36",
                 "resourcePath": "sprites\\spr_YouWin\\spr_YouWin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d969663-4cb8-4df7-a429-b40d97d40c64",
+            "Value": {
+                "id": "4fd199c4-94d4-483a-aa19-6e4fdfcbeb83",
+                "resourcePath": "sprites\\spr_WetSign\\spr_WetSign.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -331,6 +355,14 @@
             "Value": {
                 "id": "41650d84-59e3-4172-a27c-54b1602ec02f",
                 "resourcePath": "sprites\\spr_WaterTower\\spr_WaterTower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "455a9169-0399-496e-90c8-463d7cb0bd85",
+            "Value": {
+                "id": "bd574df9-70f0-4765-b44d-be028ac43b47",
+                "resourcePath": "sprites\\spr_PlasticBall\\spr_PlasticBall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -443,6 +475,14 @@
             "Value": {
                 "id": "b6b6a579-d79e-42c3-9ab1-60d674d4ff35",
                 "resourcePath": "sprites\\spr_WallTower\\spr_WallTower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77efbeeb-72bf-4852-aea2-aa97de37b8e7",
+            "Value": {
+                "id": "779d2773-8741-4f1e-a1a7-d4ac5e9e74b5",
+                "resourcePath": "sprites\\spr_Box\\spr_Box.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -900,6 +940,14 @@
                 "id": "c0cdaaf5-97be-42a0-b01b-568cdd76aac3",
                 "resourcePath": "objects\\obj_CatapultTower\\obj_CatapultTower.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f6dc35e6-c2be-4af1-9a97-123f4c27f450",
+            "Value": {
+                "id": "7539b455-9ecc-4c18-a9f5-9497847f0381",
+                "resourcePath": "sprites\\spr_airpods\\spr_airpods.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
