@@ -7,5 +7,6 @@ if(instance_exists(towerToAttack)){
 	if(hit != noone){
 	hit.TennisHealth -= attackDamage;
 	}
+	
 
 }

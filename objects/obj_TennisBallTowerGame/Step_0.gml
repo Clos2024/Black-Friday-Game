@@ -35,3 +35,10 @@ if(enemy2 != noone){
 if(TennisHealth <= 0){
 	instance_destroy();
 }
+
+if(recycle = true){
+	sprite_index = spr_tennisballlauncherrecycle;
+}
+else{
+	sprite_index = spr_tennisballlauncher;
+}

@@ -12,7 +12,8 @@ enemyToShoot = noone;
 //Tower HP
 TennisHealth = 20;
 //refund cost
-refund = cash/2;
+refund = cost/2;
 
+recycle = false;
 
 

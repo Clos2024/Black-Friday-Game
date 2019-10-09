@@ -58,7 +58,7 @@
             "Key": "0442eee9-f86b-4b51-8ffe-17b516e1cdbc",
             "Value": {
                 "id": "0342c7a0-a155-4b17-b4b4-fdfebaf8b9df",
-                "resourcePath": "sprites\\spr_tennisballlauncher1\\spr_tennisballlauncher1.yy",
+                "resourcePath": "sprites\\spr_tennisballlauncherrecycle\\spr_tennisballlauncherrecycle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "8c1f77a4-d472-4270-b18f-996ef83d6b0c",
+            "Value": {
+                "id": "37fbc8c1-5951-40fd-964c-f0570d2a009b",
+                "resourcePath": "objects\\obj_TrashCan\\obj_TrashCan.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8e61f413-4bc0-45ba-82c4-06fd21ca75ba",
             "Value": {
                 "id": "a2fca84f-d855-4a3b-a8ab-2f3dad7ec7e1",
@@ -607,10 +615,26 @@
             }
         },
         {
+            "Key": "99c1d18e-d467-4aea-9679-ebdc0f5932e1",
+            "Value": {
+                "id": "94cb3002-2fe8-4e1b-8cfd-28b602e55b15",
+                "resourcePath": "sprites\\spr_CatapultGameRecycle\\spr_CatapultGameRecycle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b06c1b4-947f-4630-b340-1f2bd20f4900",
             "Value": {
                 "id": "44bb6234-a662-4e97-92cb-b0edfc7fd91a",
                 "resourcePath": "sprites\\spr_AisleClosed\\spr_AisleClosed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b74eb3d-d87e-43eb-beb0-cb1dc502582a",
+            "Value": {
+                "id": "644a4e2f-e74a-4ec7-9bc8-9a41da2a9647",
+                "resourcePath": "sprites\\spr_TrashCan\\spr_TrashCan.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -796,6 +820,14 @@
                 "id": "2b081392-1234-4c8d-bab7-b4c4160ea381",
                 "resourcePath": "views\\cdc5b1e7-3863-48cb-b4bb-cfb88bd10076.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ce3361fb-cbfa-46d8-a83c-aa4173016d4f",
+            "Value": {
+                "id": "de5ec979-e5a8-4943-a380-bd092e93d8fb",
+                "resourcePath": "sprites\\spr_TrashCanOpen\\spr_TrashCanOpen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
