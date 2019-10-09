@@ -10,6 +10,7 @@ if(tower != noone){
 			alarm[0] = 1;
 			attacking = true;
 			path_speed = 0;
+			sprite_index = spr_EnemyBasicAttack;
 		}
 		towerToAttack = tower;
 	}
@@ -21,6 +22,7 @@ if(tower != noone){
 
 if(tower = noone && tower2 = noone){
 	path_speed = 1;
+	sprite_index = spr_EnemyBasicWalk;
 }
 
 if(tower2 != noone){
@@ -29,6 +31,7 @@ if(tower2 != noone){
 			alarm[1] = 1;
 			attacking = true;
 			path_speed = 0;
+			sprite_index = spr_EnemyBasicAttack;
 			
 		}
 		towerToAttack = tower2;

@@ -38,11 +38,11 @@ if(TennisHealth <= 0){
 
 if(TennisTowerSelected = true)
 {
-	sprite_index = spr_TennisBallLauncherSel;
+	sprite_index = spr_tennisballlauncher1;
 
 }
 else if(TennisTowerSelected = false)
 {
-	sprite_index = spr_TennisBallLauncher;
+	sprite_index = spr_tennisballlauncher;
 	
 }
