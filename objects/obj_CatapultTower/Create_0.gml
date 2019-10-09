@@ -3,8 +3,7 @@
 globalvar Catcost;
 //Cost of the tower
 Catcost = 150;
-//selected bool
-global.Catselected = false;
 //Tower HP
 global.CatHealth = 20;
 
+global.Catselected = false;

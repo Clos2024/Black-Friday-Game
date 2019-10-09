@@ -5,16 +5,6 @@
     "name": "obj_CatapultIndicator",
     "eventList": [
         {
-            "id": "e33b5981-a4db-4931-8f0f-f251d2269848",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "d58f18cc-035c-4c6b-a4cc-357bac717666"
-        },
-        {
             "id": "15ff62e0-0674-4190-b77e-ac31baa5c2ff",
             "modelName": "GMEvent",
             "mvc": "1.0",

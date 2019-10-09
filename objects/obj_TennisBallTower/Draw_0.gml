@@ -3,4 +3,4 @@
 draw_set_color(c_yellow);
 draw_set_font(TowerCost);
 draw_self();
-draw_text(x-14,y+36,string(cost));
+draw_text(x-14,y+34,string(cost));
