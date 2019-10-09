@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "2dca12ff-bd5c-49df-9c67-491244cfe4c8",
+            "Value": {
+                "id": "1f7718b5-ab42-4cd6-bcb6-3ff2e6c8c350",
+                "resourcePath": "sprites\\spr_CatapultGameSel\\spr_CatapultGameSel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ddb25f0-8c39-486a-977c-2da293b90fb3",
             "Value": {
                 "id": "6513bd87-97a7-49e3-8446-e9e3d7875806",
@@ -580,6 +588,14 @@
                 "id": "8960f301-26ed-4b1c-898e-0eaaeccfb1f8",
                 "resourcePath": "objects\\obj_MaterialsBoard\\obj_MaterialsBoard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9537c41e-5b5e-4ee6-88c7-ed36943a1c24",
+            "Value": {
+                "id": "caad436b-a104-47a4-9a13-57a238161006",
+                "resourcePath": "sprites\\spr_CatapultGame\\spr_CatapultGame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

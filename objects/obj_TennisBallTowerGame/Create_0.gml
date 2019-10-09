@@ -12,5 +12,4 @@ enemyToShoot = noone;
 //Tower HP
 TennisHealth = 20;
 
-TennisTowerSelected = false;
 
