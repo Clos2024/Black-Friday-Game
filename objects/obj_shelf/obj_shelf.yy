@@ -1,5 +1,5 @@
 {
-    "id": "ce2d6255-80e9-48e2-9286-6821def49fbe",
+    "id": "74ef2fb9-1ac8-4e1f-b223-d36a507c74e8",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_shelf",
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "6aa8b714-cb65-4bc1-936e-bc0c8fc59297",
+    "spriteId": "392c191d-2a1f-4324-a31c-529b0ac535eb",
     "visible": true
 }
