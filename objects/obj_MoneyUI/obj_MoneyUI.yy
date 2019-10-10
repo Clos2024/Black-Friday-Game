@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_MoneyUI",
     "eventList": [
-        
+        {
+            "id": "df648fc4-3558-43f6-9d48-09c0b7f7ca28",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "f1f201bd-2209-4a09-a623-c4c5be782c1f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

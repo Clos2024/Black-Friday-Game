@@ -3,4 +3,4 @@
 draw_set_font(TowerCost);
 draw_self();
 draw_set_color(c_black);
-draw_text(x,y+20,string(Metal));
+draw_text(x,y+40,string(Metal));
