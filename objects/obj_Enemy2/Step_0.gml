@@ -23,6 +23,7 @@ if(tower != noone){
 
 if(tower = noone && tower2 = noone){
 	path_speed = 2;
+	sprite_index = spr_Enemy2;
 }
 
 if(tower2 != noone){

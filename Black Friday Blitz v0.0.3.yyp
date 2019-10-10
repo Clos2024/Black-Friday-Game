@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "003d39ef-7013-4dc8-b8b8-9547c03dbdbb",
+            "Value": {
+                "id": "a70301a7-9f4a-4986-91aa-ccf8ba1e9775",
+                "resourcePath": "sprites\\spr_Enemy2Hurt\\spr_Enemy2Hurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00909e7f-5b2c-4206-8474-abc1498a9b13",
             "Value": {
                 "id": "49c5e716-c1da-49b7-a031-20942c29f642",
@@ -932,6 +940,14 @@
                 "id": "7289cb9d-88a1-493b-a9ac-c91f9de91779",
                 "resourcePath": "sprites\\spr_HealthBarHalfFull\\spr_HealthBarHalfFull.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c98942e4-14b2-4496-87b8-6c4f5e4a7ff6",
+            "Value": {
+                "id": "880abb96-56fd-4557-bdd9-b581b790df18",
+                "resourcePath": "objects\\par_enemies\\par_enemies.yy",
+                "resourceType": "GMObject"
             }
         },
         {
