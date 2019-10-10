@@ -15,7 +15,7 @@ if(CatapultClicked != noone){
 	if(position_meeting(mouse_x,mouse_y, CatapultOn)){
 		if(mouse_check_button_pressed(mb_left) && CatapultOn.MoveX != true){
 			CatapultOn.MoveX = true;
-			//CatapultOn.recycle = false;
+
 		}
 		else if(mouse_check_button_pressed(mb_left)){
 			CatapultOn.MoveX = false;
