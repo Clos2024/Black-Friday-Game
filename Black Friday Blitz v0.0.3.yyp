@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "094d7b44-c994-4f22-9d98-43544064f347",
-            "Value": {
-                "id": "e5330fd7-4f47-459a-839a-2c3ed512a8a6",
-                "resourcePath": "views\\094d7b44-c994-4f22-9d98-43544064f347.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "0a7fb478-c4cd-4df0-aa4c-263873463f20",
             "Value": {
                 "id": "436f29db-131d-4b79-b330-2f930df8b11e",
@@ -116,6 +108,14 @@
                 "id": "d7d6565c-cd7a-4027-8e6e-b4d2ab8127b5",
                 "resourcePath": "sprites\\spr_HealthBar25HP\\spr_HealthBar25HP.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "11954835-4d2b-49e4-add4-afb59d4f406d",
+            "Value": {
+                "id": "01162a27-9cb3-4cb0-83d9-402c305eb46e",
+                "resourcePath": "views\\11954835-4d2b-49e4-add4-afb59d4f406d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -212,14 +212,6 @@
                 "id": "2ce5368a-cdd7-4858-b629-b1fff9d2fa5c",
                 "resourcePath": "objects\\obj_SpawnerAisleTwo\\obj_SpawnerAisleTwo.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "24f7c4b0-862e-43ae-8de3-9ebab35f32bc",
-            "Value": {
-                "id": "c68e1218-10b2-4ca8-ad19-34b32c9027ef",
-                "resourcePath": "rooms\\room4\\room4.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -371,6 +363,14 @@
             "Value": {
                 "id": "4fd199c4-94d4-483a-aa19-6e4fdfcbeb83",
                 "resourcePath": "sprites\\spr_WetSign\\spr_WetSign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3e3c208f-a0d3-4f82-9bd4-583b3b26e449",
+            "Value": {
+                "id": "f22b1f5e-3b25-4671-b319-aaf999a489bc",
+                "resourcePath": "sprites\\spr_bg\\spr_bg.yy",
                 "resourceType": "GMSprite"
             }
         },
