@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "1137e4c0-d7f4-48e7-afbc-467d0a6a1a8b",
-            "Value": {
-                "id": "d7d6565c-cd7a-4027-8e6e-b4d2ab8127b5",
-                "resourcePath": "sprites\\spr_HealthBar25HP\\spr_HealthBar25HP.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "11954835-4d2b-49e4-add4-afb59d4f406d",
             "Value": {
                 "id": "01162a27-9cb3-4cb0-83d9-402c305eb46e",
@@ -271,14 +263,6 @@
             }
         },
         {
-            "Key": "30a34890-d750-4b9c-b1df-d5169b812185",
-            "Value": {
-                "id": "94969713-1bc7-47e6-87f4-1d0369b4fcca",
-                "resourcePath": "sprites\\spr_HealthBar75HP\\spr_HealthBar75HP.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3408a692-4617-4b6d-868a-a49637fb81d8",
             "Value": {
                 "id": "dbde2eb2-2ff4-4611-a691-d119180b875f",
@@ -391,6 +375,14 @@
             }
         },
         {
+            "Key": "4124bcbf-0fa3-4252-a201-aed1a41e3dc9",
+            "Value": {
+                "id": "152b7d1a-40ed-4866-baae-d3686dc79f14",
+                "resourcePath": "sprites\\spr_HealthBar33HP\\spr_HealthBar33HP.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42ef92ef-8e31-4c7d-beca-1a7f41f2d533",
             "Value": {
                 "id": "41650d84-59e3-4172-a27c-54b1602ec02f",
@@ -428,14 +420,6 @@
                 "id": "72ce7325-fd90-4e29-81de-8e0f9c1ad553",
                 "resourcePath": "objects\\obj_WaterTower\\obj_WaterTower.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5ad3c550-9504-4167-8e51-4850ef23be40",
-            "Value": {
-                "id": "cfa3ee06-94c1-421c-a9ed-a09b8598b90f",
-                "resourcePath": "sprites\\spr_HealthBar0HP\\spr_HealthBar0HP.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -871,14 +855,6 @@
             }
         },
         {
-            "Key": "cbdbbaaf-e22a-437e-8f9e-a08d8246de90",
-            "Value": {
-                "id": "b4ba45a8-4835-4a42-ba21-b1390bf3ea87",
-                "resourcePath": "objects\\obj_CorkBoard\\obj_CorkBoard.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "1e759306-6235-4c1e-a4b8-872e44adc19d",
@@ -907,6 +883,14 @@
             "Value": {
                 "id": "8b5417b9-ddfd-4f8d-90cf-2257e1ed5a2d",
                 "resourcePath": "sprites\\spr_EnemyBasicAttack\\spr_EnemyBasicAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d0ed4051-ff6e-447b-8bc4-d600586bcde9",
+            "Value": {
+                "id": "806eeed0-caae-48ec-8877-1ca14bf74e31",
+                "resourcePath": "sprites\\spr_HealthBar66HP\\spr_HealthBar66HP.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -972,6 +956,14 @@
                 "id": "7bdfe2ae-4172-4635-b2ec-5229fec4f2ee",
                 "resourcePath": "paths\\path0\\path0.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "e0608f44-7fc1-47c4-99a1-b4662d487d5d",
+            "Value": {
+                "id": "beb2ecbb-76e3-4044-a141-0719ce578a64",
+                "resourcePath": "sprites\\spr_HealthBarEmpty\\spr_HealthBarEmpty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
