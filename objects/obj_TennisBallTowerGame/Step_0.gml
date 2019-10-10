@@ -42,3 +42,10 @@ if(recycle = true){
 else{
 	sprite_index = spr_tennisballlauncher;
 }
+
+if(shooting = true){
+	sprite_index = spr_tennisballlauncher1;
+}
+else{
+	sprite_index = spr_tennisballlauncher;
+}
