@@ -8,3 +8,5 @@ if(instance_exists(enemyToShoot)){
 else{
 	shooting = false;
 }
+
+

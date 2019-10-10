@@ -3,3 +3,4 @@
 
 //cash granted on death
 cash = cash + 15;
+global.Enemy2Killed += 1;
