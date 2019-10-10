@@ -7,9 +7,11 @@ if(position_meeting(x,y,obj_TennisBallTowerGame)){
 else{
 	occupied = false;
 }
+
 if(position_meeting(x,y,obj_CatapultTowerGame)){
 	occupied = true;
 }
 else{
 	occupied = false;
 }
+
