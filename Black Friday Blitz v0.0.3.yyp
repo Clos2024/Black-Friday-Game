@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "117a361c-d16a-41a4-bf4c-484fa6d0771e",
+            "Value": {
+                "id": "fb8225ba-4c87-4a5c-b362-c22d5ed2e3d6",
+                "resourcePath": "sounds\\s_alarm\\s_alarm.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "11954835-4d2b-49e4-add4-afb59d4f406d",
             "Value": {
                 "id": "01162a27-9cb3-4cb0-83d9-402c305eb46e",

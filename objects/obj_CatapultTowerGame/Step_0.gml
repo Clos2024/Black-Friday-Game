@@ -12,12 +12,6 @@ if(xIndicator != noone){
 if(CatapultClicked != noone){
 	CatapultOn = CatapultClicked;
 	
-	if(position_meeting(mouse_x,mouse_y,CatapultOn)){
-		if(mouse_check_button_pressed(mb_left) && CatapultOn.MoveX !=true){
-			CatapultOn.MoveX = true;
-		}
-	}
-	
 }
 
 //if(CatapultClicked != noone){

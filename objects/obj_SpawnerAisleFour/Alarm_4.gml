@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Gets a random number to apply to spawn time between 1 and 3
-spawnTime = irandom_range(1,3);
+spawnTime = irandom_range(1,2);
 
 //Count down every 1-3 seconds
 alarm[4] = room_speed * spawnTime;
