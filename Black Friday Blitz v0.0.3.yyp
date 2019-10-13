@@ -1327,14 +1327,6 @@
             }
         },
         {
-            "Key": "f0bc5ff7-1ef1-4085-b224-1b90c863ebd1",
-            "Value": {
-                "id": "2eb28dd2-83e9-44c5-8c8d-c8b4faef6f5a",
-                "resourcePath": "objects\\obj_TowerOneGame\\obj_TowerOneGame.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f0d2e008-7eed-4a92-a605-ff353de5b86f",
             "Value": {
                 "id": "66448b01-eef2-469e-be7e-1e1dbfdaf0f6",

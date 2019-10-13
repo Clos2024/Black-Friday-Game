@@ -7,8 +7,10 @@ var Tile = collision_point(mouse_x,mouse_y,obj_TowerTile,false,false);
 if(Tower != noone){
 	TowerOn = Tower;
 	
-	if(global.Recycling = true && mouse_check_button_pressed(mb_left)){
-		instance_destroy(TowerOn)
+		if(mouse_check_button_pressed(mb_left)){
+			if(global.Recycling = true){
+				instance_destroy(TowerOn);
+			}
 		}
 }
 if(UI != noone){
@@ -38,12 +40,14 @@ if(Tile != noone){
 	TileOn = Tile;
 	
 	if(TileOn.TowerOneOver = true && mouse_check_button_pressed(mb_left)){
-		instance_create_layer(TileOn.x,TileOn.y,"Instances",obj_TowerOneGame);
+		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerOne);
 		global.SelectedTowerOne = false;
+		TileOn.occupied = true;
 	}
 	if(TileOn.TowerTwoOver = true && mouse_check_button_pressed(mb_left)){
-		instance_create_layer(TileOn.x,TileOn.y,"Instances",obj_TowerTwo);
+		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerTwo);
 		global.SelectedTowerTwo = false;
+		TileOn.occupied = true;
 	}
 }
 
