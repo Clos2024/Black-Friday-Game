@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0e197cfd-cc3c-475e-a67b-da6b0fb61fe0",
+            "Value": {
+                "id": "3da7c826-221e-48c2-a274-cb715d2dbf29",
+                "resourcePath": "sprites\\spr_X\\spr_X.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fc931a2-f0dc-4f56-ac4c-4589f85074f2",
             "Value": {
                 "id": "27593606-3e21-40da-b5e1-08ace1a10288",
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "653b3f78-fbc9-47a8-aab0-dec93faceac6",
+            "Value": {
+                "id": "92617b4a-297e-4291-a378-c8e0fd093cf4",
+                "resourcePath": "objects\\obj_TowerTile\\obj_TowerTile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "67140e4d-ff0c-4f12-b3a2-a1ade1d09f9d",
             "Value": {
                 "id": "8d354fd1-e939-429d-a478-bd03e9cba7f1",
@@ -623,6 +639,14 @@
             }
         },
         {
+            "Key": "77897724-c044-4739-b17b-d3949593284c",
+            "Value": {
+                "id": "8b2ccabd-6bde-4b5f-8a36-948aa56551dc",
+                "resourcePath": "views\\77897724-c044-4739-b17b-d3949593284c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "77efbeeb-72bf-4852-aea2-aa97de37b8e7",
             "Value": {
                 "id": "779d2773-8741-4f1e-a1a7-d4ac5e9e74b5",
@@ -644,6 +668,14 @@
                 "id": "1a49c8f5-66c0-4f92-81cf-73e78c6828f4",
                 "resourcePath": "sprites\\spr_CatapultIndicator\\spr_CatapultIndicator.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7dd73084-9f8d-4218-90ce-f039e4db66cf",
+            "Value": {
+                "id": "38a512b0-f3a3-4e00-861c-5bef6daa23a5",
+                "resourcePath": "objects\\obj_TowerSelectionUI\\obj_TowerSelectionUI.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -671,11 +703,27 @@
             }
         },
         {
+            "Key": "8272437c-51d9-4ecc-ac5c-f39b634a164f",
+            "Value": {
+                "id": "7f692944-49a3-41c7-b4a8-bee520d3ab8d",
+                "resourcePath": "objects\\Parent_UIelements\\Parent_UIelements.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83b082a9-80a8-40a4-9590-8c9da5c580d2",
             "Value": {
                 "id": "56e61d7c-1f03-4fda-a25c-afa2f10d1d58",
                 "resourcePath": "sprites\\spr_HelpWanted\\spr_HelpWanted.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "84460cb1-1fb5-418c-8aef-78d700f9d324",
+            "Value": {
+                "id": "6f088408-d84d-4ca9-88ad-2b138e8d9c2b",
+                "resourcePath": "objects\\obj_TowerOne\\obj_TowerOne.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -999,6 +1047,14 @@
             }
         },
         {
+            "Key": "bb555ced-2662-443b-9313-36f79efe3365",
+            "Value": {
+                "id": "61312952-cdcc-4436-9134-e08c37660408",
+                "resourcePath": "objects\\obj_RecycleBin\\obj_RecycleBin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc7f7b4e-39ba-4347-81ed-89cb42ccf648",
             "Value": {
                 "id": "dacdb92e-3969-407c-9ddb-f61001023756",
@@ -1019,6 +1075,14 @@
             "Value": {
                 "id": "0c1cc897-d60e-4355-82cd-0e73ee6356cb",
                 "resourcePath": "objects\\obj_CatapultTowerGame\\obj_CatapultTowerGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c14b41a4-5ddf-4be3-8a97-d11e7c607736",
+            "Value": {
+                "id": "f292dc09-8b2c-46c8-ab76-3f9b23c18754",
+                "resourcePath": "objects\\obj_TowerOneUI\\obj_TowerOneUI.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1159,6 +1223,14 @@
             }
         },
         {
+            "Key": "d9cbca8f-ff89-4aed-a7f1-f23d30f583e9",
+            "Value": {
+                "id": "2688bf2a-8dc1-411b-bc03-db55f58d0854",
+                "resourcePath": "objects\\obj_TowerTwoUI\\obj_TowerTwoUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de869eb7-e573-4e3f-9001-f4ef99014f1f",
             "Value": {
                 "id": "7bdfe2ae-4172-4635-b2ec-5229fec4f2ee",
@@ -1172,6 +1244,14 @@
                 "id": "beb2ecbb-76e3-4044-a141-0719ce578a64",
                 "resourcePath": "sprites\\spr_HealthBarEmpty\\spr_HealthBarEmpty.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0e3da6f-c02a-4613-b429-33b5ea9fd277",
+            "Value": {
+                "id": "33d1f848-a12f-46ab-983a-bdb6f4eb73c3",
+                "resourcePath": "rooms\\TestRoom\\TestRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1223,6 +1303,14 @@
             }
         },
         {
+            "Key": "ec6209b8-2e52-4304-994f-9475e379c85c",
+            "Value": {
+                "id": "06ae3d6a-7fff-4e41-b076-344e17e14dfe",
+                "resourcePath": "objects\\obj_TowerTwo\\obj_TowerTwo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ee421cb0-4e28-4e44-8f97-5aa0744658b0",
             "Value": {
                 "id": "b348a005-4314-400a-9f04-35aca6905c7e",
@@ -1236,6 +1324,14 @@
                 "id": "c3672fe6-926f-498b-8d53-7c8d99699c7e",
                 "resourcePath": "sprites\\spr_bg1\\spr_bg1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0bc5ff7-1ef1-4085-b224-1b90c863ebd1",
+            "Value": {
+                "id": "2eb28dd2-83e9-44c5-8c8d-c8b4faef6f5a",
+                "resourcePath": "objects\\obj_TowerOneGame\\obj_TowerOneGame.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1308,6 +1404,22 @@
                 "id": "595a7f4b-aa3d-4201-8b9e-e978a8b3f798",
                 "resourcePath": "sprites\\spr_WallHorizontal\\spr_WallHorizontal.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fa8106db-669a-4445-a90d-3246e6f7fb1f",
+            "Value": {
+                "id": "bf839c83-597d-4e7e-87a3-6140b422a53f",
+                "resourcePath": "objects\\Parent_Towers\\Parent_Towers.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fe68b8cd-41f3-43fb-9215-02370af36e24",
+            "Value": {
+                "id": "598bb331-bf7e-4044-9bf7-b8daae617207",
+                "resourcePath": "objects\\obj_MouseStateControl\\obj_MouseStateControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
