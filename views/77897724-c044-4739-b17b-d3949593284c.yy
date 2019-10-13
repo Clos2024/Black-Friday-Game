@@ -13,7 +13,10 @@
         "c14b41a4-5ddf-4be3-8a97-d11e7c607736",
         "d9cbca8f-ff89-4aed-a7f1-f23d30f583e9",
         "8272437c-51d9-4ecc-ac5c-f39b634a164f",
-        "653b3f78-fbc9-47a8-aab0-dec93faceac6"
+        "653b3f78-fbc9-47a8-aab0-dec93faceac6",
+        "33594999-61b2-4263-8be5-f442c50eceab",
+        "f09ecb71-85a4-4d79-9a68-9f1fa235d83b",
+        "4d48b8b9-fb4a-48b9-a49a-9dae36851f55"
     ],
     "filterType": "GMObject",
     "folderName": "grp_TestObjects",
