@@ -19,4 +19,4 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 5;
+attackDamage = 7;

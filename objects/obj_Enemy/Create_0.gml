@@ -1,10 +1,11 @@
-/// @description On creation
+ /// @description On creation
 // You can write your code in this editor
 
 //HP
-mobOneHealth = 100;
+mobOneHealth = 80;
 
-path_start(path0,1,path_action_stop,false);
+//path_start(path0,1,path_action_stop,false);
+speed = 1;
 
 //Attack Range
 range = 32;
