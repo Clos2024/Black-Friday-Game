@@ -3,15 +3,6 @@
 //BallMotion(x,speed,angle,startx,starty,gravity)
 if(shoot){
 	gravity = gra;
-	
-}
-
-if(keyboard_check(vk_up)){
-	Angle ++;
-}
-
-if(keyboard_check(vk_down)){
-	Angle --;
 }
 
 if(!shoot){

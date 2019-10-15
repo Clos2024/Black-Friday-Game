@@ -1,6 +1,6 @@
 /// @description Insert description here
 Speed = 20;
-Angle = 110;
+Angle = 96;
 
 gra = .75;
 
