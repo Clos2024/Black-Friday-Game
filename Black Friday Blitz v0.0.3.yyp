@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "5afe6e2c-d238-46ac-9b4d-af0484c8475e",
+            "Value": {
+                "id": "5a135ca3-1b97-46f0-8a48-ad5a3a67d11c",
+                "resourcePath": "rooms\\room7\\room7.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5d3cc866-3b4a-4ef5-a778-13e854b38798",
             "Value": {
                 "id": "dbe2708f-04b8-48bd-9708-2051a264444f",
@@ -1391,6 +1399,14 @@
             }
         },
         {
+            "Key": "f65bbb82-91d9-4d19-b612-a0047435586a",
+            "Value": {
+                "id": "95a5a711-ec0e-4ea2-a0b9-7a9ecf0cd4af",
+                "resourcePath": "scripts\\BallMotion\\BallMotion.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f677965b-8d2c-41eb-ab9b-251a14186e51",
             "Value": {
                 "id": "c0cdaaf5-97be-42a0-b01b-568cdd76aac3",
@@ -1448,7 +1464,7 @@
         }
     ],
     "script_order": [
-        
+        "f65bbb82-91d9-4d19-b612-a0047435586a"
     ],
     "tutorial": ""
 }

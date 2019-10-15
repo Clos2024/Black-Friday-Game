@@ -1,2 +1,11 @@
 /// @description Insert description here
-// You can write your code in this editor
+Speed = 20;
+Angle = 45;
+
+gra = .75;
+
+shoot = true;
+
+direction = Angle;
+speed = Speed;
+
