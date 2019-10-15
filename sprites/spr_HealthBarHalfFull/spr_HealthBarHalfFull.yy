@@ -1,14 +1,14 @@
 {
-    "id": "1137e4c0-d7f4-48e7-afbc-467d0a6a1a8b",
+    "id": "c8695b5b-4dcb-4590-9b45-5190e1d52034",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_HealthBar25HP",
+    "name": "spr_HealthBarHalfFull",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
+    "bbox_bottom": 895,
     "bbox_left": 0,
-    "bbox_right": 895,
+    "bbox_right": 63,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -16,37 +16,37 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "ed1f664f-c8d6-4197-b587-2b221552898d",
+            "id": "e502bdee-d259-44a6-9697-61938ce19ed8",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "1137e4c0-d7f4-48e7-afbc-467d0a6a1a8b",
+            "SpriteId": "c8695b5b-4dcb-4590-9b45-5190e1d52034",
             "compositeImage": {
-                "id": "7ef3212b-a884-40e1-b073-c38d4f9da0a3",
+                "id": "4e74149d-1d63-4b06-ba9f-da982f46f597",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "ed1f664f-c8d6-4197-b587-2b221552898d",
+                "FrameId": "e502bdee-d259-44a6-9697-61938ce19ed8",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "6bb419da-a3e6-439d-987a-12c36d45c20d",
+                    "id": "91b84945-546a-499c-854a-6a580be4b982",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "ed1f664f-c8d6-4197-b587-2b221552898d",
-                    "LayerId": "59401043-ac0e-44d2-8738-c69faaeea88a"
+                    "FrameId": "e502bdee-d259-44a6-9697-61938ce19ed8",
+                    "LayerId": "75e3f5c3-fe85-48a4-9a7d-1eac58030b95"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 64,
+    "height": 896,
     "layers": [
         {
-            "id": "59401043-ac0e-44d2-8738-c69faaeea88a",
+            "id": "75e3f5c3-fe85-48a4-9a7d-1eac58030b95",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "1137e4c0-d7f4-48e7-afbc-467d0a6a1a8b",
+            "SpriteId": "c8695b5b-4dcb-4590-9b45-5190e1d52034",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 896,
-    "xorig": 448,
-    "yorig": 32
+    "width": 64,
+    "xorig": 32,
+    "yorig": 448
 }

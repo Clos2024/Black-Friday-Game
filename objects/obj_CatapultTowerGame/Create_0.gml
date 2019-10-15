@@ -8,7 +8,7 @@ CatHealth = 20;
 refund = cost/2;
 
 //create x infront of catapult
-instance_create_layer(x-96,y,"Instances",obj_CatapultIndicator);
+instance_create_layer(x-96,y,"Instances_tower",obj_CatapultIndicator);
 
 CatapultOn = noone;
 
