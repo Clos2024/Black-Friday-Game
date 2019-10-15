@@ -39,13 +39,15 @@ if(UI != noone){
 if(Tile != noone){
 	TileOn = Tile;
 	
-	if(TileOn.TowerOneOver = true && mouse_check_button_pressed(mb_left)){
+	if(TileOn.TowerOneOver = true && mouse_check_button_pressed(mb_left) && global.TennisCost<cash){
 		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerOne);
+		cash -= global.TennisCost;
 		global.SelectedTowerOne = false;
 		TileOn.occupied = true;
 	}
-	if(TileOn.TowerTwoOver = true && mouse_check_button_pressed(mb_left)){
+	if(TileOn.TowerTwoOver = true && mouse_check_button_pressed(mb_left) && global.Catapultcost<cash){
 		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerTwo);
+		cash -= global.Catapultcost;
 		global.SelectedTowerTwo = false;
 		TileOn.occupied = true;
 	}
