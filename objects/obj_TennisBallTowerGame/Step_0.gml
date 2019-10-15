@@ -4,7 +4,7 @@
 var enemy = collision_line(x,y,x-range,y,obj_Enemy,false,true);
 var enemy2 = collision_line(x,y,x-range,y,obj_Enemy2,false,true);
 
-if(enemy != noone){
+if(enemy != noone && shooting !=true){
 	if(point_distance(x,y,enemy.x,enemy.y) <= range){
 		if(!shooting){
 			alarm[0] = 1;
@@ -18,10 +18,10 @@ if(enemy != noone){
 	}
 }
 
-if(enemy2 != noone){
+if(enemy2 != noone && shooting !=true){
 	if(point_distance(x,y,enemy2.x,enemy2.y) <= range){
 		if(!shooting){
-			alarm[1] = 1;
+			alarm[0] = 1;
 			shooting = true;
 		}
 		enemyToShoot = enemy2;
@@ -31,6 +31,7 @@ if(enemy2 != noone){
 		enemyToShoot = noone;
 	}
 }
+
 
 if(TennisHealth <= 0){
 	instance_destroy();
@@ -42,3 +43,10 @@ if(recycle = true){
 else{
 	sprite_index = spr_tennisballlauncher;
 }
+
+//if(shooting = true){
+//	sprite_index = spr_tennisballlauncher1;
+//}
+//else{
+//	sprite_index = spr_tennisballlauncher;
+//}
