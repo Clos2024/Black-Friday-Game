@@ -46,3 +46,7 @@ if(tower2 != noone){
 if(mobOneHealth <= 0){
 	instance_destroy();
 }
+
+if(x > 1170){
+	speed = -5;
+}
