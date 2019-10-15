@@ -65,6 +65,9 @@ else{
 if(global.SelectedTowerOne = true){
 	cursor_sprite = spr_tennisballlauncher1;
 }
+if(global.SelectedTowerTwo = true){
+	cursor_sprite = spr_CatapultGame;
+}
 
 if(mouse_check_button_pressed(mb_right)){
 	global.SelectedTowerOne = false;
