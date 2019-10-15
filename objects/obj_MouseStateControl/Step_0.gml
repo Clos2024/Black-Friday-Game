@@ -9,6 +9,7 @@ if(Tower != noone){
 	
 		if(mouse_check_button_pressed(mb_left)){
 			if(global.Recycling = true){
+				cash = cash + TowerOn.refund;
 				instance_destroy(TowerOn);
 			}
 		}
