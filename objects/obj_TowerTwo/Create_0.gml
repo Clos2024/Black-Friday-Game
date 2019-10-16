@@ -1,3 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-refund = global.Catapultcost/2;
+Speed = 20;
+Angle = 96;
+
+gra = .75;
+
+shoot = false;

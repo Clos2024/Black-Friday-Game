@@ -5,10 +5,9 @@ if(shoot){
 	gravity = gra;
 }
 
-//if(!shoot){
-//	if(keyboard_check_pressed(vk_space)){
-//	direction = Angle;
-//	speed = Speed;
-//	shoot = true;
-//	}
-//}
+
+if(!shoot){
+	direction = Angle;
+	speed = Speed;
+	shoot = true;
+}

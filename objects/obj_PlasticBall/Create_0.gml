@@ -4,8 +4,6 @@ Angle = 96;
 
 gra = .75;
 
-shoot = true;
+shoot = false;
 
-direction = Angle;
-speed = Speed;
 
