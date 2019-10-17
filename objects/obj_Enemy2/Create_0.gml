@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 //HP
-Health = 100;
+Health = 160;
 
-speed = 4;
+speed = 1.5;
 
 //Attack Range
 range = 64;
