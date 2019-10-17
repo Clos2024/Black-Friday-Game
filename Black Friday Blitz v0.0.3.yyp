@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "2d85b89a-7966-4e29-b8a7-9613f1ff0ac9",
+            "Value": {
+                "id": "8155124d-348a-4601-82ea-51f102b11d13",
+                "resourcePath": "sprites\\spr_logo\\spr_logo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2dca12ff-bd5c-49df-9c67-491244cfe4c8",
             "Value": {
                 "id": "1f7718b5-ab42-4cd6-bcb6-3ff2e6c8c350",
@@ -1371,6 +1379,14 @@
             "Value": {
                 "id": "6616d44b-5b02-41f4-a48d-747391b052fd",
                 "resourcePath": "sprites\\spr_CatapultTowerSel\\spr_CatapultTowerSel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e81378bf-6622-4ebe-9bdd-ecaa604afb21",
+            "Value": {
+                "id": "cbdd3d27-6bf3-4f36-8ad7-19e59df298b1",
+                "resourcePath": "sprites\\spr_waterguntower\\spr_waterguntower.yy",
                 "resourceType": "GMSprite"
             }
         },
