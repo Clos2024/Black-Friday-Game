@@ -17,6 +17,10 @@ if(enemy != noone && shooting !=true){
 	}
 }
 
+if(Damaged){
+	sprite_index = spr_ten
+}
+
 //if(enemy2 != noone && shooting !=true){
 //	if(point_distance(x,y,enemy2.x,enemy2.y) <= range){
 //		if(!shooting){

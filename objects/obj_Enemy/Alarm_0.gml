@@ -6,6 +6,7 @@ if(instance_exists(towerToAttack)){
 
 	if(hit != noone){
 	hit.Health -= attackDamage;
+	hit.Damaged = true;
 	}
 	
 

@@ -11,3 +11,5 @@ shooting = false;
 enemyToShoot = noone;
 //Tower HP
 Health = 20;
+
+Damaged = false;
