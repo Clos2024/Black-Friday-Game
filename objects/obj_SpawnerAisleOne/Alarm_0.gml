@@ -1,8 +1,10 @@
 /// @description Wave zero settings
 // You can write your code in this editor
 
+spawnTime = irandom_range(6,8);
+
 //Count down every 8 seconds
-alarm[0] = room_speed * 8;
+alarm[0] = room_speed * spawnTime;
 
 //If wave is zero spawn basic enemy
 if(wave == 0){

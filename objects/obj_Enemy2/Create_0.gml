@@ -4,7 +4,7 @@
 //HP
 Health = 100;
 
-speed = 2;
+speed = 4;
 
 //Attack Range
 range = 32;
@@ -20,3 +20,5 @@ towerToAttack = noone;
 
 //attack damage
 attackDamage = 7;
+
+damaged = false;

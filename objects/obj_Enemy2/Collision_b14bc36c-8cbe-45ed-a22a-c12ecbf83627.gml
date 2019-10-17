@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-sprite_index = spr_Enemy2Hurt;
+damaged = true;
+alarm[2] = 10;

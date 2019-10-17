@@ -1,8 +1,9 @@
 /// @description Wave one settings
 // You can write your code in this editor
 
+spawnTime = irandom_range(5,6);
 //Count down every 6 seconds
-alarm[1] = room_speed * 6;
+alarm[1] = room_speed * spawnTime;
 
 //If wave is one spawn either enemy one or two
 if(wave == 1){

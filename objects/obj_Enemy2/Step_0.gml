@@ -28,9 +28,18 @@ if(tower != noone){
 //}
 
 if(tower = noone){
-	speed = 2;
-	path_speed = 2;
+	//speed = 2;
+	//path_speed = 2;
+	//sprite_index = spr_Enemy2;
+}
+
+if(damaged = true){
+	sprite_index = spr_Enemy2Hurt;
+	speed = 0;
+}
+else{
 	sprite_index = spr_Enemy2;
+	speed = 4;
 }
 
 //if(tower2 != noone){
