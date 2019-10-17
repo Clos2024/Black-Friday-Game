@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0b9ec62f-1be2-454b-8e69-95d5e5c78115",
+            "Value": {
+                "id": "1749a868-00ad-49d9-868c-b112b114b402",
+                "resourcePath": "objects\\Parent_Spawners\\Parent_Spawners.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c78f334-1acc-43fe-b9d2-40390a9f2cbd",
             "Value": {
                 "id": "707bb2c6-b33e-415a-b6b5-775db0e8ab34",
@@ -527,14 +535,6 @@
             }
         },
         {
-            "Key": "5626c2db-eb24-4f22-a15f-6662f7942159",
-            "Value": {
-                "id": "1637d8e7-a40e-4919-bc47-15420a9bcc63",
-                "resourcePath": "sprites\\spr_bfblogo\\spr_bfblogo.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "57c12310-2ee3-4ae1-be82-b282a736bac0",
             "Value": {
                 "id": "d20f7e49-67b6-452d-867b-ac144c3ddbd2",
@@ -659,14 +659,6 @@
             "Value": {
                 "id": "b6b6a579-d79e-42c3-9ab1-60d674d4ff35",
                 "resourcePath": "sprites\\spr_WallTower\\spr_WallTower.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7614776c-335d-47eb-b2f4-819905663b70",
-            "Value": {
-                "id": "7207e51c-5040-41f7-b51e-751453fed861",
-                "resourcePath": "sprites\\spr_wateballonslingshot\\spr_wateballonslingshot.yy",
                 "resourceType": "GMSprite"
             }
         },

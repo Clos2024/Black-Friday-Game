@@ -7,7 +7,8 @@
         "feba4cdb-70ab-4488-b014-8f832d7a028e",
         "238a46ed-4d30-4dc3-95d8-9a15d253e919",
         "3a3e225f-7597-469c-af80-54e5216a851d",
-        "b2d54646-2113-441c-9c70-a9d4649bfeb2"
+        "b2d54646-2113-441c-9c70-a9d4649bfeb2",
+        "0b9ec62f-1be2-454b-8e69-95d5e5c78115"
     ],
     "filterType": "GMObject",
     "folderName": "grp_Spawner",
