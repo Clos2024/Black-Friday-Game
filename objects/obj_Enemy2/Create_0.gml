@@ -2,12 +2,12 @@
 // You can write your code in this editor
 
 //HP
-mobTwoHealth = 100;
+Health = 100;
 
-path_start(path0,3,path_action_reverse,false);
+speed = 4;
 
 //Attack Range
-range = 32;
+range = 64;
 
 //attack speed in seconds
 attackspeed = room_speed * 3;
@@ -20,3 +20,5 @@ towerToAttack = noone;
 
 //attack damage
 attackDamage = 7;
+
+damaged = false;

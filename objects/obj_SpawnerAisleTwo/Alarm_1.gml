@@ -1,8 +1,9 @@
 /// @description Wave one settings
 // You can write your code in this editor
 
+spawnTime = irandom_range(5,6);
 //Count down every 6 seconds
-alarm[1] = room_speed * 6;
+alarm[1] = room_speed * spawnTime;
 
 //If wave is one spawn either enemy one or two
 if(wave == 1){
@@ -13,11 +14,11 @@ if(wave == 1){
 	//If the number is 1 and 80
 	if(enemytospawn <= 80)
 	{
-		instance_create_layer(x,y,"Instances_enemy", obj_Enemy);
+		instance_create_layer(x,y,"Enemy", obj_Enemy);
 	}
 	//If the number is 81 and 100
 	if(enemytospawn >= 81)
 	{
-		instance_create_layer(x,y,"Instances_enemy", obj_Enemy2);
+		instance_create_layer(x,y,"Enemy", obj_Enemy2);
 	}
 }

@@ -7,3 +7,6 @@ Plastic = 0;
 Circuit = 0;
 movement = 5;
 pause = false;
+origin = x;
+ItemTouching = noone;
+stunned = false;

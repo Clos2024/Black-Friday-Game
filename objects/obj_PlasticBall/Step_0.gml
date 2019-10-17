@@ -6,10 +6,11 @@ if(shoot){
 }
 
 if(!shoot){
-	if(keyboard_check_pressed(vk_space)){
-	shoot = true;
 	direction = Angle;
 	speed = Speed;
 	shoot = true;
-	}
+}
+
+if(y-100 > originY){
+	instance_destroy();
 }
