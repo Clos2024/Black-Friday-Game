@@ -8,17 +8,24 @@ if(tower != noone){
 		if(!attacking){
 			alarm[0] = 1;
 			attacking = true;
+		}
+		towerToAttack = tower;
+		if(attacking){
 			speed = 0;
 			path_speed = 0;
 			sprite_index = spr_EnemyBasicAttack;
 		}
-		towerToAttack = tower;
 	}
 	else{
 		attacking = false;
-		towerToAttack = noone;
+		towerToAttack = noone;;
 	}
 }
+else{
+	sprite_index = spr_EnemyBasicWalk;
+	speed = 2;
+}
+
 
 if(damaged = true){
 	sprite_index = spr_EnemyBasicHurt;
@@ -31,13 +38,11 @@ else if(damaged != true && attacking !=true){
 
 
 
-
-
 if(Health <= 0){
 	instance_destroy();
 }
 
 if(x > 1664){
-	path_start(path1,1,path_action_stop,0);
+	path_start(path1,2,path_action_stop,0);
 	image_xscale = -1;
 }

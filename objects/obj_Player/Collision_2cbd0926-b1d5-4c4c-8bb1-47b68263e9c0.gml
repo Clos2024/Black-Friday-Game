@@ -4,7 +4,6 @@ if(keyboard_check(ord("W")) && y >= 192){
 	y = y + movement;
 }
 
-
 if (keyboard_check(ord("S")) && y <= 864){
 	y = y - movement;
 }

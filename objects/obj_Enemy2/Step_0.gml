@@ -19,15 +19,19 @@ if(tower != noone){
 	}
 }
 
+if(attacking = false){
+	sprite_index = spr_Enemy2;
+}
 
-if(damaged = true && tower != noone){
+if(damaged = true){
 	sprite_index = spr_Enemy2Hurt;
 	speed = 0;
 }
-else{
+else if(damaged != true && attacking !=true){
 	sprite_index = spr_Enemy2;
 	speed = 4;
 }
+
 
 
 

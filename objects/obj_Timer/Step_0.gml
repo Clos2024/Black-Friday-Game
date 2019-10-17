@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Every 30 seconds/frame is 1 minute
-if(global.seconds >= 45){
+if(global.seconds >= 30){
 	global.seconds = 0;
 	global.minutes++;
 }
