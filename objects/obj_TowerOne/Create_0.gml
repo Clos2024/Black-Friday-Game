@@ -10,4 +10,4 @@ shooting = false;
 //What tower is shooting out
 enemyToShoot = noone;
 //Tower HP
-Health = 5;
+Health = 20;

@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 127,
     "bbox_left": 0,
-    "bbox_right": 1099,
+    "bbox_right": 1399,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -143,7 +143,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 1100,
-    "xorig": 550,
+    "width": 1400,
+    "xorig": 700,
     "yorig": 64
 }

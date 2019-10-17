@@ -1,7 +1,7 @@
 /// @description Wave zero settings
 // You can write your code in this editor
 
-spawnTime = irandom_range(6,8);
+spawnTime = irandom_range(6,10);
 
 //Count down every 8 seconds
 alarm[0] = room_speed * spawnTime;

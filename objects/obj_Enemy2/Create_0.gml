@@ -7,7 +7,7 @@ Health = 100;
 speed = 4;
 
 //Attack Range
-range = 32;
+range = 64;
 
 //attack speed in seconds
 attackspeed = room_speed * 3;
