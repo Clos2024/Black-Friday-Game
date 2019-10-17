@@ -12,11 +12,14 @@
         "fa8106db-669a-4445-a90d-3246e6f7fb1f",
         "ec6209b8-2e52-4304-994f-9475e379c85c",
         "d9cbca8f-ff89-4aed-a7f1-f23d30f583e9",
+        "a26ad057-6bf4-4513-8448-1def260616b0",
         "8272437c-51d9-4ecc-ac5c-f39b634a164f",
         "653b3f78-fbc9-47a8-aab0-dec93faceac6",
         "33594999-61b2-4263-8be5-f442c50eceab",
         "f09ecb71-85a4-4d79-9a68-9f1fa235d83b",
-        "4d48b8b9-fb4a-48b9-a49a-9dae36851f55"
+        "4d48b8b9-fb4a-48b9-a49a-9dae36851f55",
+        "5d3cc866-3b4a-4ef5-a778-13e854b38798",
+        "f8ed83a1-9fc6-42e0-bf92-7b6747558a61"
     ],
     "filterType": "GMObject",
     "folderName": "grp_TestObjects",

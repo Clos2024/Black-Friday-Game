@@ -4,7 +4,7 @@
 //HP
 mobTwoHealth = 100;
 
-path_start(path0,3,path_action_reverse,false);
+speed = 2;
 
 //Attack Range
 range = 32;

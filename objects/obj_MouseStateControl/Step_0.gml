@@ -35,23 +35,42 @@ if(UI != noone){
 				global.SelectedTowerTwo = true;
 			}
 		}
+		if(collision_point(mouse_x,mouse_y,obj_TowerThreeUI,false,false)){
+			if(UIOn.OnTowerThreeUI = true){
+				global.SelectedTowerThree = true;
+			}
+		}
 	}
 	
 }
 if(Tile != noone){
 	TileOn = Tile;
 	
+	if(global.SelectedTowerOne != false){
 	if(TileOn.TowerOneOver = true && mouse_check_button_pressed(mb_left) && global.TennisCost<cash){
 		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerOne);
 		cash -= global.TennisCost;
 		global.SelectedTowerOne = false;
 		TileOn.occupied = true;
 	}
+	}
+	
+	if(global.SelectedTowerTwo != false){
 	if(TileOn.TowerTwoOver = true && mouse_check_button_pressed(mb_left) && global.Catapultcost<cash){
 		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerTwo);
 		cash -= global.Catapultcost;
 		global.SelectedTowerTwo = false;
 		TileOn.occupied = true;
+	}
+	}
+	
+	if(global.SelectedTowerThree != false){
+	if(TileOn.TowerThreeOver = true && mouse_check_button_pressed(mb_left) && global.Wallcost<cash){
+		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerThree);
+		cash -= global.Wallcost;
+		global.SelectedTowerThree = false;
+		TileOn.occupied = true;
+	}
 	}
 }
 
@@ -67,12 +86,16 @@ if(global.SelectedTowerOne = true){
 	cursor_sprite = spr_tennisballlauncher1;
 }
 if(global.SelectedTowerTwo = true){
-	cursor_sprite = spr_CatapultGame;
+	cursor_sprite = spr_CatapultGame1;
+}
+if(global.SelectedTowerThree = true){
+	cursor_sprite = spr_WallTower;
 }
 
 if(mouse_check_button_pressed(mb_right)){
 	global.SelectedTowerOne = false;
 	global.SelectedTowerTwo = false;
+	global.SelectedTowerThree = false;
 	global.Recycling = false;
 	global.Editing = false;
 }

@@ -2,13 +2,22 @@
     "id": "5d3cc866-3b4a-4ef5-a778-13e854b38798",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_WallTower",
+    "name": "obj_TowerThree",
     "eventList": [
-        
+        {
+            "id": "8684cc5f-b00f-4949-bfad-5af5fc0adbcb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5d3cc866-3b4a-4ef5-a778-13e854b38798"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "fa8106db-669a-4445-a90d-3246e6f7fb1f",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

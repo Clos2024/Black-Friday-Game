@@ -9,7 +9,7 @@ if(tower != noone){
 		if(!attacking){
 			alarm[0] = 1;
 			attacking = true;
-			path_speed = 0;
+			speed = 0;
 			sprite_index = spr_EnemyBasicAttack;
 		}
 		towerToAttack = tower;
@@ -21,7 +21,7 @@ if(tower != noone){
 }
 
 if(tower = noone && tower2 = noone){
-	path_speed = 1;
+	speed = 1;
 	sprite_index = spr_EnemyBasicWalk;
 }
 
@@ -30,7 +30,7 @@ if(tower2 != noone){
 		if(!attacking){
 			alarm[1] = 1;
 			attacking = true;
-			path_speed = 0;
+			speed = 0;
 			sprite_index = spr_EnemyBasicAttack;
 			
 		}
@@ -47,6 +47,7 @@ if(mobOneHealth <= 0){
 	instance_destroy();
 }
 
-if(x > 1170){
-	speed = -5;
+if(x > 1664){
+	path_start(path1,1,path_action_stop,0);
+	image_xscale = -1;
 }

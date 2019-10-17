@@ -7,3 +7,6 @@ draw_sprite(spr_tennisballlauncher,0,x,y);
 if(TowerTwoOver = true && occupied = false && global.cash>global.Catapultcost){
 draw_sprite(spr_CatapultGame,0,x,y);
 }
+if(TowerThreeOver = true && occupied = false && global.cash>global.Wallcost){
+draw_sprite(spr_WallTower,0,x,y);
+}

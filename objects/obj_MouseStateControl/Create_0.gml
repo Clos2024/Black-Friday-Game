@@ -2,6 +2,7 @@
 // You can write your code in this editor
 global.SelectedTowerOne = false;
 global.SelectedTowerTwo = false;
+global.SelectedTowerThree = false;
 global.Recycling = false;
 global.Editing = false;
 TowerOn = noone;

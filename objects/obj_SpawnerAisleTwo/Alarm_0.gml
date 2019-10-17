@@ -6,5 +6,5 @@ alarm[0] = room_speed * 8;
 
 //If wave is zero spawn basic enemy
 if(wave == 0){
-	instance_create_layer(x,y,"Instances_enemy", obj_Enemy);
+	instance_create_layer(x,y,"Enemy", obj_Enemy);
 }
