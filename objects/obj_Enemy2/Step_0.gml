@@ -20,7 +20,7 @@ if(tower != noone){
 }
 else{
 	sprite_index = spr_Enemy2;
-	speed = 1.5;
+	speed = 2;
 	path_speed= 4;
 }
 
@@ -34,7 +34,7 @@ if(damaged = true){
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_Enemy2;
-	speed = 1.5;
+	speed = 2;
 }
 
 
