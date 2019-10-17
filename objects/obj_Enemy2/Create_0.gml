@@ -4,7 +4,7 @@
 //HP
 Health = 100;
 
-speed = 4;
+speed = 2;
 
 //Attack Range
 range = 64;
