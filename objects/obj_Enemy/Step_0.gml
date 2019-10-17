@@ -21,15 +21,24 @@ if(tower != noone){
 	}
 }
 
+if(damaged = true){
+	sprite_index = spr_EnemyBasicHurt;
+	speed = 0;
+}
+else{
+	sprite_index = spr_EnemyBasicWalk;
+	speed = 2;
+}
+
 //if(tower = noone && tower2 = noone){
 //	speed = 1;
 //	sprite_index = spr_EnemyBasicWalk;
 //}
 
 if(tower = noone){
-	speed = 1;
-	path_speed = 1;
-	sprite_index = spr_EnemyBasicWalk;
+	//speed = 1;
+	//path_speed = 1;
+	//sprite_index = spr_EnemyBasicWalk;
 }
 
 //if(tower2 != noone){

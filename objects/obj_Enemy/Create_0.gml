@@ -5,7 +5,7 @@
 Health = 80;
 
 //path_start(path0,1,path_action_stop,false);
-speed = 1;
+speed = 2;
 
 //Attack Range
 range = 32;
@@ -21,3 +21,5 @@ towerToAttack = noone;
 
 //attack damage
 attackDamage = 5;
+
+damaged = false;
