@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //HP
-mobTwoHealth = 100;
+Health = 100;
 
 speed = 2;
 

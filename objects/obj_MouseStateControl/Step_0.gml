@@ -51,6 +51,8 @@ if(Tile != noone){
 		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerOne);
 		cash -= global.TennisCost;
 		global.SelectedTowerOne = false;
+		global.SelectedTowerTwo = false;
+		global.SelectedTowerThree = false;
 		TileOn.occupied = true;
 	}
 	}
@@ -59,7 +61,9 @@ if(Tile != noone){
 	if(TileOn.TowerTwoOver = true && mouse_check_button_pressed(mb_left) && global.Catapultcost<cash){
 		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerTwo);
 		cash -= global.Catapultcost;
+		global.SelectedTowerOne = false;
 		global.SelectedTowerTwo = false;
+		global.SelectedTowerThree = false;
 		TileOn.occupied = true;
 	}
 	}
@@ -68,6 +72,8 @@ if(Tile != noone){
 	if(TileOn.TowerThreeOver = true && mouse_check_button_pressed(mb_left) && global.Wallcost<cash){
 		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerThree);
 		cash -= global.Wallcost;
+		global.SelectedTowerOne = false;
+		global.SelectedTowerTwo = false;
 		global.SelectedTowerThree = false;
 		TileOn.occupied = true;
 	}

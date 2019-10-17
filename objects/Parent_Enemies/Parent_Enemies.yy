@@ -1,8 +1,8 @@
 {
-    "id": "33594999-61b2-4263-8be5-f442c50eceab",
+    "id": "c98942e4-14b2-4496-87b8-6c4f5e4a7ff6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object66",
+    "name": "Parent_Enemies",
     "eventList": [
         
     ],

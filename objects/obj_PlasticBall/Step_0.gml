@@ -10,3 +10,7 @@ if(!shoot){
 	speed = Speed;
 	shoot = true;
 }
+
+if(y-100 > originY){
+	instance_destroy();
+}

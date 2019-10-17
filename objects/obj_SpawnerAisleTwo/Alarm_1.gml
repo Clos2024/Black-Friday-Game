@@ -18,6 +18,6 @@ if(wave == 1){
 	//If the number is 81 and 100
 	if(enemytospawn >= 81)
 	{
-		instance_create_layer(x,y,"Instances_enemy", obj_Enemy2);
+		instance_create_layer(x,y,"Enemy", obj_Enemy2);
 	}
 }

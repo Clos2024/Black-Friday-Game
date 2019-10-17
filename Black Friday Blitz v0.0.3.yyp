@@ -335,14 +335,6 @@
             }
         },
         {
-            "Key": "33594999-61b2-4263-8be5-f442c50eceab",
-            "Value": {
-                "id": "0bf8fe11-b762-44e4-bea8-7e7db3b0d2a0",
-                "resourcePath": "objects\\object66\\object66.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3408a692-4617-4b6d-868a-a49637fb81d8",
             "Value": {
                 "id": "dbde2eb2-2ff4-4611-a691-d119180b875f",
@@ -1162,7 +1154,7 @@
             "Key": "c98942e4-14b2-4496-87b8-6c4f5e4a7ff6",
             "Value": {
                 "id": "880abb96-56fd-4557-bdd9-b581b790df18",
-                "resourcePath": "objects\\par_enemies\\par_enemies.yy",
+                "resourcePath": "objects\\Parent_Enemies\\Parent_Enemies.yy",
                 "resourceType": "GMObject"
             }
         },

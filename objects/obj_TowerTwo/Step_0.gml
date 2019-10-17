@@ -36,3 +36,6 @@ else if(DistanceToReticle = -640){
 	UserSet = 132;
 }
 
+if(Health <=0){
+	instance_destroy();
+}
