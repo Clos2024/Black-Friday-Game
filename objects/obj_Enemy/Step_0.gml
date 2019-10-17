@@ -24,6 +24,7 @@ if(tower != noone){
 else{
 	sprite_index = spr_EnemyBasicWalk;
 	speed = 2;
+	path_speed= 2;
 }
 
 
