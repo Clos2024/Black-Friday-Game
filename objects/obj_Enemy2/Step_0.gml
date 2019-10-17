@@ -18,6 +18,11 @@ if(tower != noone){
 		towerToAttack = noone;
 	}
 }
+else{
+	sprite_index = spr_Enemy2;
+	speed = 4;
+	path_speed= 4;
+}
 
 if(attacking = false){
 	sprite_index = spr_Enemy2;
