@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "31fbfeb8-0c01-46c6-a988-cec4f3c62c3e",
+            "Value": {
+                "id": "c1507c44-439c-474f-99f2-118d0243c2d4",
+                "resourcePath": "sprites\\spr_tennisballlauncherHIT\\spr_tennisballlauncherHIT.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3408a692-4617-4b6d-868a-a49637fb81d8",
             "Value": {
                 "id": "dbde2eb2-2ff4-4611-a691-d119180b875f",
