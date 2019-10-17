@@ -8,7 +8,7 @@ mobOneHealth = 80;
 speed = 1;
 
 //Attack Range
-range = 32;
+range = 40;
 
 //attack speed in seconds
 attackspeed = room_speed * 4;
