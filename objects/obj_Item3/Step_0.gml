@@ -1,6 +1,6 @@
 /// @description Check if enemy grabs item
 // You can write your code in this editor
-var EnemyHolding = collision_point(x,y,obj_Enemy,false,true);
+var EnemyHolding = collision_point(x,y,Parent_Enemies,false,true);
 
 var EnemyHolding2 = collision_point(x,y,obj_Enemy2,false,true);
 
