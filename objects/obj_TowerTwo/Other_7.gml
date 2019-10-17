@@ -1,4 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-//instance_create_layer(x,y-150,"Instances",obj_PlasticBall);
-instance_create_layer(x,y-100,"Towers",obj_PlasticBall);
+
+if(AdjustRange != true){
+	var ball = instance_create_layer(x,y-100,"Towers",obj_PlasticBall);
+}
+if(sprite_index = spr_CatapultGame){
+	if(ball !=noone){
+		TowerProjectile = ball;
+		TowerProjectile.Angle = UserSet;
+	}
+}

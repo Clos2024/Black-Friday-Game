@@ -5,7 +5,6 @@ if(shoot){
 	gravity = gra;
 }
 
-
 if(!shoot){
 	direction = Angle;
 	speed = Speed;

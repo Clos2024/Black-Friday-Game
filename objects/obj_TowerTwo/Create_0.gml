@@ -1,6 +1,8 @@
-Speed = 20;
-Angle = 96;
+refund = global.Catapultcost/2;
+AdjustRange = false;
+TowerProjectile = noone;
+sprite_index = spr_CatapultGame;
 
-gra = .75;
-
-shoot = false;
+UserSet = 96;
+global.SelectedTowerTwo = false;
+TowerReticle = instance_create_layer(x,y,"Towers",obj_CrossHair);

@@ -11,6 +11,7 @@ if(Tower != noone){
 			if(global.Recycling = true){
 				cash = cash + TowerOn.refund;
 				instance_destroy(TowerOn);
+				global.Recycling = false;
 			}
 		}
 }

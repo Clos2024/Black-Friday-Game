@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "5410314a-cfbc-48ee-9a25-b5bcc33a5ef2",
+            "Value": {
+                "id": "21f27d1a-57e7-42b7-a77e-1be3f40585c2",
+                "resourcePath": "sprites\\spr_arrows\\spr_arrows.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57c12310-2ee3-4ae1-be82-b282a736bac0",
             "Value": {
                 "id": "d20f7e49-67b6-452d-867b-ac144c3ddbd2",
