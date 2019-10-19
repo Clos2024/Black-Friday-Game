@@ -63,26 +63,10 @@
             }
         },
         {
-            "Key": "0442eee9-f86b-4b51-8ffe-17b516e1cdbc",
-            "Value": {
-                "id": "0342c7a0-a155-4b17-b4b4-fdfebaf8b9df",
-                "resourcePath": "sprites\\spr_tennisballlauncherrecycle\\spr_tennisballlauncherrecycle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0473cc40-c0f7-4351-abf9-a60cefcdf255",
             "Value": {
                 "id": "1a37dbcb-0276-49bc-8108-d0b2f476c94d",
                 "resourcePath": "sprites\\spr_WallTowerUI\\spr_WallTowerUI.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "05365aff-d3b4-4a8a-80a5-f02f18cd0102",
-            "Value": {
-                "id": "b49dd0d9-1665-455b-9a61-de2180900296",
-                "resourcePath": "sprites\\spr_Item\\spr_Item.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -151,30 +135,6 @@
             }
         },
         {
-            "Key": "0fc931a2-f0dc-4f56-ac4c-4589f85074f2",
-            "Value": {
-                "id": "27593606-3e21-40da-b5e1-08ace1a10288",
-                "resourcePath": "sounds\\s_Catapult\\s_Catapult.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "0ffeaf0d-0fbb-4d59-9525-23ab8fca64fb",
-            "Value": {
-                "id": "627c115b-1b8d-4ccf-80e9-3030ddc5ce9d",
-                "resourcePath": "objects\\obj_MetalMat\\obj_MetalMat.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "117a361c-d16a-41a4-bf4c-484fa6d0771e",
-            "Value": {
-                "id": "fb8225ba-4c87-4a5c-b362-c22d5ed2e3d6",
-                "resourcePath": "sounds\\s_alarm\\s_alarm.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "11ffc28c-126a-4fef-b6f8-dc0ff0ad7f04",
             "Value": {
                 "id": "0845fc8b-1ad6-457b-91eb-f3bc1ab513b5",
@@ -212,14 +172,6 @@
                 "id": "1c6f7807-cad0-4620-9d3c-a17788a31a99",
                 "resourcePath": "sprites\\spr_TennisBallTower\\spr_TennisBallTower.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "1b2e9789-71d5-479f-80e1-5a32e26d0640",
-            "Value": {
-                "id": "28ee795e-e8c8-4c80-84d2-f58ab82e7910",
-                "resourcePath": "objects\\obj_CircuitMat\\obj_CircuitMat.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -267,14 +219,6 @@
             "Value": {
                 "id": "2ce5368a-cdd7-4858-b629-b1fff9d2fa5c",
                 "resourcePath": "objects\\obj_SpawnerAisleTwo\\obj_SpawnerAisleTwo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "262ebe8b-1ea4-4a9e-ba32-9c42a2442218",
-            "Value": {
-                "id": "fe237e19-54c6-452f-bd68-7ffe007d4f58",
-                "resourcePath": "objects\\obj_TennisBallTowerGame\\obj_TennisBallTowerGame.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -327,14 +271,6 @@
             }
         },
         {
-            "Key": "2f8b4de3-cac1-48e9-992c-0f0de40713fc",
-            "Value": {
-                "id": "4da37918-ff79-40d6-a0e7-0a8421c233fa",
-                "resourcePath": "sounds\\s_step\\s_step.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "2fae06f6-feb0-4109-bee5-0f4d07f38dea",
             "Value": {
                 "id": "b0abe057-68b5-4baa-aaf6-71570a2a76e1",
@@ -348,14 +284,6 @@
                 "id": "dbde2eb2-2ff4-4611-a691-d119180b875f",
                 "resourcePath": "views\\3408a692-4617-4b6d-868a-a49637fb81d8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "34aac4e3-17aa-4edb-bbf7-fbe1f2baa07c",
-            "Value": {
-                "id": "7da07216-ea43-4ec6-b1ef-64b77da5baab",
-                "resourcePath": "rooms\\room11\\room11.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -463,27 +391,11 @@
             }
         },
         {
-            "Key": "42ef92ef-8e31-4c7d-beca-1a7f41f2d533",
-            "Value": {
-                "id": "41650d84-59e3-4172-a27c-54b1602ec02f",
-                "resourcePath": "sprites\\spr_WaterTower\\spr_WaterTower.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "455a9169-0399-496e-90c8-463d7cb0bd85",
             "Value": {
                 "id": "bd574df9-70f0-4765-b44d-be028ac43b47",
                 "resourcePath": "sprites\\spr_PlasticBall\\spr_PlasticBall.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "45fa83b8-4d2d-49f4-aaf4-4e17a044f64f",
-            "Value": {
-                "id": "635fae03-a499-4288-b6e7-83abdd5d9fb8",
-                "resourcePath": "sounds\\s_hit\\s_hit.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -511,14 +423,6 @@
             }
         },
         {
-            "Key": "4bb7dcbf-f7c5-473d-a96c-b238e8c9c9d8",
-            "Value": {
-                "id": "d2d30eed-f679-4bfa-a27a-4e825f2aca99",
-                "resourcePath": "sounds\\s_TennisBallLauncher\\s_TennisBallLauncher.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "4d375b1f-8a6b-4198-aeb3-7b7d18aea702",
             "Value": {
                 "id": "9a17dbed-86f9-4a3f-b6be-c7e89173ee29",
@@ -540,22 +444,6 @@
                 "id": "a8b24ce2-63bf-4852-a3e1-940db087641a",
                 "resourcePath": "views\\4f01a432-f8a6-400c-b1ec-768ebf55d410.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5410314a-cfbc-48ee-9a25-b5bcc33a5ef2",
-            "Value": {
-                "id": "21f27d1a-57e7-42b7-a77e-1be3f40585c2",
-                "resourcePath": "sprites\\spr_arrows\\spr_arrows.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "57c12310-2ee3-4ae1-be82-b282a736bac0",
-            "Value": {
-                "id": "d20f7e49-67b6-452d-867b-ac144c3ddbd2",
-                "resourcePath": "sprites\\spr_Tutorialone\\spr_Tutorialone.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -647,14 +535,6 @@
             }
         },
         {
-            "Key": "73d7cd30-1de8-42b3-9496-9d03c982f0b2",
-            "Value": {
-                "id": "8fb4f958-7e8a-4a79-b4ab-b3dbf1b5b25d",
-                "resourcePath": "sprites\\spr_Tutorialtwo\\spr_Tutorialtwo.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "74b14fe0-7909-46ac-aee2-6ed19c590df4",
             "Value": {
                 "id": "e69c9389-7937-4840-91fd-b2ba7f4da83b",
@@ -711,14 +591,6 @@
             }
         },
         {
-            "Key": "7db2a059-8537-4b16-87b9-e2ad509b3065",
-            "Value": {
-                "id": "1a49c8f5-66c0-4f92-81cf-73e78c6828f4",
-                "resourcePath": "sprites\\spr_CatapultIndicator\\spr_CatapultIndicator.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7dd73084-9f8d-4218-90ce-f039e4db66cf",
             "Value": {
                 "id": "38a512b0-f3a3-4e00-861c-5bef6daa23a5",
@@ -735,19 +607,19 @@
             }
         },
         {
-            "Key": "7f9b5a9b-faf0-4e2a-a173-e8f0ba37fef0",
-            "Value": {
-                "id": "fe976db3-8c84-4f5e-97e7-c824f49b87d1",
-                "resourcePath": "sprites\\spr_Enemy3\\spr_Enemy3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7ffc61a9-1c35-41f9-8435-4cc059062ff2",
             "Value": {
                 "id": "48ddf4f9-7907-4da7-b28f-293dd65f224f",
                 "resourcePath": "objects\\obj_Fired\\obj_Fired.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "80bc1dd3-5d53-4081-b45e-feb52fdf5a4b",
+            "Value": {
+                "id": "f6ea0c3d-1815-426c-acc2-0fc2da6d4351",
+                "resourcePath": "views\\80bc1dd3-5d53-4081-b45e-feb52fdf5a4b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -783,14 +655,6 @@
             }
         },
         {
-            "Key": "88fd3817-3a24-4b8a-ac62-0ac797870ebe",
-            "Value": {
-                "id": "938eb8d6-7003-46b8-85ad-c59ed3b46eb5",
-                "resourcePath": "objects\\obj_CatapultExplosion\\obj_CatapultExplosion.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8b71e89e-15cd-452c-a5e6-eb6b085dd421",
             "Value": {
                 "id": "669cbacb-166a-42af-8747-ec79a8eceaf9",
@@ -804,38 +668,6 @@
                 "id": "cff186f5-a487-4fa2-99a1-a9ed7a18fbaf",
                 "resourcePath": "sprites\\spr_CatapultExplosion\\spr_CatapultExplosion.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8c1f77a4-d472-4270-b18f-996ef83d6b0c",
-            "Value": {
-                "id": "37fbc8c1-5951-40fd-964c-f0570d2a009b",
-                "resourcePath": "objects\\obj_TrashCan\\obj_TrashCan.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8ca218ce-b96b-4eda-bb43-24499d535810",
-            "Value": {
-                "id": "c6cbd790-d658-4b9a-bb15-2ad068088b96",
-                "resourcePath": "objects\\obj_TutorialOne\\obj_TutorialOne.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8e61f413-4bc0-45ba-82c4-06fd21ca75ba",
-            "Value": {
-                "id": "a2fca84f-d855-4a3b-a8ab-2f3dad7ec7e1",
-                "resourcePath": "objects\\obj_TennisBallTower\\obj_TennisBallTower.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8ef0fea4-5206-4bdb-866c-0fdad1210b8b",
-            "Value": {
-                "id": "6d282f9a-c42b-4ce9-97e6-5be9fcfc31c6",
-                "resourcePath": "objects\\obj_Aisle\\obj_Aisle.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -879,22 +711,6 @@
             }
         },
         {
-            "Key": "93b2c47d-be3c-47a9-8c0d-9825de2da72f",
-            "Value": {
-                "id": "8960f301-26ed-4b1c-898e-0eaaeccfb1f8",
-                "resourcePath": "objects\\obj_MaterialsBoard\\obj_MaterialsBoard.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "93f97abc-36c3-443e-aee3-2260b378466b",
-            "Value": {
-                "id": "bbd357eb-9d89-4021-a10a-7c143613d5da",
-                "resourcePath": "objects\\obj_PlasticMat\\obj_PlasticMat.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9537c41e-5b5e-4ee6-88c7-ed36943a1c24",
             "Value": {
                 "id": "caad436b-a104-47a4-9a13-57a238161006",
@@ -911,14 +727,6 @@
             }
         },
         {
-            "Key": "99c1d18e-d467-4aea-9679-ebdc0f5932e1",
-            "Value": {
-                "id": "94cb3002-2fe8-4e1b-8cfd-28b602e55b15",
-                "resourcePath": "sprites\\spr_CatapultGameRecycle\\spr_CatapultGameRecycle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9b06c1b4-947f-4630-b340-1f2bd20f4900",
             "Value": {
                 "id": "44bb6234-a662-4e97-92cb-b0edfc7fd91a",
@@ -931,14 +739,6 @@
             "Value": {
                 "id": "644a4e2f-e74a-4ec7-9bc8-9a41da2a9647",
                 "resourcePath": "sprites\\spr_TrashCan\\spr_TrashCan.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9c8b7e15-cb4f-496d-97ed-0a86db575a0e",
-            "Value": {
-                "id": "28febe78-d60f-4af8-a143-96da5422233a",
-                "resourcePath": "sprites\\spr_CatapultGame1\\spr_CatapultGame1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1023,14 +823,6 @@
             }
         },
         {
-            "Key": "aafffa26-f08a-4f85-8b24-4abd28d0438e",
-            "Value": {
-                "id": "94c9d484-9156-40ee-a2f4-bcd8a350dd8b",
-                "resourcePath": "objects\\obj_TutorialTwo\\obj_TutorialTwo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ab54390b-3a9c-43c5-88f4-8d3cb538c4ad",
             "Value": {
                 "id": "802ec434-3252-4df8-924d-4a93562fa4f6",
@@ -1067,14 +859,6 @@
             "Value": {
                 "id": "9b1a008d-6a8b-4b40-b628-c6c8638034a9",
                 "resourcePath": "sprites\\spr_tennisballlauncher\\spr_tennisballlauncher.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b181302d-ae11-4095-9920-03e5abad0375",
-            "Value": {
-                "id": "b4e10566-ddd5-4c36-b883-06c4ccee4d47",
-                "resourcePath": "sprites\\spr_tennisballlauncher1\\spr_tennisballlauncher1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1151,14 +935,6 @@
             }
         },
         {
-            "Key": "c02f364c-3868-4e68-9151-e0155e2aa947",
-            "Value": {
-                "id": "0c1cc897-d60e-4355-82cd-0e73ee6356cb",
-                "resourcePath": "objects\\obj_CatapultTowerGame\\obj_CatapultTowerGame.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c14b41a4-5ddf-4be3-8a97-d11e7c607736",
             "Value": {
                 "id": "f292dc09-8b2c-46c8-ab76-3f9b23c18754",
@@ -1183,14 +959,6 @@
             }
         },
         {
-            "Key": "c8039b27-0c20-46fe-841e-03984b8eca86",
-            "Value": {
-                "id": "32a191fd-c44c-4275-8181-8a7d356fc976",
-                "resourcePath": "rooms\\room1\\room1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "c8695b5b-4dcb-4590-9b45-5190e1d52034",
             "Value": {
                 "id": "7289cb9d-88a1-493b-a9ac-c91f9de91779",
@@ -1204,14 +972,6 @@
                 "id": "880abb96-56fd-4557-bdd9-b581b790df18",
                 "resourcePath": "objects\\Parent_Enemies\\Parent_Enemies.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ca2b75ee-dfe5-4524-bbb4-98042d19b8d9",
-            "Value": {
-                "id": "0f4c3fc6-298a-40c4-9c64-83129ff5b91e",
-                "resourcePath": "sprites\\spr_Tile\\spr_Tile.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1283,14 +1043,6 @@
             "Value": {
                 "id": "23123067-ef54-4fd6-af38-cb70bbc6e674",
                 "resourcePath": "objects\\obj_TryAgain\\obj_TryAgain.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d58f18cc-035c-4c6b-a4cc-357bac717666",
-            "Value": {
-                "id": "becac408-64a0-43c6-9d16-065541cced10",
-                "resourcePath": "objects\\obj_CatapultIndicator\\obj_CatapultIndicator.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1367,14 +1119,6 @@
             }
         },
         {
-            "Key": "e591fce6-faa8-41de-83c6-0bdf82f8a338",
-            "Value": {
-                "id": "9a47eafa-c1e8-4171-86f4-cc4a8542155c",
-                "resourcePath": "sprites\\spr_Aisle\\spr_Aisle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e6cb1fd7-15b5-42df-94cb-527585ec60e2",
             "Value": {
                 "id": "6616d44b-5b02-41f4-a48d-747391b052fd",
@@ -1388,14 +1132,6 @@
                 "id": "cbdd3d27-6bf3-4f36-8ad7-19e59df298b1",
                 "resourcePath": "sprites\\spr_waterguntower\\spr_waterguntower.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e89a9438-1f5d-4302-98ba-10839760af00",
-            "Value": {
-                "id": "58b636d1-659e-418b-af71-7fc49a9fed55",
-                "resourcePath": "objects\\obj_Tile\\obj_Tile.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1463,14 +1199,6 @@
             }
         },
         {
-            "Key": "f1c2d676-2047-483b-8300-ae59f047f0a7",
-            "Value": {
-                "id": "ff7f3a60-9b49-43c5-ba3e-d77b6151c02b",
-                "resourcePath": "sprites\\spr_MatsBoard\\spr_MatsBoard.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f1f201bd-2209-4a09-a623-c4c5be782c1f",
             "Value": {
                 "id": "059146a3-deba-4ed0-9d6f-988aac0392c7",
@@ -1500,14 +1228,6 @@
                 "id": "95a5a711-ec0e-4ea2-a0b9-7a9ecf0cd4af",
                 "resourcePath": "scripts\\BallMotion\\BallMotion.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f677965b-8d2c-41eb-ab9b-251a14186e51",
-            "Value": {
-                "id": "c0cdaaf5-97be-42a0-b01b-568cdd76aac3",
-                "resourcePath": "objects\\obj_CatapultTower\\obj_CatapultTower.yy",
-                "resourceType": "GMObject"
             }
         },
         {
