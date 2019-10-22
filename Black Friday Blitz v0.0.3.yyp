@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "6ec71a8c-bd05-438f-b54a-fe4b7a9c663c",
+            "Value": {
+                "id": "c7fe42b8-64b3-4ddc-b0dc-c41d496717ae",
+                "resourcePath": "views\\6ec71a8c-bd05-438f-b54a-fe4b7a9c663c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6fa23c3c-4a87-43e7-95a1-102a39ac4dc0",
             "Value": {
                 "id": "4cbc0108-d15f-4073-9e4a-5afb77df157e",
@@ -967,6 +975,14 @@
             }
         },
         {
+            "Key": "a6d296b9-fde5-48df-a097-4d1275e8253b",
+            "Value": {
+                "id": "87e3cfee-a38d-4565-aca5-bda4c027038d",
+                "resourcePath": "rooms\\TestRoom1\\TestRoom1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a815e674-f80a-4019-a9d7-8f9a8cad0e7e",
             "Value": {
                 "id": "136b74f6-1dfa-41ab-8d3b-5b2e096c372e",
@@ -1039,14 +1055,6 @@
             }
         },
         {
-            "Key": "aebd062d-36e4-4fc9-bc74-4deade07a306",
-            "Value": {
-                "id": "fb8f1ee5-5da8-4353-aa61-31f5924f92ea",
-                "resourcePath": "views\\aebd062d-36e4-4fc9-bc74-4deade07a306.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "af78c823-7be7-46aa-9009-892d24b39b5e",
             "Value": {
                 "id": "9b1a008d-6a8b-4b40-b628-c6c8638034a9",
@@ -1076,6 +1084,14 @@
                 "id": "5cb6c305-94bf-4dfb-ba70-a5b4a0e6adcf",
                 "resourcePath": "objects\\Parent_Item\\Parent_Item.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b69656d1-0c75-4882-9aea-3ba3fa68ab69",
+            "Value": {
+                "id": "11fa4053-c7c3-447e-9e2d-d4eee902f0da",
+                "resourcePath": "views\\b69656d1-0c75-4882-9aea-3ba3fa68ab69.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

@@ -41,6 +41,16 @@ else if(EnemyType > 3){
 	EnemyToSpawn = obj_Enemy;
 }
 
+if(Lane = 3 && instance_number(obj_SpawnPoint3) = 0){
+	Lane = 0;
+}
+if(Lane = 2 && instance_number(obj_SpawnPoint2) = 0){
+	Lane = 0;
+}
+if(Lane = 1 && instance_number(obj_SpawnPoint1) = 0){
+	Lane = 0;
+}
+
 if(Lane != 0 && wave <=1){
 	instance_create_layer(LaneToSpawn.x,LaneToSpawn.y,"Enemy", obj_Enemy);
 	Lane = 0;
