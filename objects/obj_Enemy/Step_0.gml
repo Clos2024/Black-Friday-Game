@@ -22,7 +22,7 @@ if(tower != noone){
 }
 else{
 	sprite_index = spr_EnemyBasicWalk;
-	speed = .5;
+	speed = 1;
 }
 
 
@@ -32,7 +32,7 @@ if(damaged = true){
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyBasicWalk;
-	speed = .5;
+	speed = 1;
 }
 
 
