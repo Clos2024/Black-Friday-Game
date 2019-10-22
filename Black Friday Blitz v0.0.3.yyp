@@ -247,14 +247,6 @@
             }
         },
         {
-            "Key": "238a46ed-4d30-4dc3-95d8-9a15d253e919",
-            "Value": {
-                "id": "2ce5368a-cdd7-4858-b629-b1fff9d2fa5c",
-                "resourcePath": "objects\\obj_SpawnerAisleTwo\\obj_SpawnerAisleTwo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "24018149-1f28-4896-a801-0d74f6a3c7a1",
             "Value": {
                 "id": "a84b7257-0a9e-4937-ad25-9f525112104c",
@@ -388,14 +380,6 @@
                 "id": "24e2256e-6642-48e7-8664-9332f0764ef9",
                 "resourcePath": "views\\397f8a47-c637-44ad-81bc-296dbdb10106.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3a3e225f-7597-469c-af80-54e5216a851d",
-            "Value": {
-                "id": "b276e0bf-f9ec-4685-a056-860aac54e659",
-                "resourcePath": "objects\\obj_SpawnerAisleThree\\obj_SpawnerAisleThree.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1039,14 +1023,6 @@
             }
         },
         {
-            "Key": "acf2bf2b-31aa-41b2-af18-2f380d2075c4",
-            "Value": {
-                "id": "baadcbc4-2161-4901-a77c-111a606d5ee7",
-                "resourcePath": "views\\acf2bf2b-31aa-41b2-af18-2f380d2075c4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "ae37909a-f49b-477d-87a2-7a5b9f32150d",
             "Value": {
                 "id": "4cf45f2a-8e9c-4f42-bd3e-a71fd393ce8f",
@@ -1060,14 +1036,6 @@
                 "id": "9b1a008d-6a8b-4b40-b628-c6c8638034a9",
                 "resourcePath": "sprites\\spr_tennisballlauncher\\spr_tennisballlauncher.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b2d54646-2113-441c-9c70-a9d4649bfeb2",
-            "Value": {
-                "id": "bbc65ac0-a68c-436a-8161-1dfff6654954",
-                "resourcePath": "objects\\obj_SpawnerAisleFour\\obj_SpawnerAisleFour.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1539,14 +1507,6 @@
             "Value": {
                 "id": "598bb331-bf7e-4044-9bf7-b8daae617207",
                 "resourcePath": "objects\\obj_MouseStateControl\\obj_MouseStateControl.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "feba4cdb-70ab-4488-b014-8f832d7a028e",
-            "Value": {
-                "id": "f11a419a-ecba-45fc-8519-cd572fe4c520",
-                "resourcePath": "objects\\obj_SpawnerAisleOne\\obj_SpawnerAisleOne.yy",
                 "resourceType": "GMObject"
             }
         },
