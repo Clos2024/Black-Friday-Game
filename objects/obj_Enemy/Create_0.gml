@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 //HP
-Health = 120;
+Health = 200;
 
 //path_start(path0,1,path_action_stop,false);
-speed = .8;
+speed = .5;
 
 //Attack Range
 range = 64;
@@ -23,3 +23,4 @@ towerToAttack = noone;
 attackDamage = 5;
 
 damaged = false;
+WalkBack = false;

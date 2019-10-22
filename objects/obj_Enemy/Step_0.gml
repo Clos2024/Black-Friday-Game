@@ -12,7 +12,6 @@ if(tower != noone){
 		towerToAttack = tower;
 		if(attacking){
 			speed = 0;
-			path_speed = 0;
 			sprite_index = spr_EnemyBasicAttack;
 		}
 	}
@@ -23,8 +22,7 @@ if(tower != noone){
 }
 else{
 	sprite_index = spr_EnemyBasicWalk;
-	speed = .8;
-	path_speed= 1;
+	speed = .5;
 }
 
 
@@ -34,7 +32,7 @@ if(damaged = true){
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyBasicWalk;
-	speed = .8;
+	speed = .5;
 }
 
 
@@ -44,6 +42,9 @@ if(Health <= 0){
 }
 
 if(x > 1664){
-	path_start(path1,2,path_action_stop,0);
+	WalkBack = true;
+}
+if(WalkBack){
+	speed = -.8
 	image_xscale = -1;
 }

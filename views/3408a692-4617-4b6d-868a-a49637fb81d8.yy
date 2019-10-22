@@ -10,7 +10,8 @@
         "a26ad057-6bf4-4513-8448-1def260616b0",
         "84460cb1-1fb5-418c-8aef-78d700f9d324",
         "ec6209b8-2e52-4304-994f-9475e379c85c",
-        "5d3cc866-3b4a-4ef5-a778-13e854b38798"
+        "5d3cc866-3b4a-4ef5-a778-13e854b38798",
+        "76140bac-0d6c-48fb-8d98-87fd52492e96"
     ],
     "filterType": "GMObject",
     "folderName": "grp_Towers",

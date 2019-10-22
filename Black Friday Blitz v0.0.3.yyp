@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "119c5e37-f88c-49f6-9de9-84b97a42c8ef",
+            "Value": {
+                "id": "453b2787-848b-40ed-b40d-872f69976e86",
+                "resourcePath": "sprites\\spr_BuyTennisBall\\spr_BuyTennisBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11ffc28c-126a-4fef-b6f8-dc0ff0ad7f04",
             "Value": {
                 "id": "0845fc8b-1ad6-457b-91eb-f3bc1ab513b5",
@@ -259,6 +267,14 @@
             "Value": {
                 "id": "8ab86fea-ba92-44eb-b401-e73c682b6e66",
                 "resourcePath": "sprites\\spr_MomNormalHurt\\spr_MomNormalHurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "261bd608-33d1-4c9d-afce-c3b46deaea87",
+            "Value": {
+                "id": "12351465-c2d2-4174-acd9-38514325025d",
+                "resourcePath": "sprites\\spr_ClockBasic\\spr_ClockBasic.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -495,6 +511,14 @@
             }
         },
         {
+            "Key": "4faa3741-766d-4b79-bdff-e308474e17a6",
+            "Value": {
+                "id": "c9885e71-86ea-4113-ac78-750568bd6f45",
+                "resourcePath": "objects\\obj_WallBuyingCard\\obj_WallBuyingCard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ad1904c-40d6-479a-8c7b-549ccbe4f94e",
             "Value": {
                 "id": "72ce7325-fd90-4e29-81de-8e0f9c1ad553",
@@ -548,6 +572,14 @@
                 "id": "2927eb53-d0c0-46d2-a4ca-7904a24855af",
                 "resourcePath": "objects\\obj_Enemy3\\obj_Enemy3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5feb9934-19ff-4941-93a1-3f1539d9d137",
+            "Value": {
+                "id": "874e6d5b-65a4-4423-b1c1-742e2be88dbc",
+                "resourcePath": "sprites\\spr_floor\\spr_floor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -620,6 +652,14 @@
                 "id": "b6b6a579-d79e-42c3-9ab1-60d674d4ff35",
                 "resourcePath": "sprites\\spr_WallTower\\spr_WallTower.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "76140bac-0d6c-48fb-8d98-87fd52492e96",
+            "Value": {
+                "id": "9c603fd1-b1f5-4d96-83f5-bf57ba4a81e9",
+                "resourcePath": "objects\\obj_TowerUITileController\\obj_TowerUITileController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -708,6 +748,14 @@
                 "id": "6f088408-d84d-4ca9-88ad-2b138e8d9c2b",
                 "resourcePath": "objects\\obj_TowerOne\\obj_TowerOne.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "85d2dde5-a1d2-462b-b598-a35441c199db",
+            "Value": {
+                "id": "f5f18014-5514-4d80-8577-7d7124900d35",
+                "resourcePath": "sprites\\spr_BuyWall\\spr_BuyWall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -911,6 +959,14 @@
             }
         },
         {
+            "Key": "a9b28ac6-6b9e-4d23-bc19-fa00662b3821",
+            "Value": {
+                "id": "b82f6cc1-a0e6-4f50-9653-beeca61a1f0d",
+                "resourcePath": "rooms\\room_BuyingTowers\\room_BuyingTowers.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "aa9ea749-5f5b-4527-936b-e82b90eaa39a",
             "Value": {
                 "id": "08c8e3fa-7e0c-4419-8d73-ffc9270827d1",
@@ -1007,11 +1063,27 @@
             }
         },
         {
+            "Key": "b92620a8-f1ff-4ebe-a79e-39bb1bfeb1aa",
+            "Value": {
+                "id": "854b5d82-b009-4860-9f93-7be22931b159",
+                "resourcePath": "sprites\\spr_tennisballlauncherhover\\spr_tennisballlauncherhover.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb555ced-2662-443b-9313-36f79efe3365",
             "Value": {
                 "id": "61312952-cdcc-4436-9134-e08c37660408",
                 "resourcePath": "objects\\obj_RecycleBin\\obj_RecycleBin.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb8c4a05-85b2-4f61-93dc-1e71dfddf59b",
+            "Value": {
+                "id": "d3e5f871-4911-4242-82e4-bb5c90ffc4fa",
+                "resourcePath": "sprites\\spr_PlayButton2\\spr_PlayButton2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1183,6 +1255,14 @@
             }
         },
         {
+            "Key": "ddb8e450-e6c3-4275-8c3f-7eae1e58642d",
+            "Value": {
+                "id": "4755b48c-4ab8-4cb4-80c2-13dce3c022b4",
+                "resourcePath": "sprites\\spr_BuyCatapult\\spr_BuyCatapult.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de869eb7-e573-4e3f-9001-f4ef99014f1f",
             "Value": {
                 "id": "7bdfe2ae-4172-4635-b2ec-5229fec4f2ee",
@@ -1211,6 +1291,14 @@
             "Value": {
                 "id": "56f12e86-297e-41fc-92d1-24ca6e68db0f",
                 "resourcePath": "objects\\obj_enemieskilledcounter\\obj_enemieskilledcounter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e345581e-df5b-4c1f-8190-b69f51708259",
+            "Value": {
+                "id": "cca8ba00-a40b-40fe-8241-2c83ecb6a9e9",
+                "resourcePath": "objects\\obj_CatapultBuyingCard\\obj_CatapultBuyingCard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1258,7 +1346,7 @@
             "Key": "eb9367ae-6e0f-4470-8616-316f0dbe65ed",
             "Value": {
                 "id": "5629b9f8-39a2-4ee0-a4bd-b47a47c932f3",
-                "resourcePath": "sprites\\spr_clock\\spr_clock.yy",
+                "resourcePath": "sprites\\spr_ClockHourOne\\spr_ClockHourOne.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1284,6 +1372,14 @@
                 "id": "c3672fe6-926f-498b-8d53-7c8d99699c7e",
                 "resourcePath": "sprites\\spr_bg1\\spr_bg1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef2c5db8-f192-452c-bb36-17a6267fb490",
+            "Value": {
+                "id": "efbffae8-8884-43cb-926c-93227eb2c067",
+                "resourcePath": "objects\\obj_PlayButton2\\obj_PlayButton2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1395,6 +1491,14 @@
             "Value": {
                 "id": "f11a419a-ecba-45fc-8519-cd572fe4c520",
                 "resourcePath": "objects\\obj_SpawnerAisleOne\\obj_SpawnerAisleOne.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ff0d3bec-9cfd-4f21-94eb-f2550d59385a",
+            "Value": {
+                "id": "5985c734-ecb2-4ccf-b862-8ccf3675a643",
+                "resourcePath": "objects\\obj_TennisBuyingCard\\obj_TennisBuyingCard.yy",
                 "resourceType": "GMObject"
             }
         }
