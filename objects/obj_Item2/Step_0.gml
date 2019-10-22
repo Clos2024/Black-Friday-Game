@@ -4,9 +4,9 @@ var EnemyHolding = collision_point(x,y,Parent_Enemies,false,true);
 
 //var EnemyHolding2 = collision_point(x,y,obj_Enemy2,false,true);
 
-if(EnemyHolding != noone){
+if(EnemyHolding != noone && held != true){
 	held = true;
-	if(held == true){
+	if(held){
 		x = EnemyHolding.x;
 		y = EnemyHolding.y;
 	}

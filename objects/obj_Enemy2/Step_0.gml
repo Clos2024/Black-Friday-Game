@@ -21,7 +21,6 @@ if(tower != noone){
 else{
 	sprite_index = spr_Enemy2;
 	speed = 2;
-	path_speed= 4;
 }
 
 if(attacking = false){
@@ -45,6 +44,10 @@ if(Health <= 0){
 }
 
 if(x > 1664){
-	path_start(path1,1,path_action_stop,0);
+	WalkBack = true;
+}
+
+if(WalkBack){
+	speed = -speed;
 	image_xscale = -1;
 }

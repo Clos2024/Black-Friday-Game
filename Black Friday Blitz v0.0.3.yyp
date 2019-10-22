@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "44ba983f-db74-41dc-b2fa-3de21bd1c06f",
+            "Value": {
+                "id": "1cad1214-01a0-4034-8b3e-95a0681f844a",
+                "resourcePath": "sprites\\spr_ClosedLane\\spr_ClosedLane.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "455a9169-0399-496e-90c8-463d7cb0bd85",
             "Value": {
                 "id": "bd574df9-70f0-4765-b44d-be028ac43b47",

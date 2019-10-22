@@ -2,15 +2,15 @@
 // You can write your code in this editor
 
 //HP
-Health = 100;
+Health = 1000;
 
-speed = 2;
+speed = .3;
 
 //Attack Range
 range = 64;
 
 //attack speed in seconds
-attackspeed = room_speed * 3;
+attackspeed = room_speed * 8;
 
 //attack bool
 attacking = false;
@@ -19,7 +19,7 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 7;
+attackDamage = 50;
 
 damaged = false;
 WalkBack = false;

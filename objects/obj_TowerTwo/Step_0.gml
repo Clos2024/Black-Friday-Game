@@ -3,18 +3,18 @@
 
 DistanceToReticle = TowerReticle.x-x;
 
-if(AdjustRange = true){
-	sprite_index = spr_CatapultGameSel;
-	if(keyboard_check_pressed(vk_left) && TowerReticle.x > 416 && DistanceToReticle>-640){
-		TowerReticle.x -= 128;
-	}
-	if(keyboard_check_pressed(vk_right) && TowerReticle.x+125 < x){
-		TowerReticle.x += 128;
-	}
-}
-else{
-	sprite_index = spr_CatapultGame;
-}
+//if(AdjustRange = true){
+//	sprite_index = spr_CatapultGameSel;
+//	if(keyboard_check_pressed(vk_left) && TowerReticle.x > 416 && DistanceToReticle>-640){
+//		TowerReticle.x -= 128;
+//	}
+//	if(keyboard_check_pressed(vk_right) && TowerReticle.x+125 < x){
+//		TowerReticle.x += 128;
+//	}
+//}
+//else{
+//	sprite_index = spr_CatapultGame;
+//}
 
 
 if(DistanceToReticle = 0){
