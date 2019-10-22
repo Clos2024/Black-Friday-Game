@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "32bd5fa1-1ea9-4085-877a-fb77405a7005",
+            "Value": {
+                "id": "08a95222-dd56-48cb-bffe-c42fd6909493",
+                "resourcePath": "sprites\\spr_WallTowerHover\\spr_WallTowerHover.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3408a692-4617-4b6d-868a-a49637fb81d8",
             "Value": {
                 "id": "dbde2eb2-2ff4-4611-a691-d119180b875f",
@@ -539,6 +547,14 @@
             "Value": {
                 "id": "b736fae8-f230-4fba-a1ca-371ffbf89f91",
                 "resourcePath": "sprites\\spr_tv\\spr_tv.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d8c99e8-a239-4bad-9081-5016341b2ad1",
+            "Value": {
+                "id": "c0d61ef3-0650-4563-8ac0-2f624346726e",
+                "resourcePath": "sprites\\spr_CatapultGameHover\\spr_CatapultGameHover.yy",
                 "resourceType": "GMSprite"
             }
         },
