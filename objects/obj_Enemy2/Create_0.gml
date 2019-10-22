@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //HP
-Health = 100;
+Health = 240;
 
 speed = 2;
 
