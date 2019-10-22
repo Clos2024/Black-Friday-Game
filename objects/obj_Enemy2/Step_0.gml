@@ -8,10 +8,12 @@ if(tower != noone){
 			alarm[0] = 1;
 			attacking = true;
 			speed = 0;
-			path_speed = 0;
 			
 		}
 		towerToAttack = tower;
+		if(attacking){
+			speed = 0;
+		}
 	}
 	else{
 		attacking = false;
