@@ -247,14 +247,6 @@
             }
         },
         {
-            "Key": "238a46ed-4d30-4dc3-95d8-9a15d253e919",
-            "Value": {
-                "id": "2ce5368a-cdd7-4858-b629-b1fff9d2fa5c",
-                "resourcePath": "objects\\obj_SpawnerAisleTwo\\obj_SpawnerAisleTwo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "24018149-1f28-4896-a801-0d74f6a3c7a1",
             "Value": {
                 "id": "a84b7257-0a9e-4937-ad25-9f525112104c",
@@ -388,14 +380,6 @@
                 "id": "24e2256e-6642-48e7-8664-9332f0764ef9",
                 "resourcePath": "views\\397f8a47-c637-44ad-81bc-296dbdb10106.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3a3e225f-7597-469c-af80-54e5216a851d",
-            "Value": {
-                "id": "b276e0bf-f9ec-4685-a056-860aac54e659",
-                "resourcePath": "objects\\obj_SpawnerAisleThree\\obj_SpawnerAisleThree.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -652,6 +636,14 @@
                 "id": "4561a349-cb91-4f4b-b06e-dcf0908393fa",
                 "resourcePath": "objects\\obj_TennisBall\\obj_TennisBall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6ec71a8c-bd05-438f-b54a-fe4b7a9c663c",
+            "Value": {
+                "id": "c7fe42b8-64b3-4ddc-b0dc-c41d496717ae",
+                "resourcePath": "views\\6ec71a8c-bd05-438f-b54a-fe4b7a9c663c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -967,6 +959,14 @@
             }
         },
         {
+            "Key": "a6d296b9-fde5-48df-a097-4d1275e8253b",
+            "Value": {
+                "id": "87e3cfee-a38d-4565-aca5-bda4c027038d",
+                "resourcePath": "rooms\\TestRoom1\\TestRoom1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a815e674-f80a-4019-a9d7-8f9a8cad0e7e",
             "Value": {
                 "id": "136b74f6-1dfa-41ab-8d3b-5b2e096c372e",
@@ -1023,14 +1023,6 @@
             }
         },
         {
-            "Key": "acf2bf2b-31aa-41b2-af18-2f380d2075c4",
-            "Value": {
-                "id": "baadcbc4-2161-4901-a77c-111a606d5ee7",
-                "resourcePath": "views\\acf2bf2b-31aa-41b2-af18-2f380d2075c4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "ae37909a-f49b-477d-87a2-7a5b9f32150d",
             "Value": {
                 "id": "4cf45f2a-8e9c-4f42-bd3e-a71fd393ce8f",
@@ -1039,27 +1031,11 @@
             }
         },
         {
-            "Key": "aebd062d-36e4-4fc9-bc74-4deade07a306",
-            "Value": {
-                "id": "fb8f1ee5-5da8-4353-aa61-31f5924f92ea",
-                "resourcePath": "views\\aebd062d-36e4-4fc9-bc74-4deade07a306.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "af78c823-7be7-46aa-9009-892d24b39b5e",
             "Value": {
                 "id": "9b1a008d-6a8b-4b40-b628-c6c8638034a9",
                 "resourcePath": "sprites\\spr_tennisballlauncher\\spr_tennisballlauncher.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b2d54646-2113-441c-9c70-a9d4649bfeb2",
-            "Value": {
-                "id": "bbc65ac0-a68c-436a-8161-1dfff6654954",
-                "resourcePath": "objects\\obj_SpawnerAisleFour\\obj_SpawnerAisleFour.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1076,6 +1052,14 @@
                 "id": "5cb6c305-94bf-4dfb-ba70-a5b4a0e6adcf",
                 "resourcePath": "objects\\Parent_Item\\Parent_Item.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b69656d1-0c75-4882-9aea-3ba3fa68ab69",
+            "Value": {
+                "id": "11fa4053-c7c3-447e-9e2d-d4eee902f0da",
+                "resourcePath": "views\\b69656d1-0c75-4882-9aea-3ba3fa68ab69.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1523,14 +1507,6 @@
             "Value": {
                 "id": "598bb331-bf7e-4044-9bf7-b8daae617207",
                 "resourcePath": "objects\\obj_MouseStateControl\\obj_MouseStateControl.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "feba4cdb-70ab-4488-b014-8f832d7a028e",
-            "Value": {
-                "id": "f11a419a-ecba-45fc-8519-cd572fe4c520",
-                "resourcePath": "objects\\obj_SpawnerAisleOne\\obj_SpawnerAisleOne.yy",
                 "resourceType": "GMObject"
             }
         },

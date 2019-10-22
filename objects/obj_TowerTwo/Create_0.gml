@@ -8,3 +8,9 @@ TowerReticle = instance_create_layer(x-384,y,"Towers",obj_CrossHair);
 Health = 20;
 
 Damaged = false;
+
+shooting = false;
+
+range = 1000;
+
+enemyToShoot = noone;

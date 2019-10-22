@@ -5,13 +5,13 @@
 Health = 200;
 
 //path_start(path0,1,path_action_stop,false);
-speed = .5;
+speed = 1;
 
 //Attack Range
 range = 64;
 
 //attack speed in seconds
-attackspeed = room_speed * 4;
+attackspeed = room_speed * 2;
 
 //attack bool
 attacking = false;
@@ -20,7 +20,7 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 5;
+attackDamage = 10;
 
 damaged = false;
 WalkBack = false;

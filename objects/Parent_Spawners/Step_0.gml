@@ -7,7 +7,7 @@ if(global.hours > 2){
 if(global.hours = 2){
 	wave = 1;
 }
-if(global.hours = 4){
+if(global.hours = 3){
 	wave = 2;
 }
 if(global.hours = 5){
@@ -39,6 +39,16 @@ if(EnemyType <= 3){
 }
 else if(EnemyType > 3){
 	EnemyToSpawn = obj_Enemy;
+}
+
+if(Lane = 3 && instance_number(obj_SpawnPoint3) = 0){
+	Lane = 0;
+}
+if(Lane = 2 && instance_number(obj_SpawnPoint2) = 0){
+	Lane = 0;
+}
+if(Lane = 1 && instance_number(obj_SpawnPoint1) = 0){
+	Lane = 0;
 }
 
 if(Lane != 0 && wave <=1){
