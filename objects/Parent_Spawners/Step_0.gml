@@ -7,7 +7,7 @@ if(global.hours > 2){
 if(global.hours = 2){
 	wave = 1;
 }
-if(global.hours = 4){
+if(global.hours = 3){
 	wave = 2;
 }
 if(global.hours = 5){
