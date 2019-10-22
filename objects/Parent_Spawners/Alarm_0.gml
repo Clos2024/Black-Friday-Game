@@ -13,7 +13,7 @@ alarm[0] = room_speed * 10;
 if(wave = 2){
 Lane = irandom_range(1,3);
 EnemyType = irandom_range(1,10)
-alarm[0] = room_speed * 8;
+alarm[0] = room_speed * 5;
 }
 
 if(wave = 3){
