@@ -17,7 +17,11 @@ if(enemy != noone && shooting !=true){
 }
 
 if(Damaged){
-	
+	sprite_index = spr_tennisballhurt;
+	Damaged = false;
+}
+else{
+	sprite_index = spr_tennisballlauncher;
 }
 
 if(Health <= 0){

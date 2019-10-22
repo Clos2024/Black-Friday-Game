@@ -92,7 +92,7 @@ if(global.SelectedTowerOne = true){
 	cursor_sprite = spr_tennisballlauncher;
 }
 if(global.SelectedTowerTwo = true){
-	cursor_sprite = spr_CatapultGame;
+	cursor_sprite = spr_CatapultGameCursor;
 }
 if(global.SelectedTowerThree = true){
 	cursor_sprite = spr_WallTower;

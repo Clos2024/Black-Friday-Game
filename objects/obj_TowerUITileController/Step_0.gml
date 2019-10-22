@@ -8,15 +8,15 @@ else{
 }
 
 if(global.WallTower){
-	instance_activate_object(obj_TowerTwoUI);
-}
-else{
-	instance_deactivate_object(obj_TowerTwoUI);
-}
-
-if(global.CatapultTower){
 	instance_activate_object(obj_TowerThreeUI);
 }
 else{
 	instance_deactivate_object(obj_TowerThreeUI);
+}
+
+if(global.CatapultTower){
+	instance_activate_object(obj_TowerTwoUI);
+}
+else{
+	instance_deactivate_object(obj_TowerTwoUI);
 }

@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "4cab834d-4a2e-4cd7-897e-7e3259356e8f",
+            "Value": {
+                "id": "15e4b99e-1c0b-4856-8807-a00d345cbbbc",
+                "resourcePath": "sprites\\spr_tennisballhurt\\spr_tennisballhurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d375b1f-8a6b-4198-aeb3-7b7d18aea702",
             "Value": {
                 "id": "9a17dbed-86f9-4a3f-b6be-c7e89173ee29",
@@ -603,6 +611,14 @@
             "Value": {
                 "id": "b18d32a4-dcba-4f31-896a-857d48c208b7",
                 "resourcePath": "sprites\\spr_MomEnrage\\spr_MomEnrage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62c7d98b-6167-47a0-8cbf-6e4cef5ee08a",
+            "Value": {
+                "id": "fd9d51c9-e5ca-4601-a0ea-cc1ead8b23a3",
+                "resourcePath": "sprites\\spr_CatapultGameCursor\\spr_CatapultGameCursor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1516,6 +1532,14 @@
                 "id": "5985c734-ecb2-4ccf-b862-8ccf3675a643",
                 "resourcePath": "objects\\obj_TennisBuyingCard\\obj_TennisBuyingCard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffb59546-b6cc-4553-bb9d-10f10d4b1177",
+            "Value": {
+                "id": "06540bb4-3fb3-4c37-80f7-840d9d14b1e1",
+                "resourcePath": "sprites\\spr_CatapultGameHurt\\spr_CatapultGameHurt.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

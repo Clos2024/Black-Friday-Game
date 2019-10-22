@@ -6,3 +6,5 @@ TowerReticle = instance_create_layer(x,y,"Towers",obj_CrossHair);
 
 //Tower HP
 Health = 20;
+
+Damaged = false;
