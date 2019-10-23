@@ -23,3 +23,6 @@ Lane = irandom_range(1,LaneNumber);
 EnemyType = irandom_range(1,10)
 alarm[0] = room_speed * 4;
 }
+else if(wave = 5){
+alarm[0] = 0;
+}

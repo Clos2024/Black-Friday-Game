@@ -434,7 +434,7 @@
             "Key": "3f2d44dc-1212-4bcc-943a-598b6cf3493c",
             "Value": {
                 "id": "ad8278f7-6cca-447f-939c-e45c07974c90",
-                "resourcePath": "rooms\\room3\\room3.yy",
+                "resourcePath": "rooms\\StartScreen\\StartScreen.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -530,7 +530,7 @@
             "Key": "5b9c6b2a-7cdb-4b93-808f-091aba3d4614",
             "Value": {
                 "id": "ac3d3259-937f-4594-8686-0714cb3671f6",
-                "resourcePath": "rooms\\TestRoom1\\TestRoom1.yy",
+                "resourcePath": "rooms\\RoomTwo\\RoomTwo.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -650,7 +650,7 @@
             "Key": "6fa23c3c-4a87-43e7-95a1-102a39ac4dc0",
             "Value": {
                 "id": "4cbc0108-d15f-4073-9e4a-5afb77df157e",
-                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourcePath": "rooms\\RoomOneComplete\\RoomOneComplete.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -994,7 +994,7 @@
             "Key": "a9b28ac6-6b9e-4d23-bc19-fa00662b3821",
             "Value": {
                 "id": "b82f6cc1-a0e6-4f50-9653-beeca61a1f0d",
-                "resourcePath": "rooms\\room_BuyingTowers\\room_BuyingTowers.yy",
+                "resourcePath": "rooms\\BuyingRoom\\BuyingRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1130,7 +1130,7 @@
             "Key": "c26873da-ebb2-444e-8484-e0d2748a3f19",
             "Value": {
                 "id": "f2ba1f27-ce12-48ca-998e-6c3673537b1a",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\LostScreen\\LostScreen.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1290,7 +1290,7 @@
             "Key": "e0e3da6f-c02a-4613-b429-33b5ea9fd277",
             "Value": {
                 "id": "33d1f848-a12f-46ab-983a-bdb6f4eb73c3",
-                "resourcePath": "rooms\\TestRoom\\TestRoom.yy",
+                "resourcePath": "rooms\\RoomOne\\RoomOne.yy",
                 "resourceType": "GMRoom"
             }
         },

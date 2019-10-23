@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "LostScreen",
     "id": "c26873da-ebb2-444e-8484-e0d2748a3f19",
     "creationCodeFile": "",
     "inheritCode": false,

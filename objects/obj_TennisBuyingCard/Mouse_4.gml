@@ -4,4 +4,5 @@ if(cost <= cash){
 	global.TennisTower = true;
 	instance_destroy();
 	cash -= cost;
+	CardLevel +=1;
 }

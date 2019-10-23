@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(room = TestRoom){
+if(room = RoomOne){
 	LaneNumber = 3;
 }
-else if(room = TestRoom1){
+else if(room = RoomTwo){
 	LaneNumber = 4;
 }
 
@@ -15,7 +15,7 @@ if(global.hours = 1 || global.hours = 0 ){
 if(global.hours = 2){
 	wave = 1;
 }
-if(global.hours = 3){
+if(global.hours = 3 || global.hours = 4){
 	wave = 2;
 }
 if(global.hours = 5){
@@ -23,6 +23,9 @@ if(global.hours = 5){
 }
 if(global.hours = 6){
 	wave = 4;
+}
+if(global.hours = 9){
+	wave = 5
 }
 
 
@@ -69,7 +72,7 @@ if(Lane != 0 && wave <=1){
 	instance_create_layer(LaneToSpawn.x,LaneToSpawn.y,"Enemy", obj_Enemy);
 	Lane = 0;
 }
-else if(Lane != 0 && wave = 2){
+else if(Lane != 0 && wave >= 2){
 	instance_create_layer(LaneToSpawn.x,LaneToSpawn.y,"Enemy", EnemyToSpawn);
 	Lane = 0;
 }

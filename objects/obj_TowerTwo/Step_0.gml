@@ -46,9 +46,6 @@ else if(DistanceToReticle = -640){
 	UserSet = 132;
 }
 
-if(Health <=0){
-	instance_destroy();
-}
 
 if(Damaged){
 	sprite_index = spr_CatapultGameHurt;
@@ -56,4 +53,8 @@ if(Damaged){
 }
 else{
 	sprite_index = spr_CatapultGame;
+}
+
+if(Health <=0){
+	instance_destroy();
 }
