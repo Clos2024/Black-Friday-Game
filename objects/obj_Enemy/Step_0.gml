@@ -2,7 +2,6 @@
 // You can write your code in this editor
 var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
 
-
 if(tower != noone){
 	if(point_distance(x,y,tower.x,tower.y) <= range){
 		if(!attacking){
@@ -34,7 +33,6 @@ else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyBasicWalk;
 	speed = 1;
 }
-
 
 
 if(Health <= 0){

@@ -24,3 +24,4 @@ attackDamage = 10;
 
 damaged = false;
 WalkBack = false;
+ItemInlane = false;
