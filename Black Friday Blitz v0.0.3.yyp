@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "6b3d9a68-ac63-44fe-8b24-f3437aaabc4b",
+            "Value": {
+                "id": "a340584a-7083-4300-ade6-5946e2d4f6e2",
+                "resourcePath": "objects\\roombackground\\roombackground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6cdd3b0f-7bf7-444c-9d37-758302e6826a",
             "Value": {
                 "id": "4561a349-cb91-4f4b-b06e-dcf0908393fa",
