@@ -42,7 +42,18 @@ if(UI != noone){
 			}
 		}
 	}
-	
+	else if(mouse_check_button_pressed(mb_left) && global.SelectedTowerOne = true){
+		global.SelectedTowerOne = false;
+	}
+	else if(mouse_check_button_pressed(mb_left) && global.SelectedTowerTwo = true){
+		global.SelectedTowerTwo = false;
+	}
+	else if(mouse_check_button_pressed(mb_left) && global.SelectedTowerThree = true){
+		global.SelectedTowerThree = false;
+	}
+}
+else if(mouse_check_button_pressed(mb_left) && global.Recycling = true){
+	global.Recycling = false;
 }
 if(Tile != noone){
 	TileOn = Tile;
