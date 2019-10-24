@@ -16,7 +16,7 @@ alarm[0] = room_speed * 5;
 else if(wave = 3){
 Lane = irandom_range(1,LaneNumber);
 EnemyType = irandom_range(1,10)
-alarm[0] = room_speed * 2;
+alarm[0] = room_speed * 1.5;
 }
 else if(wave = 4){
 Lane = irandom_range(1,LaneNumber);
