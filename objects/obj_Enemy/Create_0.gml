@@ -24,4 +24,10 @@ attackDamage = 10;
 
 damaged = false;
 WalkBack = false;
-ItemInlane = false;
+
+ImHolding = false;
+
+SearchForItem = false;
+SearchUpAndDown = false;
+RunHome = false;
+
