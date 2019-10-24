@@ -44,42 +44,47 @@ if(Health <= 0){
 
 var item = collision_line(x,y,x+1920,y,Parent_Item,false,true);
 
+
 if(item != noone){
 	SearchForItem = false;
-	hspeed = 1;
+	hspeed = 2;
 	vspeed = 0;
 	WalkBack = false;
 	image_xscale = 1;
+	WalkUp = false;
+	WalkDown = false;
+	
 	if(item.held = true && ImHolding = true){
 		RunHome = true;
 	}
-	else{
-		RunHome = false;
-	}
 }
 else if(item = noone){
-	SearchForItem = true;
-		if(SearchForItem = true && x=192){
-			SearchUpAndDown = true
-			if(SearchUpAndDown){
-				WalkBack = false
-				hspeed=0;
-				vspeed=-1;
-				if(y<320){
-				hspeed = 0;
-				vspeed = 1;
-				}
-				else if(y>832){
-				hspeed = 0;
-				vspeed = -1;
-				}
-			}
+	if(x=192){
+		WalkDown = true;
+		WalkBack = false;
+		if(y<=320){
+			WalkDown = true;
+			WalkUp = false;
 		}
-		else if(SearchForItem = true && x>192){
-			WalkBack = true;
-			speed = 1;
-			
+		else if(y>=832){
+			WalkUp = true;
+			WalkDown = false;
 		}
+	}
+	else if(x>192){
+		WalkBack = true;
+		hspeed = 2;
+	}
+}
+
+if(WalkDown){
+	hspeed = 0;
+	vspeed = 2;
+}
+
+if(WalkUp){
+	hspeed = 0;
+	vspeed = -2;
 }
 
 if(RunHome){

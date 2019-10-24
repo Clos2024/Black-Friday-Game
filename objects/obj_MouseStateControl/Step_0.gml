@@ -54,6 +54,7 @@ if(Tile != noone){
 		global.SelectedTowerTwo = false;
 		global.SelectedTowerThree = false;
 		TileOn.occupied = true;
+		audio_play_sound(select,1,0);
 	}
 	}
 	
@@ -65,6 +66,7 @@ if(Tile != noone){
 		global.SelectedTowerTwo = false;
 		global.SelectedTowerThree = false;
 		TileOn.occupied = true;
+		audio_play_sound(select,1,0);
 	}
 	}
 	
@@ -76,6 +78,7 @@ if(Tile != noone){
 		global.SelectedTowerTwo = false;
 		global.SelectedTowerThree = false;
 		TileOn.occupied = true;
+		audio_play_sound(select,1,0);
 	}
 	}
 }

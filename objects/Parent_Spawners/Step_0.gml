@@ -24,9 +24,6 @@ if(global.hours = 5){
 if(global.hours = 6){
 	wave = 4;
 }
-if(global.hours = 9){
-	wave = 5
-}
 
 
 //Random number decides what lane to spawn in 

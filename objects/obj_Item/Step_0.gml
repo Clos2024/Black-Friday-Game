@@ -23,18 +23,3 @@ else{
 if(x <= 5){
 	instance_destroy(self);
 }
-
-//if(EnemyHolding2 != noone){
-//	held = true;
-//	if(held == true){
-//		x = EnemyHolding2.x;
-//		y = EnemyHolding2.y;
-//	}
-//	else{
-//		x = x;
-//		y = y;
-//	}
-//}
-//else{
-//	held = false;
-//}

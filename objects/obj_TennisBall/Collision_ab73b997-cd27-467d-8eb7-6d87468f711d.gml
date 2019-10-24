@@ -4,7 +4,7 @@ hit = instance_place(x,y,obj_Enemy);
 
 if(hit != noone){
 	hit.Health -= damage;
-	cash +=5;
+	cash +=3;
 	instance_destroy();
 }
 

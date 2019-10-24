@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "15acae07-a4a9-4ee8-bf01-d60c5640313f",
+            "Value": {
+                "id": "79e66699-9dc9-4792-97ae-461642180d68",
+                "resourcePath": "sounds\\TennisShoot\\TennisShoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1624d2b0-29aa-413a-b6d6-5d2a1a34571a",
             "Value": {
                 "id": "9213aff5-eb2f-4f64-952b-258b5d17a1b1",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "3a9e82f8-304c-41fb-8cc1-aad7109b9d76",
+            "Value": {
+                "id": "3dce013a-1b95-4dc3-a6fb-c10bb8ca696c",
+                "resourcePath": "sounds\\TennisHit\\TennisHit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3aa801e4-78e5-4c3b-8ca2-0cbe9206ace6",
             "Value": {
                 "id": "df9cca57-0e29-4de9-83c9-6c97f01d9caf",
@@ -412,6 +428,14 @@
                 "id": "d15eb8f1-ed75-4316-8458-42413d9c1b36",
                 "resourcePath": "sprites\\spr_YouWin\\spr_YouWin.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3ce3b444-7868-41e2-b9b7-5c4d5e96e57c",
+            "Value": {
+                "id": "14884e62-e602-435f-bd7d-d4cff0ccada3",
+                "resourcePath": "sounds\\TowerHit\\TowerHit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -804,6 +828,14 @@
                 "id": "7cd7e7c6-6a61-49e4-87b9-d8d50a34fd47",
                 "resourcePath": "objects\\obj_HealthBar\\obj_HealthBar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "874b1823-2d7e-406f-98b1-7a16bec95132",
+            "Value": {
+                "id": "bea9fe37-e24b-4544-964a-fc46df092873",
+                "resourcePath": "sounds\\Destroy\\Destroy.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1215,6 +1247,14 @@
             }
         },
         {
+            "Key": "d10079f5-57ec-4bf3-bd43-f2be8b89d3c6",
+            "Value": {
+                "id": "7334e347-ab33-4f24-9db9-82c490fc5e6e",
+                "resourcePath": "sounds\\Alarm\\Alarm.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d1e91aff-74ea-4870-9df3-339eed5adbe3",
             "Value": {
                 "id": "31809278-4cb7-419b-9768-8be4b7c148ab",
@@ -1508,6 +1548,14 @@
                 "id": "598bb331-bf7e-4044-9bf7-b8daae617207",
                 "resourcePath": "objects\\obj_MouseStateControl\\obj_MouseStateControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fe88ce67-7be4-42f3-ae42-23348cab0bd9",
+            "Value": {
+                "id": "01feb285-588e-4c00-bc83-c76353fc03e0",
+                "resourcePath": "sounds\\select\\select.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -31,3 +31,5 @@ SearchForItem = false;
 SearchUpAndDown = false;
 RunHome = false;
 
+WalkDown = false;
+WalkUp = false;

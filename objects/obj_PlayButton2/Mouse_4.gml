@@ -3,6 +3,6 @@
 if(global.roomtraveled < 2){
 	room_goto(RoomOne);
 }
-else if(global.roomtraveled >2){
+else if(global.roomtraveled > 2){
 	room_goto(RoomTwo)
 }

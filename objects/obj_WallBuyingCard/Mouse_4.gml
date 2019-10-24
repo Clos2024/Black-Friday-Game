@@ -4,4 +4,5 @@ if(cost <= cash){
 	global.WallTower = true;
 	instance_destroy();
 	cash -= cost;
+	audio_play_sound(select,1,0);
 }

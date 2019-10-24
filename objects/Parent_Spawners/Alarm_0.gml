@@ -6,7 +6,7 @@ alarm[0] = room_speed * 20;
 }
 else if(wave = 1){
 Lane = irandom_range(1,LaneNumber);
-alarm[0] = room_speed * 10;
+alarm[0] = room_speed * 8;
 }
 else if(wave = 2){
 Lane = irandom_range(1,LaneNumber);
