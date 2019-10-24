@@ -86,4 +86,6 @@ if(WalkBack){
 	speed = -speed;
 	image_xscale = -1;
 }
-
+if(Health <= 0){
+	instance_destroy();
+}
