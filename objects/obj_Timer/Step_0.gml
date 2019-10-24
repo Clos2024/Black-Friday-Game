@@ -16,10 +16,10 @@ if(global.hours = 6 && instance_number(obj_Enemy) = 0 && instance_number(obj_Ene
 	cash += cash*.10;
 }
 }
-if(global.hours = 5){
-	instance_create_layer(x,y+200,"UI",obj_Blitz);
-	global.hours = 5.1;
-}
-if(global.hours = 6.1){
-	global.hours = 6;
-}
+//if(global.hours = 5){
+//	instance_create_layer(x,y+200,"UI",obj_Blitz);
+//	global.hours = 5.1;
+//}
+//if(global.hours = 6.1){
+//	global.hours = 6;
+//}

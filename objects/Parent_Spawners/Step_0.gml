@@ -65,7 +65,7 @@ if(EnemyType <= 3){
 else if(EnemyType > 3 && EnemyType < 10){
 	EnemyToSpawn = obj_Enemy;
 }
-else if(EnemyType >= 10){
+else if(EnemyType >10){
 	EnemyToSpawn = obj_Enemy3;
 }
 
