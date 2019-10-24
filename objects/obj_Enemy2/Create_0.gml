@@ -23,3 +23,11 @@ attackDamage = 15;
 
 damaged = false;
 WalkBack = false;
+
+SearchForItem = false;
+SearchUpAndDown = false;
+RunHome = false;
+ImHolding = false;
+
+WalkDown = false;
+WalkUp = false;

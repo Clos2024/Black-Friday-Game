@@ -7,7 +7,7 @@ if(instance_exists(towerToAttack)){
 	if(hit != noone){
 	hit.Health -= attackDamage;
 	hit.Damaged = true;
+	audio_play_sound(TowerHit,1,0);
 	}
-	
-
 }
+
