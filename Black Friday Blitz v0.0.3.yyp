@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "61113afc-3d69-4081-81a3-1e160e0c4388",
+            "Value": {
+                "id": "5c3dca83-2d90-4518-9915-f95cff6de42f",
+                "resourcePath": "objects\\obj_roomcounter\\obj_roomcounter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "62ba2f24-7ad2-449b-85b6-6804a387c98a",
             "Value": {
                 "id": "b18d32a4-dcba-4f31-896a-857d48c208b7",

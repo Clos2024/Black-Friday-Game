@@ -51,7 +51,7 @@ if(item != noone){
 		RunHome = true;
 	}
 	else{
-		RunHome = false;
+		//RunHome = false;
 	}
 }
 else if(item = noone){
@@ -59,7 +59,7 @@ else if(item = noone){
 		if(SearchForItem = true && x=192){
 			SearchUpAndDown = true
 			if(SearchUpAndDown){
-				WalkBack = false
+				WalkBack = false;
 				hspeed=0;
 				vspeed=-1;
 				if(y<320){
@@ -74,8 +74,7 @@ else if(item = noone){
 		}
 		else if(SearchForItem = true && x>192){
 			WalkBack = true;
-			speed = 1;
-			
+			hspeed = 1;
 		}
 }
 

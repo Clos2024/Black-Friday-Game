@@ -4,5 +4,4 @@ if(cost <= cash){
 	global.WallTower = true;
 	instance_destroy();
 	cash -= cost;
-	CardLevel +=1;
 }

@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(BuyingRoom);
-global.roomtraveled += 1;
+if(global.roomtraveled < 2){
+	instance_deactivate_object(obj_CatapultBuyingCard);
+}
