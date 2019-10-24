@@ -1,11 +1,25 @@
 /// @description Clock 
 // You can write your code in this editor
 
-if(global.hours = 9){
-	global.hours = 9;
+if(global.hours = 6){
+	global.hours = 6;
 }
-
-if(global.hours = 9 && instance_number(obj_Enemy) = 0 && instance_number(obj_Enemy2) = 0){
+if(room = RoomOne){
+if(global.hours = 6 && instance_number(obj_Enemy) = 0 && instance_number(obj_Enemy2) = 0){
 	room_goto_next();
-	cash += cash*.15;
+	cash += cash*.10;
 }
+}
+if(room = RoomTwo){
+if(global.hours = 6 && instance_number(obj_Enemy) = 0 && instance_number(obj_Enemy2) = 0){
+	room_goto(BuyingRoom);
+	cash += cash*.10;
+}
+}
+//if(global.hours = 5){
+//	instance_create_layer(x,y+200,"UI",obj_Blitz);
+//	global.hours = 5.1;
+//}
+//if(global.hours = 6.1){
+//	global.hours = 6;
+//}

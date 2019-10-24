@@ -36,6 +36,50 @@
                     "LayerId": "4387c303-bb8d-4631-adea-e271e89180a8"
                 }
             ]
+        },
+        {
+            "id": "efea38d8-2325-4524-a96a-7404e75c9e91",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "75fe73b4-42ae-4d19-9316-81f19b8ce87c",
+            "compositeImage": {
+                "id": "ff9799d2-482e-4e92-9f27-caa548a4aced",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "efea38d8-2325-4524-a96a-7404e75c9e91",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "274449b9-44c4-4752-8ff7-5cff23f7f104",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "efea38d8-2325-4524-a96a-7404e75c9e91",
+                    "LayerId": "4387c303-bb8d-4631-adea-e271e89180a8"
+                }
+            ]
+        },
+        {
+            "id": "2d0f2cd7-ae8f-489c-a3f9-3e92e9cdb0e4",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "75fe73b4-42ae-4d19-9316-81f19b8ce87c",
+            "compositeImage": {
+                "id": "80969709-2379-4170-ad1a-36d51b2685f8",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "2d0f2cd7-ae8f-489c-a3f9-3e92e9cdb0e4",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "dcaf333b-e81f-43a8-9e12-c8e355338dd6",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "2d0f2cd7-ae8f-489c-a3f9-3e92e9cdb0e4",
+                    "LayerId": "4387c303-bb8d-4631-adea-e271e89180a8"
+                }
+            ]
         }
     ],
     "gridX": 0,
@@ -56,7 +100,7 @@
     ],
     "origin": 4,
     "originLocked": false,
-    "playbackSpeed": 15,
+    "playbackSpeed": 0,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
