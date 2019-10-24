@@ -1375,6 +1375,14 @@
             }
         },
         {
+            "Key": "ed207dac-9558-4de2-93f5-76b77ffa3c87",
+            "Value": {
+                "id": "3867c151-c3f3-4b41-8b41-3d78427aea3e",
+                "resourcePath": "objects\\obj_EnemyBACKUP\\obj_EnemyBACKUP.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ee421cb0-4e28-4e44-8f97-5aa0744658b0",
             "Value": {
                 "id": "b348a005-4314-400a-9f04-35aca6905c7e",
