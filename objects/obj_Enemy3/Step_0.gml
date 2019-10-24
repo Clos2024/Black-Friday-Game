@@ -5,7 +5,7 @@ var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
 if(tower != noone){
 	if(point_distance(x,y,tower.x,tower.y) <= range){
 		if(!attacking){
-			alarm[0] = room_speed * 8;;
+			alarm[0] = room_speed * 8;
 			attacking = true;
 			speed = 0;
 			
@@ -19,7 +19,7 @@ if(tower != noone){
 }
 else{
 	//sprite_index = spr_Enemy2;
-	speed = .5;
+	speed = .3;
 }
 
 if(attacking = false){
@@ -32,7 +32,7 @@ if(damaged = true){
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyTankWalk;
-	speed = .5;
+	speed = .3;
 }
 
 
@@ -47,7 +47,7 @@ var item = collision_line(x,y,x+1920,y,Parent_Item,false,true);
 
 if(item != noone){
 	SearchForItem = false;
-	hspeed = 2;
+	hspeed = .3;
 	vspeed = 0;
 	WalkBack = false;
 	image_xscale = 1;
@@ -73,18 +73,18 @@ else if(item = noone){
 	}
 	else if(x>192){
 		WalkBack = true;
-		hspeed = 2;
+		hspeed = .3;
 	}
 }
 
 if(WalkDown){
 	hspeed = 0;
-	vspeed = 2;
+	vspeed = .3;
 }
 
 if(WalkUp){
 	hspeed = 0;
-	vspeed = -2;
+	vspeed = -.3;
 }
 
 if(RunHome){

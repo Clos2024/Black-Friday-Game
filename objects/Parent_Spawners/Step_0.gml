@@ -3,9 +3,11 @@
 
 if(room = RoomOne){
 	LaneNumber = 3;
+	EnemyNumber = 10;
 }
 else if(room = RoomTwo){
 	LaneNumber = 4;
+	EnemyNumber = 15;
 }
 
 //Wave Times
@@ -60,8 +62,11 @@ if(!instance_exists(obj_SpawnPoint3) && Lane =3){
 if(EnemyType <= 3){
 	EnemyToSpawn = obj_Enemy2;
 }
-else if(EnemyType > 3){
+else if(EnemyType > 3 && EnemyType < 10){
 	EnemyToSpawn = obj_Enemy;
+}
+else if(EnemyType >= 10){
+	EnemyToSpawn = obj_Enemy3;
 }
 
 

@@ -10,17 +10,17 @@ alarm[0] = room_speed * 8;
 }
 else if(wave = 2){
 Lane = irandom_range(1,LaneNumber);
-EnemyType = irandom_range(1,10)
+EnemyType = irandom_range(1,EnemyNumber)
 alarm[0] = room_speed * 5;
 }
 else if(wave = 3){
 Lane = irandom_range(1,LaneNumber);
-EnemyType = irandom_range(1,10)
+EnemyType = irandom_range(1,EnemyNumber)
 alarm[0] = room_speed * 1.5;
 }
 else if(wave = 4){
 Lane = irandom_range(1,LaneNumber);
-EnemyType = irandom_range(1,10)
+EnemyType = irandom_range(1,EnemyNumber)
 alarm[0] = room_speed * 4;
 }
 else if(wave = 5){

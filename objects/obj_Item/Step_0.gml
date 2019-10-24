@@ -2,7 +2,6 @@
 // You can write your code in this editor
 var EnemyHolding = collision_point(x,y,Parent_Enemies,false,true);
 
-
 if(EnemyHolding != noone){
 	held = true;
 	if(held = true){
