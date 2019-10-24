@@ -9,10 +9,12 @@ if(EnemyHolding != noone && held != true){
 	if(held){
 		x = EnemyHolding.x;
 		y = EnemyHolding.y;
+		EnemyHolding.ImHolding = true;
 	}
 	else{
 		x = x;
 		y = y;
+		EnemyHolding.ImHolding = false;
 	}
 }
 else{

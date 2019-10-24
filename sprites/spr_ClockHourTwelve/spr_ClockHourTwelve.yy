@@ -2,7 +2,7 @@
     "id": "eb9367ae-6e0f-4470-8616-316f0dbe65ed",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_ClockHourOne",
+    "name": "spr_ClockHourTwelve",
     "For3D": false,
     "HTile": false,
     "VTile": false,
