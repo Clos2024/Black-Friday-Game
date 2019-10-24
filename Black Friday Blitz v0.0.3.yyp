@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0cb422da-2a8c-48fc-823e-815080e8944c",
+            "Value": {
+                "id": "83d65f7f-a8d5-47ed-99c7-383b4d761312",
+                "resourcePath": "sounds\\CatapultLaunch\\CatapultLaunch.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0d0bb6a4-33b7-4be4-bdf4-8db34d50a913",
             "Value": {
                 "id": "18acd87e-57e6-46e9-9b83-976a7496bf08",
