@@ -5,5 +5,5 @@ if(global.PlayerHP = 50){
 }
 else if(global.PlayerHP <= 0){
 	sprite_index = spr_HealthBarEmpty;
-	room_goto(room0);
+	room_goto(LostScreen);
 }
