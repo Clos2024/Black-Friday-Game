@@ -20,7 +20,8 @@
         "a9298491-c695-42e3-ac94-a584d2fe6bcd",
         "b82057d1-5ce3-4832-8172-145e2f14cfb9",
         "0d0bb6a4-33b7-4be4-bdf4-8db34d50a913",
-        "cdd3d821-0ec7-45f3-9b0f-3b6c31cef24d"
+        "cdd3d821-0ec7-45f3-9b0f-3b6c31cef24d",
+        "6b3d9a68-ac63-44fe-8b24-f3437aaabc4b"
     ],
     "filterType": "GMObject",
     "folderName": "grp_enviorment",

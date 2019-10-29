@@ -7,4 +7,4 @@ LaneToSpawn = noone;
 EnemyToSpawn = noone;
 EnemyType = 0;
 wave = 0;
-HordesSent = 0;
+alarm[0] = room_speed * 20;

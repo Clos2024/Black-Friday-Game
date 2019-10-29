@@ -5,7 +5,7 @@
     "name": "Parent_Spawners",
     "eventList": [
         {
-            "id": "2d5dfc85-1139-442c-9c7d-54314eb2804d",
+            "id": "ab4e14a5-795f-4674-8cc4-ace9be25da3a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "0b9ec62f-1be2-454b-8e69-95d5e5c78115"
         },
         {
-            "id": "8c587565-a7bb-459e-8992-b305c0935d3f",
+            "id": "6228167d-23cf-4763-b1dc-8508de9764c1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "0b9ec62f-1be2-454b-8e69-95d5e5c78115"
         },
         {
-            "id": "e5138f4d-cf06-4741-b005-b4ca2a3cd276",
+            "id": "18738d18-b1f9-4f1b-a378-46c1f561164c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
