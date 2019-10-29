@@ -959,11 +959,27 @@
             }
         },
         {
+            "Key": "91c56c03-4e7a-4d2c-95e9-4167e9c698e8",
+            "Value": {
+                "id": "4abdbf57-cc6a-4daa-8f92-64e43bd7105c",
+                "resourcePath": "sprites\\spr_candyshopShelf\\spr_candyshopShelf.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92a8e74a-d2dc-4417-b46e-139465c9f9be",
             "Value": {
                 "id": "3751a2db-5ee8-4e79-972e-5b2ce4a76280",
                 "resourcePath": "views\\92a8e74a-d2dc-4417-b46e-139465c9f9be.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "92eacd34-f520-4773-a37b-c358a8a0e669",
+            "Value": {
+                "id": "3724dbdf-89df-41f7-a3fe-764bc05bac79",
+                "resourcePath": "sprites\\spr_watergun\\spr_watergun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1212,6 +1228,14 @@
                 "id": "042e1a5c-102e-4413-a053-726569344459",
                 "resourcePath": "objects\\obj_Enemy2Killed\\obj_Enemy2Killed.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8ff45f4-72b1-4a0c-9c00-f5f827448bf6",
+            "Value": {
+                "id": "85a864dd-e525-481e-8633-c41d7af81807",
+                "resourcePath": "sprites\\spr_candyshopFloor\\spr_candyshopFloor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
