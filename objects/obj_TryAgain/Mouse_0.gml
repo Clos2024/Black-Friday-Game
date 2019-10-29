@@ -7,3 +7,4 @@ global.Enemy2Killed = 0;
 global.TennisTower = false;
 global.WallTower = false;
 global.CatapultTower = false;
+global.roomtraveled = 0;
