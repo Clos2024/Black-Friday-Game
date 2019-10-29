@@ -130,7 +130,7 @@ if(global.SelectedTowerTwo = true){
 	cursor_sprite = spr_CatapultGameCursor;
 }
 if(global.SelectedTowerThree = true){
-	cursor_sprite = spr_WallTower;
+	cursor_sprite = spr_WallTower1;
 }
 
 if(mouse_check_button_pressed(mb_right)){

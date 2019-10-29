@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "1585f003-7eff-4eb8-9cbb-db95a1a635ad",
+            "Value": {
+                "id": "9e29ebf4-8182-4c1e-b2ba-57b2d2766a80",
+                "resourcePath": "objects\\obj_BlitzSign\\obj_BlitzSign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15acae07-a4a9-4ee8-bf01-d60c5640313f",
             "Value": {
                 "id": "79e66699-9dc9-4792-97ae-461642180d68",
@@ -1067,6 +1075,14 @@
             "Value": {
                 "id": "ca5bc713-eef0-4dc7-9f0f-2739edbef590",
                 "resourcePath": "sprites\\spr_MomNormalWalk\\spr_MomNormalWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1a03a96-32a1-41c2-9117-397bdd3b26d0",
+            "Value": {
+                "id": "3ea78ae8-3ec7-437a-856d-08d4434f3d5c",
+                "resourcePath": "sprites\\spr_WallTower1\\spr_WallTower1.yy",
                 "resourceType": "GMSprite"
             }
         },
