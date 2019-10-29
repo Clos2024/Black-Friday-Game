@@ -2,45 +2,22 @@
 // You can write your code in this editor
 var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
 
-if(tower != noone){
-	if(point_distance(x,y,tower.x,tower.y) <= range){
-		if(!attacking){
-			alarm[0] = room_speed * 8;
-			attacking = true;
-			speed = 0;
-			
-		}
-		towerToAttack = tower;
-	}
-	else{
-		attacking = false;
-		towerToAttack = noone;
+	if(tower != noone){
+		if(point_distance(x,y,tower.x,tower.y) <= range){
+			towerToAttack = tower;
+			if(!attacking){
+				alarm[0] = room_speed * 1;
+				attacking = true;
+			}
 	}
 }
 else{
-	//sprite_index = spr_Enemy2;
-	speed = .3;
-}
-
-if(attacking = false){
-	sprite_index = spr_EnemyTankAttack;
-}
-
-if(damaged = true){
-	//sprite_index = spr_Enemy;
-	speed = 0;
-}
-else if(damaged != true && attacking !=true){
+	attacking = false;
 	sprite_index = spr_EnemyTankWalk;
 	speed = .3;
 }
-
-
-
-
-if(Health <= 0){
-	instance_destroy();
-}
+///////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
 
 var item = collision_line(x,y,x+1920,y,Parent_Item,false,true);
 
@@ -87,6 +64,25 @@ if(WalkUp){
 	vspeed = -.3;
 }
 
+if(attacking){
+	speed = 0;
+	sprite_index = spr_EnemyTankWalk;
+}
+else{
+	speed = .3;
+	sprite_index = spr_EnemyTankWalk;
+}
+
+if(damaged = true){
+	sprite_index = spr_EnemyTankWalk;
+	speed = 0;
+}
+else if(damaged != true && attacking !=true){
+	sprite_index = spr_EnemyTankWalk;
+	speed = .3;
+}
+
+
 if(RunHome){
 	speed = -speed;
 	image_xscale =-1;
@@ -95,4 +91,8 @@ if(RunHome){
 if(WalkBack){
 	speed = -speed;
 	image_xscale = -1;
+}
+
+if(Health <= 0){
+	instance_destroy();
 }
