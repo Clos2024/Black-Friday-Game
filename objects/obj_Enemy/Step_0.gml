@@ -15,7 +15,7 @@ var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
 else{
 	attacking = false;
 	sprite_index = spr_EnemyBasicWalk;
-	speed = 1;
+	speed = 1.35;
 }
 ///////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -70,7 +70,7 @@ if(attacking){
 	sprite_index = spr_EnemyBasicAttack;
 }
 else{
-	speed = 1;
+	speed = 1.35;
 	sprite_index = spr_EnemyBasicWalk;
 }
 
@@ -80,7 +80,7 @@ if(damaged = true){
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyBasicWalk;
-	speed = 1;
+	speed = 1.35;
 }
 
 
