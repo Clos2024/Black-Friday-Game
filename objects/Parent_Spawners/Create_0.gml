@@ -8,3 +8,4 @@ EnemyToSpawn = noone;
 EnemyType = 0;
 wave = 0;
 HordesSent = 0;
+BlitzCount = 0;
