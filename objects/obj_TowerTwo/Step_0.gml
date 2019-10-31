@@ -1,17 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 var enemy = collision_line(x,y,x-range,y,Parent_Enemies,false,true);
 
 if(enemy !=noone){
 	TowerReticle.x = enemy.x;
-	image_speed = .9;
+	//image_speed = .9;
 }
 else{
 	TowerReticle.x = x - 640;
-	image_index = 1;
-	image_speed = 0;
+	//image_index = 1;
+	//image_speed = 0;
 }
+
 
 DistanceToReticle = TowerReticle.x-x;
 
