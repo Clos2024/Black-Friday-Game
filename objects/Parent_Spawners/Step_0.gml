@@ -44,15 +44,14 @@ else if(Lane = 5){
 if(EnemyType <= 3){
 	EnemyToSpawn = obj_Enemy2;
 }
-else if(EnemyType > 3 && EnemyType < 10){
+else if(EnemyType > 3 && EnemyType < 13){
 	EnemyToSpawn = obj_Enemy;
 }
-else if(EnemyType >10){
+else if(EnemyType >13){
 	EnemyToSpawn = obj_Enemy3;
 }
 
 //Spawning
-if(room = RoomOne){
 	if(Lane != 0 && wave <= 1){
 		instance_create_layer(LaneToSpawn.x,LaneToSpawn.y,"Enemy", obj_Enemy);
 		Lane = 0;
@@ -61,4 +60,6 @@ if(room = RoomOne){
 		instance_create_layer(LaneToSpawn.x,LaneToSpawn.y,"Enemy", EnemyToSpawn);
 		Lane = 0;
 	}
-}
+
+
+

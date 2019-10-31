@@ -93,6 +93,11 @@ if(WalkBack){
 	speed = -speed;
 	image_xscale = -1;
 }
+
 if(Health <= 0){
 	instance_destroy();
+	if(death <= 0){
+		instance_create_layer(x+5,y,"Enemy",obj_EnemyDeath);
+		death += 1;
+	}
 }
