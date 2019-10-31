@@ -15,6 +15,6 @@ if(x <= 5){
 }
 
 
-if(room = RoomTwo){
-	sprite_index = spr_Candy;
-}
+//if(room = RoomTwo){
+//	sprite_index = spr_Candy;
+//}
