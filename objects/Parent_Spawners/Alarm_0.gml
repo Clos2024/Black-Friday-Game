@@ -53,12 +53,15 @@ else if(wave = 4){
 }
 }
 
+
+
+if(room = RoomTwo){
 if(wave = 0){
-	alarm[0] = room_speed * 15;
+	alarm[0] = room_speed * 10;
 	Lane = irandom_range(1,LaneNumber);
 }
 else if(wave = 1){
-	alarm[0] = room_speed * 10;
+	alarm[0] = room_speed * 9;
 	Lane = irandom_range(1,LaneNumber);
 }
 else if(wave = 2){
@@ -81,7 +84,7 @@ else if(wave = 3){
 	obj_ProgressBar.alarm[0] = room_speed * 1;
 	instance_destroy(obj_BlitzSign);
 	BlitzCount = 0;
-	alarm[0] = room_speed * 8;
+	alarm[0] = room_speed * 7;
 	Lane = irandom_range(1,LaneNumber);
 	EnemyType = irandom_range(1,EnemyNumber);
 }
@@ -106,4 +109,5 @@ else if(wave = 4){
 		BlitzCount +=1;
 	}
 	obj_ProgressBar.alarm[0] = room_speed * 0;
+}
 }

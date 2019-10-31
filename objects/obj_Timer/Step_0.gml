@@ -29,3 +29,9 @@ if(room = RoomOne){
 		cash = 500 + cash*.10;
 	}
 }
+if(room = RoomTwo){
+	if(global.hours = 4 && instance_number(obj_Enemy) = 0 && instance_number(obj_Enemy2) = 0){
+		room_goto(BuyingRoom);
+		cash = 500 + cash*.10;
+	}
+}
