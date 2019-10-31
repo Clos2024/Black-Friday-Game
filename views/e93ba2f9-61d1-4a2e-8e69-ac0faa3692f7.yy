@@ -7,7 +7,8 @@
         "bc7f7b4e-39ba-4347-81ed-89cb42ccf648",
         "ed207dac-9558-4de2-93f5-76b77ffa3c87",
         "0a7fb478-c4cd-4df0-aa4c-263873463f20",
-        "5f405bd0-090d-46c4-84cf-6ea108b7aa8f"
+        "5f405bd0-090d-46c4-84cf-6ea108b7aa8f",
+        "da058108-3f1c-450a-94ce-a16ea48d4588"
     ],
     "filterType": "GMObject",
     "folderName": "grp_Enemies",

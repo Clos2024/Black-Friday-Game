@@ -33,3 +33,6 @@ RunHome = false;
 
 WalkDown = false;
 WalkUp = false;
+
+hitable = true;
+death = 0;

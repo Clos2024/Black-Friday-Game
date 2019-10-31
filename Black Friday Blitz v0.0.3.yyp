@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "202bc3e3-7214-4150-b4df-063d8cf4d17b",
+            "Value": {
+                "id": "c0cb0c02-4d4f-418d-9d97-94a50a2042b4",
+                "resourcePath": "rooms\\RoomTwo\\RoomTwo.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "21038bcd-9dd9-4d85-b21d-fe514f7d9019",
             "Value": {
                 "id": "cd277f73-9d55-47ee-80cc-510e53775392",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "3bf946b5-79e4-404e-84c9-41ee6536c88b",
+            "Value": {
+                "id": "49d3a708-a7a0-43b2-9735-4ab3a01e1411",
+                "resourcePath": "sprites\\spr_Tick\\spr_Tick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c46f20b-5ffe-4cdb-b474-c150ceaa1955",
             "Value": {
                 "id": "0c659f10-2cad-477e-abc1-b2dd4047d113",
@@ -618,7 +634,7 @@
             "Key": "5b9c6b2a-7cdb-4b93-808f-091aba3d4614",
             "Value": {
                 "id": "ac3d3259-937f-4594-8686-0714cb3671f6",
-                "resourcePath": "rooms\\RoomTwo\\RoomTwo.yy",
+                "resourcePath": "rooms\\RoomTwoTest\\RoomTwoTest.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -831,10 +847,34 @@
             }
         },
         {
+            "Key": "794b95b1-54b0-40e8-8dfb-5a5b5c77fe55",
+            "Value": {
+                "id": "7d21568c-8417-45a1-8b32-052516bbc1b6",
+                "resourcePath": "sprites\\spr_Tile11\\spr_Tile11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a30c0d0-cb13-4bcf-b7b0-163365408aff",
+            "Value": {
+                "id": "e2f4bc51-6443-4bca-8916-b0196498efe2",
+                "resourcePath": "sprites\\spr_EnemyBasicDeath\\spr_EnemyBasicDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a9a4247-8675-4936-b98f-d3e3ceffbe6c",
             "Value": {
                 "id": "5ea3bcce-eeb6-4a5c-9ad4-4ff6aa1e4a16",
                 "resourcePath": "sprites\\spr_resourceBackground\\spr_resourceBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7b0da580-a3db-487c-a49a-2f3a13836eab",
+            "Value": {
+                "id": "4206470f-f364-4faf-9632-7c676bff1432",
+                "resourcePath": "sprites\\spr_shelf1\\spr_shelf1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1079,6 +1119,14 @@
             }
         },
         {
+            "Key": "988a5d2a-e083-4e31-8306-591c6303d3e3",
+            "Value": {
+                "id": "5c84ef52-9e8d-4e71-a07d-6fb6e6fb9e79",
+                "resourcePath": "objects\\obj_CandyStoreBackdrop\\obj_CandyStoreBackdrop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9a4b93e1-6895-4753-9a53-006ccf9bb932",
             "Value": {
                 "id": "ecdca7fd-adb4-4842-bf93-1d8e10372df4",
@@ -1163,6 +1211,14 @@
             "Value": {
                 "id": "f29532b4-f232-49ae-807c-3a5d96aa0912",
                 "resourcePath": "objects\\obj_Player\\obj_Player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a7fec7f0-2d43-450c-84cb-d3fe52c0ec02",
+            "Value": {
+                "id": "cb91b64d-213b-475a-861f-aa86c7c2e1e6",
+                "resourcePath": "objects\\obj_shelf1\\obj_shelf1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1375,6 +1431,14 @@
             }
         },
         {
+            "Key": "c5b7b7d1-df98-47b3-bd33-120c460ea374",
+            "Value": {
+                "id": "79a75994-aed5-4760-aeb2-1b2490b6383a",
+                "resourcePath": "sprites\\spr_WaveBar\\spr_WaveBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c6ff2ab3-2250-4a39-89ab-12b6e148b5f5",
             "Value": {
                 "id": "a7dea587-a3dd-446e-bc7d-4aaab0e954da",
@@ -1404,6 +1468,14 @@
                 "id": "1e759306-6235-4c1e-a4b8-872e44adc19d",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd6cdb70-e715-49aa-8c66-257ab391ea37",
+            "Value": {
+                "id": "b6d3f9e1-9576-48f6-85fe-2226f1315a27",
+                "resourcePath": "objects\\obj_ProgressBar\\obj_ProgressBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1511,6 +1583,14 @@
             }
         },
         {
+            "Key": "da058108-3f1c-450a-94ce-a16ea48d4588",
+            "Value": {
+                "id": "7e5c40e9-b1a7-47dc-9b8f-b7f54dec85e0",
+                "resourcePath": "objects\\obj_EnemyDeath\\obj_EnemyDeath.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd2a3bbd-11cd-47b8-a720-bb5f77904141",
             "Value": {
                 "id": "1cf42637-6e6d-4154-83ec-9972fcc8c82c",
@@ -1596,6 +1676,14 @@
                 "id": "24df1be6-41c5-46d7-9193-d71a68c7f194",
                 "resourcePath": "views\\e93ba2f9-61d1-4a2e-8e69-ac0faa3692f7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9f0f714-b299-4a55-8408-77ef11a202af",
+            "Value": {
+                "id": "ee120027-0e81-41c7-beb3-4170c2eb9721",
+                "resourcePath": "objects\\obj_TickProgress\\obj_TickProgress.yy",
+                "resourceType": "GMObject"
             }
         },
         {

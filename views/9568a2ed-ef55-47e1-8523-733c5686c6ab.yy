@@ -20,7 +20,8 @@
         "cf3e79df-c542-43ab-b3d7-dbe39288f774",
         "9c8cdc3d-394b-4afe-95a9-8bdde7dcd1c7",
         "003d39ef-7013-4dc8-b8b8-9547c03dbdbb",
-        "96f6f8ad-077b-47fc-905f-f332439fdb7c"
+        "96f6f8ad-077b-47fc-905f-f332439fdb7c",
+        "7a30c0d0-cb13-4bcf-b7b0-163365408aff"
     ],
     "filterType": "GMSprite",
     "folderName": "grp_Enemies",

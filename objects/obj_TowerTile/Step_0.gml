@@ -6,3 +6,6 @@ if(position_meeting(x,y,Parent_Towers)){
 else{
 	occupied = false;
 }
+if(room = RoomTwo){
+	sprite_index = spr_Tile11;
+}
