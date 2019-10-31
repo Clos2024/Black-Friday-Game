@@ -12,20 +12,20 @@ else if(wave = 2){
 
 	if(BlitzCount < 1){
 		instance_create_layer(obj_Timer.x,obj_Timer.y,"Instances_3",obj_BlitzSign);
+		instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy);
+		instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy2);
+		instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy);
+		instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy2);
+		instance_create_layer(obj_SpawnPoint3.x,obj_SpawnPoint3.y,"Enemy",obj_Enemy);
+		instance_create_layer(obj_SpawnPoint3.x,obj_SpawnPoint3.y,"Enemy",obj_Enemy2);
 		BlitzCount +=1;
 	}
-	instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy);
-	instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy2);
-	instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy);
-	instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy2);
-	instance_create_layer(obj_SpawnPoint3.x,obj_SpawnPoint3.y,"Enemy",obj_Enemy);
-	instance_create_layer(obj_SpawnPoint3.x,obj_SpawnPoint3.y,"Enemy",obj_Enemy2);
-	alarm[0] = room_speed * 30;
+	alarm[0] = room_speed * 10;
 }
 else if(wave = 3){
 	instance_destroy(obj_BlitzSign);
 	BlitzCount = 0;
-	alarm[0] = room_speed * 10;
+	alarm[0] = room_speed * 8;
 	Lane = irandom_range(1,LaneNumber);
 	EnemyType = irandom_range(1,EnemyNumber);
 }

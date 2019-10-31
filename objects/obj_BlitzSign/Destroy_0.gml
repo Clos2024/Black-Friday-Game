@@ -1,6 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-refund = global.Wallcost/2;
-
-Health = 60;
-
+global.hours += 1;

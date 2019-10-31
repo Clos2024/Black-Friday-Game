@@ -759,10 +759,26 @@
             }
         },
         {
+            "Key": "6fbc476c-c3f4-42d9-9919-cf8d311b1b46",
+            "Value": {
+                "id": "8a5adf1c-d2e6-4c41-94f7-9c382690d0d5",
+                "resourcePath": "sprites\\spr_TowerFiveInfo\\spr_TowerFiveInfo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74b14fe0-7909-46ac-aee2-6ed19c590df4",
             "Value": {
                 "id": "e69c9389-7937-4840-91fd-b2ba7f4da83b",
                 "resourcePath": "objects\\obj_SpawnPoint1\\obj_SpawnPoint1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74d04826-a1cb-4c05-b835-07b47b4f9ede",
+            "Value": {
+                "id": "373497bf-9314-4d97-b1ec-88d197f3210c",
+                "resourcePath": "objects\\obj_TowerTwoInfo\\obj_TowerTwoInfo.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -855,6 +871,14 @@
             }
         },
         {
+            "Key": "7f8a4e9f-1438-4d43-8d53-407e560d3859",
+            "Value": {
+                "id": "3e74dd9d-56aa-4489-948c-2a1fdc901b3b",
+                "resourcePath": "objects\\obj_TowerThreeInfo\\obj_TowerThreeInfo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ffc61a9-1c35-41f9-8435-4cc059062ff2",
             "Value": {
                 "id": "48ddf4f9-7907-4da7-b28f-293dd65f224f",
@@ -931,6 +955,14 @@
             "Value": {
                 "id": "cff186f5-a487-4fa2-99a1-a9ed7a18fbaf",
                 "resourcePath": "sprites\\spr_CatapultExplosion\\spr_CatapultExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8d258134-6701-4670-b7c5-ddfcfaa3fb63",
+            "Value": {
+                "id": "b340c4da-858b-473c-868a-99454ddda492",
+                "resourcePath": "sprites\\spr_TowerTwoInfo\\spr_TowerTwoInfo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1027,6 +1059,14 @@
             "Value": {
                 "id": "87bb0d2c-b87f-4132-aead-df2e5961a1c5",
                 "resourcePath": "sprites\\spr_DoorBusterHurt\\spr_DoorBusterHurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "977d30c3-56a5-4b00-890f-206f6408b0c3",
+            "Value": {
+                "id": "5513d1f3-8722-4b02-9c64-79a6437ffdba",
+                "resourcePath": "sprites\\spr_TowerFourInfo\\spr_TowerFourInfo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1271,6 +1311,14 @@
             }
         },
         {
+            "Key": "bb43182d-4c41-41a4-bd9a-f4cf5abc9a6c",
+            "Value": {
+                "id": "f2ecd52e-f7b3-4581-84ec-063d0212155f",
+                "resourcePath": "objects\\obj_TowerOneInfo\\obj_TowerOneInfo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb555ced-2662-443b-9313-36f79efe3365",
             "Value": {
                 "id": "61312952-cdcc-4436-9134-e08c37660408",
@@ -1495,6 +1543,14 @@
             }
         },
         {
+            "Key": "e2be1879-84c5-49fc-b42f-04d29f3df002",
+            "Value": {
+                "id": "e68f04f2-6b1c-4771-82aa-2fa2be47fa5c",
+                "resourcePath": "sprites\\spr_TowerThreeInfo\\spr_TowerThreeInfo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e334f918-898f-4263-b31f-f505f63b3e22",
             "Value": {
                 "id": "56f12e86-297e-41fc-92d1-24ca6e68db0f",
@@ -1604,6 +1660,14 @@
                 "id": "dc22521b-7662-4d88-84f6-5d7df8f8e236",
                 "resourcePath": "objects\\obj_CrossHair\\obj_CrossHair.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f0b6bacf-0fb2-444f-892d-8e40e223e9e8",
+            "Value": {
+                "id": "986ac293-e229-4a40-9fd8-375fc919820a",
+                "resourcePath": "sprites\\spr_TowerOneInfo\\spr_TowerOneInfo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
