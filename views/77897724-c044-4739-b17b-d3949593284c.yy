@@ -11,7 +11,7 @@
         "dd2a3bbd-11cd-47b8-a720-bb5f77904141"
     ],
     "filterType": "GMObject",
-    "folderName": "grp_TestObjects",
+    "folderName": "grp_SpawnPoints",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
