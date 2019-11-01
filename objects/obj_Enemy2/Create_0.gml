@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //HP
-Health = 240;
+Health = 180;
 
 speed = 2;
 
@@ -19,7 +19,7 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 15;
+attackDamage = 7;
 
 damaged = false;
 WalkBack = false;
