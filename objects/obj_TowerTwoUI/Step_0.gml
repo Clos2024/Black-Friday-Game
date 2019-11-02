@@ -6,3 +6,6 @@ if(OnTowerTwoUI = true){
 else{
 	sprite_index = spr_CatapultTowerSel;
 }
+if(cash<global.Catapultcost){
+	sprite_index = spr_CatapultTower1;
+}

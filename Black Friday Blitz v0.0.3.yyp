@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "6688480b-378e-4c2e-8e33-d6814c934fb3",
+            "Value": {
+                "id": "4915a12d-3f6d-43ba-9215-5e28f709560d",
+                "resourcePath": "sprites\\spr_TennisBallTower1\\spr_TennisBallTower1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67140e4d-ff0c-4f12-b3a2-a1ade1d09f9d",
             "Value": {
                 "id": "8d354fd1-e939-429d-a478-bd03e9cba7f1",
@@ -1212,6 +1220,14 @@
                 "id": "19270887-962f-49f2-81c8-1529a72106cf",
                 "resourcePath": "views\\a2366b8a-d842-4929-b913-850ae744deda.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a25e625b-d811-4261-89e2-13a182edf003",
+            "Value": {
+                "id": "214f578c-6f4f-4800-a854-081907d44d09",
+                "resourcePath": "sprites\\spr_CatapultTower1\\spr_CatapultTower1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

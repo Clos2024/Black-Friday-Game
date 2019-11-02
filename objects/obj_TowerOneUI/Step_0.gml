@@ -6,3 +6,6 @@ if(OnTowerOneUI = true){
 else{
 	sprite_index = spr_TennisBallTowerSel;
 }
+if(cash<global.TennisCost){
+	sprite_index = spr_TennisBallTower1;
+}
