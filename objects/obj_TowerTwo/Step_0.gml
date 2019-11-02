@@ -4,48 +4,47 @@ var enemy = collision_line(x,y,x-range,y,Parent_Enemies,false,true);
 
 if(enemy !=noone){
 	TowerReticle.x = enemy.x;
-	//image_speed = .9;
+	image_speed = 0.9;
+	image_index = 1;
 }
 else{
 	TowerReticle.x = x - 640;
-	//image_index = 1;
-	//image_speed = 0;
+	image_speed = 0;
 }
 
-
-DistanceToReticle = TowerReticle.x-x;
+DistanceToReticle = distance_to_object(Parent_Enemies);
 
 if(DistanceToReticle = 0){
 	UserSet = 90;
 }
-else if(DistanceToReticle = -64){
+else if(DistanceToReticle = 64){
 	UserSet = 93;
 }
-else if(DistanceToReticle = -128){
+else if(DistanceToReticle = 128){
 	UserSet = 96;
 }
-else if(DistanceToReticle = -192){
+else if(DistanceToReticle = 192){
 	UserSet = 100;
 }
-else if(DistanceToReticle = -256){
+else if(DistanceToReticle = 256){
 	UserSet = 103;
 }
-else if(DistanceToReticle = -320){
+else if(DistanceToReticle = 320){
 	UserSet = 106;
 }
-else if(DistanceToReticle = -384){
+else if(DistanceToReticle = 384){
 	UserSet = 110;
 }
-else if(DistanceToReticle = -448){
+else if(DistanceToReticle = 448){
 	UserSet = 114;
 }
-else if(DistanceToReticle = -512){
+else if(DistanceToReticle = 512){
 	UserSet = 119;
 }
-else if(DistanceToReticle = -576){
+else if(DistanceToReticle = 576){
 	UserSet = 125;
 }
-else if(DistanceToReticle = -640){
+else if(DistanceToReticle = 640){
 	UserSet = 132;
 }
 

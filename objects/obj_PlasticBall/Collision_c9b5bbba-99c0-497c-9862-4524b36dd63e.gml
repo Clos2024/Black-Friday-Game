@@ -8,6 +8,6 @@ if(hit != noone){
 	hit.Health -= damage;
 	hit.damage = true;
 	cash += 5;
-	instance_destroy(self);
+	instance_destroy();
 }
 }
