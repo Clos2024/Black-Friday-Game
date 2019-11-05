@@ -1247,6 +1247,14 @@
             }
         },
         {
+            "Key": "a35ed1b7-ab9b-40c2-9fea-e515e43a280d",
+            "Value": {
+                "id": "b1be11b0-b640-4a3b-92fc-9e1ecc829173",
+                "resourcePath": "sprites\\spr_SlidingDoor\\spr_SlidingDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a4d3cd57-80f0-40c8-bc61-f6c9ea6aa3ff",
             "Value": {
                 "id": "f29532b4-f232-49ae-807c-3a5d96aa0912",

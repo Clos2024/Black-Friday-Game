@@ -6,7 +6,7 @@ if(room = RoomOne){
 		pay = true;
 	}
 }
-else if(room = RoomOne){
+else if(room = RoomTwo){
 	if(!pay){
 		cash = 400;
 		pay = true;
