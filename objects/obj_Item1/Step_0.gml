@@ -24,6 +24,3 @@ if(x <= 5){
 	instance_destroy(self);
 }
 
-//if(room = RoomTwo){
-//	sprite_index = spr_Candy;
-//}

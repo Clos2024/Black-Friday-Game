@@ -21,7 +21,7 @@ if(UI != noone){
 	
 	if(mouse_check_button_pressed(mb_left))
 	{
-		if(collision_point(mouse_x,mouse_y,obj_TowerOneUI,false,false)){
+		if(collision_point(mouse_x,mouse_y,obj_TowerOneUI,false,false) && global.TennisCost<=cash){
 			if(UIOn.OnTowerOneUI = true){
 				global.SelectedTowerOne = true;
 			}
@@ -31,12 +31,12 @@ if(UI != noone){
 				global.Recycling = true;
 			}
 		}
-		if(collision_point(mouse_x,mouse_y,obj_TowerTwoUI,false,false)){
+		if(collision_point(mouse_x,mouse_y,obj_TowerTwoUI,false,false) && global.Catapultcost<=cash){
 			if(UIOn.OnTowerTwoUI = true){
 				global.SelectedTowerTwo = true;
 			}
 		}
-		if(collision_point(mouse_x,mouse_y,obj_TowerThreeUI,false,false)){
+		if(collision_point(mouse_x,mouse_y,obj_TowerThreeUI,false,false) && global.Wallcost<=cash){
 			if(UIOn.OnTowerThreeUI = true){
 				global.SelectedTowerThree = true;
 			}
@@ -68,7 +68,7 @@ if(Tile != noone){
 		TileOn.occupied = true;
 		audio_play_sound(select,1,0);
 	}
-	else if(TileOn.TowerOneOver = true && mouse_check_button_pressed(mb_left) && global.TennisCost>cash){
+	else if(TileOn.TowerOneOver = true && mouse_check_button_pressed(mb_left) && global.TennisCost>=cash){
 		audio_play_sound(Alarm,1,0);
 		global.SelectedTowerOne = false;
 	}
@@ -84,7 +84,7 @@ if(Tile != noone){
 		TileOn.occupied = true;
 		audio_play_sound(select,1,0);
 	}
-	else if(TileOn.TowerTwoOver = true && mouse_check_button_pressed(mb_left) && global.Catapultcost>cash){
+	else if(TileOn.TowerTwoOver = true && mouse_check_button_pressed(mb_left) && global.Catapultcost>=cash){
 		audio_play_sound(Alarm,1,0);
 		global.SelectedTowerTwo = false;
 	}
@@ -100,7 +100,7 @@ if(Tile != noone){
 		TileOn.occupied = true;
 		audio_play_sound(select,1,0);
 	}
-	else if(TileOn.TowerThreeOver = true && mouse_check_button_pressed(mb_left) && global.Wallcost>cash){
+	else if(TileOn.TowerThreeOver = true && mouse_check_button_pressed(mb_left) && global.Wallcost>=cash){
 		audio_play_sound(Alarm,1,0);
 		global.SelectedTowerThree = false;
 	}
