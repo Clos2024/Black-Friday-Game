@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "6a9d3235-862b-42a3-9469-91476fbc5cb6",
+            "Value": {
+                "id": "2765ac61-0c8b-441b-b11e-52188a2c03a0",
+                "resourcePath": "sprites\\spr_tennisballlauncher1\\spr_tennisballlauncher1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b3d9a68-ac63-44fe-8b24-f3437aaabc4b",
             "Value": {
                 "id": "a340584a-7083-4300-ade6-5946e2d4f6e2",
@@ -1923,14 +1931,6 @@
             "Value": {
                 "id": "06ae3d6a-7fff-4e41-b076-344e17e14dfe",
                 "resourcePath": "objects\\obj_TowerTwo\\obj_TowerTwo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ed207dac-9558-4de2-93f5-76b77ffa3c87",
-            "Value": {
-                "id": "3867c151-c3f3-4b41-8b41-3d78427aea3e",
-                "resourcePath": "objects\\obj_EnemyBACKUP\\obj_EnemyBACKUP.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -11,7 +11,7 @@ else if(wave = 1){
 }
 else if(wave = 2){
 	if(BlitzCount < 1){
-		instance_create_layer(obj_Timer.x,obj_Timer.y,"Instances_3",obj_BlitzSign);
+		instance_create_layer(obj_Timer.x,obj_Timer.y+50,"Instances_3",obj_BlitzSign);
 		instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy);
 		instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy2);
 		instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy);

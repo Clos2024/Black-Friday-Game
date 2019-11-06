@@ -3,4 +3,4 @@
 global.TennisTower = false;
 global.WallTower = false;
 global.CatapultTower = false;
-global.WaterGunTower = true;
+global.WaterGunTower = false;

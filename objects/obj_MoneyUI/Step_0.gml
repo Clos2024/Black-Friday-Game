@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(room = RoomOne){
 	if(!pay){
-		cash = 400;
+		cash = 300;
 		pay = true;
 	}
 }
