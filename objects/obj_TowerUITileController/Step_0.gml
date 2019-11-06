@@ -20,3 +20,10 @@ if(global.CatapultTower){
 else{
 	instance_deactivate_object(obj_TowerTwoUI);
 }
+
+if(global.WaterGunTower){
+	instance_activate_object(obj_TowerFourUI);
+}
+else{
+	instance_deactivate_object(obj_TowerFourUI);
+}

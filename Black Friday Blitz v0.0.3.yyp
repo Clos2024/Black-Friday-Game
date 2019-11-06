@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "09b5894c-cbcb-401a-82b4-525cbbbf9e89",
+            "Value": {
+                "id": "717b0a7b-0e79-40ce-934b-8f72926ab212",
+                "resourcePath": "sprites\\spr_WaterTowerSel\\spr_WaterTowerSel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a7fb478-c4cd-4df0-aa4c-263873463f20",
             "Value": {
                 "id": "436f29db-131d-4b79-b330-2f930df8b11e",
@@ -343,6 +351,22 @@
             }
         },
         {
+            "Key": "253a4d50-54f1-4331-bf1f-282e4a5e47ea",
+            "Value": {
+                "id": "2327c109-67d2-4e9a-8aa3-b06bf91edfe0",
+                "resourcePath": "objects\\obj_WaterGunBuyingCard\\obj_WaterGunBuyingCard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2561295c-f1f9-427c-8f44-2b9ccf03da18",
+            "Value": {
+                "id": "87f1afcc-9a96-45c0-83be-57b0e4578f61",
+                "resourcePath": "sprites\\spr_BuyWaterGun1\\spr_BuyWaterGun1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "261bd608-33d1-4c9d-afce-c3b46deaea87",
             "Value": {
                 "id": "12351465-c2d2-4174-acd9-38514325025d",
@@ -359,6 +383,14 @@
             }
         },
         {
+            "Key": "2a0bc0a2-2f03-48a6-b4fc-3440b0f89b55",
+            "Value": {
+                "id": "95a759f4-af3c-4649-b9b7-4e94faacb028",
+                "resourcePath": "sprites\\spr_BuyWaterGun11\\spr_BuyWaterGun11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b768971-a13e-403f-a1b2-8d925864f59b",
             "Value": {
                 "id": "7ce2d23f-edde-434f-9ee6-1f5466a568b9",
@@ -371,6 +403,14 @@
             "Value": {
                 "id": "dde86e7f-231f-4d29-abcc-e922d58bb76a",
                 "resourcePath": "objects\\obj_CodePuncher\\obj_CodePuncher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2d0683c6-f0a2-4323-91f3-39f27f1ce66e",
+            "Value": {
+                "id": "84d9bcf2-8c9e-481d-ad82-1f3a198b3bfd",
+                "resourcePath": "objects\\obj_TowerFourUI\\obj_TowerFourUI.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -575,6 +615,14 @@
             }
         },
         {
+            "Key": "46de81f6-f278-459a-af93-8ab151144529",
+            "Value": {
+                "id": "aca9f7ed-b1b9-4b9d-ac2f-7c6f4b2c7d1d",
+                "resourcePath": "sprites\\spr_watergunHit\\spr_watergunHit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4766cafc-0b5e-4985-9561-aa229e8b9549",
             "Value": {
                 "id": "ec8ca0dd-3137-4d19-ad30-d86819ceb399",
@@ -652,6 +700,14 @@
                 "id": "c9885e71-86ea-4113-ac78-750568bd6f45",
                 "resourcePath": "objects\\obj_WallBuyingCard\\obj_WallBuyingCard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "572e03cc-474f-4390-b1cb-e641dcaf83ae",
+            "Value": {
+                "id": "9a3cda19-b565-4b46-ae6b-4acb7342c079",
+                "resourcePath": "sprites\\spr_watergunHover\\spr_watergunHover.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -887,6 +943,14 @@
             }
         },
         {
+            "Key": "786bb74b-42b4-42d2-a450-b5fed577b8f7",
+            "Value": {
+                "id": "3c4262fb-d357-42b8-9608-adc83f36e32b",
+                "resourcePath": "sprites\\spr_BuyWaterGun\\spr_BuyWaterGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "794b95b1-54b0-40e8-8dfb-5a5b5c77fe55",
             "Value": {
                 "id": "7d21568c-8417-45a1-8b32-052516bbc1b6",
@@ -1036,6 +1100,14 @@
                 "id": "bea9fe37-e24b-4544-964a-fc46df092873",
                 "resourcePath": "sounds\\Destroy\\Destroy.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "89cac656-865e-4e4c-99e1-4f32eca6c10f",
+            "Value": {
+                "id": "a014508e-de26-4eac-b046-aef7315ec9ae",
+                "resourcePath": "objects\\obj_WaterBeam\\obj_WaterBeam.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1399,6 +1471,14 @@
             }
         },
         {
+            "Key": "b3672712-cbce-4c18-bb55-b193bc7e5691",
+            "Value": {
+                "id": "de711f72-a929-4b4a-9133-1b84ff2f7462",
+                "resourcePath": "views\\b3672712-cbce-4c18-bb55-b193bc7e5691.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b59a2e13-c2ad-4130-8ecc-c2f46a8658d3",
             "Value": {
                 "id": "5cb6c305-94bf-4dfb-ba70-a5b4a0e6adcf",
@@ -1507,6 +1587,14 @@
             "Value": {
                 "id": "3a3ce9c6-ef04-4e87-8ed0-718cb67f5037",
                 "resourcePath": "sprites\\spr_CodeStickyPad\\spr_CodeStickyPad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bff2252a-ecf0-403c-909b-63a5ffe1c36e",
+            "Value": {
+                "id": "5bbcbe2b-365e-48ac-827a-22c2c67cac3c",
+                "resourcePath": "sprites\\spr_watergunFillingUp\\spr_watergunFillingUp.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1636,6 +1724,14 @@
                 "id": "7334e347-ab33-4f24-9db9-82c490fc5e6e",
                 "resourcePath": "sounds\\Alarm\\Alarm.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d1bf8c2f-61a8-44dd-af63-e9c79f35ad37",
+            "Value": {
+                "id": "5a138082-1e59-4a5e-88ee-e013402979eb",
+                "resourcePath": "sprites\\spr_watergunFilledUp\\spr_watergunFilledUp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
