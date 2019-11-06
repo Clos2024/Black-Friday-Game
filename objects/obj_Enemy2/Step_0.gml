@@ -30,13 +30,14 @@ if(item != noone){
 	image_xscale = 1;
 	WalkUp = false;
 	WalkDown = false;
+	y = item.y;
 	
 	if(item.held = true && ImHolding = true){
 		RunHome = true;
 	}
 }
 else if(item = noone){
-	if(x=192){
+	if(x<192 && x> 180){
 		WalkDown = true;
 		WalkBack = false;
 		if(y<=320){
@@ -48,7 +49,7 @@ else if(item = noone){
 			WalkDown = false;
 		}
 	}
-	else if(x>192){
+	else if(x>193){
 		WalkBack = true;
 		hspeed = 2;
 	}
