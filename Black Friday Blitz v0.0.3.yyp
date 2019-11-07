@@ -1991,6 +1991,14 @@
             }
         },
         {
+            "Key": "e3ba30eb-a1ef-4c78-b729-9d9b245a877b",
+            "Value": {
+                "id": "21157b35-e888-4f69-83ed-29387668ff5c",
+                "resourcePath": "sounds\\BlitzAlert\\BlitzAlert.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e6cb1fd7-15b5-42df-94cb-527585ec60e2",
             "Value": {
                 "id": "6616d44b-5b02-41f4-a48d-747391b052fd",

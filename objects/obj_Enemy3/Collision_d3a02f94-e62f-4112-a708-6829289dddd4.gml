@@ -3,4 +3,3 @@
 //sprite_index = spr_EnemyBasicHurt;
 damaged = true;
 alarm[2] = 10;
-x -= 1;

@@ -71,28 +71,27 @@ if(attacking){
 	sprite_index = spr_EnemyBasicAttack;
 }
 else{
-	speed = 1;
+	speed = 1.1;
 	sprite_index = spr_EnemyBasicWalk;
 }
 
 if(damaged = true){
 	sprite_index = spr_EnemyBasicHurt;
-	speed = speed/2;
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyBasicWalk;
-	speed = 1;
+	speed = 1.1;
 }
 
 
 if(RunHome){
 	speed = -speed;
-	image_xscale =-1;
+	image_xscale =-1.1;
 }
 
 if(WalkBack){
 	speed = -speed;
-	image_xscale = -1;
+	image_xscale = -1.1;
 }
 
 if(Health <= 0){

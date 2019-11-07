@@ -76,7 +76,6 @@ else{
 
 if(damaged = true){
 	sprite_index = spr_Enemy2Hurt;
-	speed = speed/2;
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_Enemy2;
