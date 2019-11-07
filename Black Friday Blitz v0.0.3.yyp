@@ -1479,6 +1479,14 @@
             }
         },
         {
+            "Key": "c514e260-9656-442d-829b-5e5833ff4d32",
+            "Value": {
+                "id": "b393aa0b-f185-4db3-b5dc-8dad01845fbb",
+                "resourcePath": "sprites\\spr_lollipop\\spr_lollipop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c5b7b7d1-df98-47b3-bd33-120c460ea374",
             "Value": {
                 "id": "79a75994-aed5-4760-aeb2-1b2490b6383a",
