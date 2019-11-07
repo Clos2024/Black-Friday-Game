@@ -1183,6 +1183,14 @@
             }
         },
         {
+            "Key": "8ce92c00-971c-4678-ac85-1298003bdef8",
+            "Value": {
+                "id": "9309bd93-a44f-4af7-9156-c0baa988e0a5",
+                "resourcePath": "scripts\\script_part_water_init\\script_part_water_init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8d258134-6701-4670-b7c5-ddfcfaa3fb63",
             "Value": {
                 "id": "b340c4da-858b-473c-868a-99454ddda492",
@@ -2170,7 +2178,8 @@
     "script_order": [
         "f65bbb82-91d9-4d19-b612-a0047435586a",
         "6e26e98a-dac3-40ea-97d5-7e303a23296a",
-        "91559944-334b-413f-b63a-15b0c4c6f764"
+        "91559944-334b-413f-b63a-15b0c4c6f764",
+        "8ce92c00-971c-4678-ac85-1298003bdef8"
     ],
     "tutorial": ""
 }
