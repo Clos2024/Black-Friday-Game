@@ -27,6 +27,18 @@ WalkBack = false;
 SearchForItem = false;
 SearchUpAndDown = false;
 RunHome = false;
+ImHolding = false;
 
 WalkDown = false;
 WalkUp = false;
+
+hitable = true;
+death = 0;
+
+createAlert = false;
+myAlert = noone;
+
+deathsound =0;
+
+global.ps = part_system_create();
+script_part_star_init();

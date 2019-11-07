@@ -10,6 +10,9 @@ else if(room = RoomTwo){
 }
 
 //Wave Times
+if(global.hours = 0){
+	wave = 0;
+}
 if(global.hours = 1){
 	wave = 1;
 }

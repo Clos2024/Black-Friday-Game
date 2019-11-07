@@ -30,13 +30,14 @@ if(item != noone){
 	image_xscale = 1;
 	WalkUp = false;
 	WalkDown = false;
+	y = item.y;
 	
 	if(item.held = true && ImHolding = true){
 		RunHome = true;
 	}
 }
 else if(item = noone){
-	if(x=192){
+	if(x<192 && x> 180){
 		WalkDown = true;
 		WalkBack = false;
 		if(y<=320){
@@ -48,7 +49,7 @@ else if(item = noone){
 			WalkDown = false;
 		}
 	}
-	else if(x>192){
+	else if(x>193){
 		WalkBack = true;
 		hspeed = 2;
 	}
@@ -75,7 +76,6 @@ else{
 
 if(damaged = true){
 	sprite_index = spr_Enemy2Hurt;
-	speed = 0;
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_Enemy2;
@@ -99,4 +99,15 @@ if(Health <= 0){
 		instance_create_layer(x+5,y,"Enemy",obj_Enemy2Death);
 		death += 1;
 	}
+}
+
+if(ImHolding){
+	if(!createAlert){
+		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
+		createAlert = true;
+	}
+	myAlert.x = x;
+}
+else{
+	instance_destroy(myAlert);
 }

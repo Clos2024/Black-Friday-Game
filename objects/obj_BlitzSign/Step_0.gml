@@ -6,7 +6,7 @@ if(instance_number(obj_Enemy) <= 0 && instance_number(obj_Enemy2) <= 0){
 }
 }
 if(room = RoomTwo){
-if(instance_number(obj_Enemy) <= 0 && instance_number(obj_Enemy2) <= 0 && obj_Enemy3 <= 0){
+if(instance_number(Parent_Enemies) <=0){
 	instance_destroy();
 }
 }

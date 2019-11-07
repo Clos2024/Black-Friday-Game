@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_SpawnPoint2",
     "eventList": [
-        
+        {
+            "id": "6519f784-b7b6-49a5-bdab-b57bd0aeb851",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4d375b1f-8a6b-4198-aeb3-7b7d18aea702"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

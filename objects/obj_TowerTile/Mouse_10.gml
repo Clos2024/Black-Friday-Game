@@ -9,3 +9,6 @@ if(global.SelectedTowerTwo = true && occupied = false){
 if(global.SelectedTowerThree = true && occupied = false){
 	TowerThreeOver = true;
 }
+if(global.SelectedTowerFour = true && occupied = false){
+	TowerFourOver = true;
+}

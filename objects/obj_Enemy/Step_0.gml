@@ -15,7 +15,7 @@ var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
 else{
 	attacking = false;
 	sprite_index = spr_EnemyBasicWalk;
-	speed = 1.35;
+	speed = 1;
 }
 ///////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -31,13 +31,14 @@ if(item != noone){
 	image_xscale = 1;
 	WalkUp = false;
 	WalkDown = false;
+	y = item.y;
 	
 	if(item.held = true && ImHolding = true){
 		RunHome = true;
 	}
 }
 else if(item = noone){
-	if(x=192){
+	if(x<192 && x> 180){
 		WalkDown = true;
 		WalkBack = false;
 		if(y<=320){
@@ -49,7 +50,7 @@ else if(item = noone){
 			WalkDown = false;
 		}
 	}
-	else if(x>192){
+	else if(x>193){
 		WalkBack = true;
 		hspeed = 2;
 	}
@@ -70,34 +71,46 @@ if(attacking){
 	sprite_index = spr_EnemyBasicAttack;
 }
 else{
-	speed = 1.35;
+	speed = 1.1;
 	sprite_index = spr_EnemyBasicWalk;
 }
 
 if(damaged = true){
 	sprite_index = spr_EnemyBasicHurt;
-	speed = 0;
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyBasicWalk;
-	speed = 1.35;
+	speed = 1.1;
 }
 
 
 if(RunHome){
 	speed = -speed;
-	image_xscale =-1;
+	image_xscale =-1.1;
 }
 
 if(WalkBack){
 	speed = -speed;
-	image_xscale = -1;
+	image_xscale = -1.1;
 }
 
 if(Health <= 0){
+	deathsound = irandom_range(1,3);
 	instance_destroy();
 	if(death <= 0){
 		instance_create_layer(x+5,y,"Enemy",obj_EnemyDeath);
 		death += 1;
 	}
+}
+
+if(ImHolding){
+	if(!createAlert){
+		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
+		createAlert = true;
+	}
+	myAlert.x = x;
+}
+else{
+	audio_stop_sound(AlarmBeep);
+	instance_destroy(myAlert);
 }

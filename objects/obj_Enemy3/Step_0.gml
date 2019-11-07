@@ -14,7 +14,7 @@ var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
 else{
 	attacking = false;
 	sprite_index = spr_EnemyTankWalk;
-	speed = .3;
+	speed = .5;
 }
 ///////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -24,19 +24,20 @@ var item = collision_line(x,y,x+1920,y,Parent_Item,false,true);
 
 if(item != noone){
 	SearchForItem = false;
-	hspeed = .3;
+	hspeed = .5;
 	vspeed = 0;
 	WalkBack = false;
 	image_xscale = 1;
 	WalkUp = false;
 	WalkDown = false;
+	y = item.y;
 	
 	if(item.held = true && ImHolding = true){
 		RunHome = true;
 	}
 }
 else if(item = noone){
-	if(x=192){
+	if(x<192 && x> 180){
 		WalkDown = true;
 		WalkBack = false;
 		if(y<=320){
@@ -48,20 +49,20 @@ else if(item = noone){
 			WalkDown = false;
 		}
 	}
-	else if(x>192){
+	else if(x>193){
 		WalkBack = true;
-		hspeed = .3;
+		hspeed = .5;
 	}
 }
 
 if(WalkDown){
 	hspeed = 0;
-	vspeed = .3;
+	vspeed = .5;
 }
 
 if(WalkUp){
 	hspeed = 0;
-	vspeed = -.3;
+	vspeed = -.5;
 }
 
 if(attacking){
@@ -69,17 +70,16 @@ if(attacking){
 	sprite_index = spr_EnemyTankWalk;
 }
 else{
-	speed = .3;
+	speed = .5;
 	sprite_index = spr_EnemyTankWalk;
 }
 
 if(damaged = true){
 	sprite_index = spr_EnemyTankWalk;
-	speed = 0;
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyTankWalk;
-	speed = .3;
+	speed = .5;
 }
 
 
@@ -95,4 +95,15 @@ if(WalkBack){
 
 if(Health <= 0){
 	instance_destroy();
+}
+
+if(ImHolding){
+	if(!createAlert){
+		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
+		createAlert = true;
+	}
+	myAlert.x = x;
+}
+else{
+	instance_destroy(myAlert);
 }

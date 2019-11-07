@@ -3,4 +3,5 @@
 globalvar cash;
 cash = 0;
 global.roomtraveled = 0;
+MovementSpeed = 5;
 

@@ -3,4 +3,5 @@
 if(hitable = true){
 damaged = true;
 alarm[2] = 10;
+x -= 1;
 }

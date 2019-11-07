@@ -30,7 +30,7 @@ if(room = RoomOne){
 	}
 }
 if(room = RoomTwo){
-	if(global.hours = 4 && instance_number(obj_Enemy) = 0 && instance_number(obj_Enemy2) = 0){
+	if(global.hours = 4 && instance_number(Parent_Enemies)){
 		room_goto(BuyingRoom);
 		cash = 500 + cash*.10;
 	}
