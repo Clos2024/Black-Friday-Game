@@ -10,7 +10,7 @@ else if(deathsound = 3){
 	audio_play_sound(Death3,1,0);
 }
 
-
+instance_destroy(myAlert);
 
 //cash granted on death
 cash = cash + 10;

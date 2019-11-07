@@ -96,3 +96,14 @@ if(WalkBack){
 if(Health <= 0){
 	instance_destroy();
 }
+
+if(ImHolding){
+	if(!createAlert){
+		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
+		createAlert = true;
+	}
+	myAlert.x = x;
+}
+else{
+	instance_destroy(myAlert);
+}

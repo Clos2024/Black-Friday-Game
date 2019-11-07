@@ -1,8 +1,8 @@
 {
-    "id": "15acae07-a4a9-4ee8-bf01-d60c5640313f",
+    "id": "56d73867-65ef-40aa-89a3-387a66d6281e",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "TennisShoot",
+    "name": "AlarmGrabbed",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

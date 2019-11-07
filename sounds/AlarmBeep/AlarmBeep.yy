@@ -1,8 +1,8 @@
 {
-    "id": "15acae07-a4a9-4ee8-bf01-d60c5640313f",
+    "id": "b10cb27b-3c51-4c46-9b73-92489037ed00",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "TennisShoot",
+    "name": "AlarmBeep",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

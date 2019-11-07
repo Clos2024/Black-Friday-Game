@@ -112,5 +112,6 @@ if(ImHolding){
 	myAlert.x = x;
 }
 else{
+	audio_stop_sound(AlarmBeep);
 	instance_destroy(myAlert);
 }

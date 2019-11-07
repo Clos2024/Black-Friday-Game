@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "56d73867-65ef-40aa-89a3-387a66d6281e",
+            "Value": {
+                "id": "b7a77e65-dd8c-4ab0-8811-5a4eb353f460",
+                "resourcePath": "sounds\\AlarmGrabbed\\AlarmGrabbed.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "572e03cc-474f-4390-b1cb-e641dcaf83ae",
             "Value": {
                 "id": "9a3cda19-b565-4b46-ae6b-4acb7342c079",
@@ -1556,6 +1564,14 @@
                 "id": "9b1a008d-6a8b-4b40-b628-c6c8638034a9",
                 "resourcePath": "sprites\\spr_tennisballlauncher\\spr_tennisballlauncher.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b10cb27b-3c51-4c46-9b73-92489037ed00",
+            "Value": {
+                "id": "3dd5cefe-4c26-444f-aadc-5520bcb6cf4d",
+                "resourcePath": "sounds\\AlarmBeep\\AlarmBeep.yy",
+                "resourceType": "GMSound"
             }
         },
         {
