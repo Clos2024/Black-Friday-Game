@@ -4,3 +4,4 @@
 //cash granted on death
 cash = cash + 10;
 global.BasicEnemiesKilled += 1;
+ImHolding = false;

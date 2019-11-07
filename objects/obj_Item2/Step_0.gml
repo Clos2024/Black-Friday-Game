@@ -23,4 +23,13 @@ if(x <= 5){
 	instance_destroy(self);
 }
 
+if(x != origin && held = false){
+	if(!countdown){
+		alarm[0] = room_speed * 5;
+		countdown = true;
+	}
+}
+else{
+	countdown = false;
+}
 

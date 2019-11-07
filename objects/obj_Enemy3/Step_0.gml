@@ -76,7 +76,6 @@ else{
 
 if(damaged = true){
 	sprite_index = spr_EnemyTankWalk;
-	speed = 0;
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyTankWalk;

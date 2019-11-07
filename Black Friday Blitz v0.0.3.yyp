@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "020f4a43-ebb8-4b54-ad66-7a520bddfdb9",
+            "Value": {
+                "id": "422b9c62-4510-4080-b0e4-bd876b0e1fd7",
+                "resourcePath": "sounds\\MenuMusic\\MenuMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0384825c-0f73-4c0c-8c4c-346489dd4215",
             "Value": {
                 "id": "d0afafce-1978-42c0-b6a9-172998fcca61",
@@ -371,6 +379,14 @@
             "Value": {
                 "id": "12351465-c2d2-4174-acd9-38514325025d",
                 "resourcePath": "sprites\\spr_ClockBasic\\spr_ClockBasic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2735e178-e2d3-46cd-9d39-ea2db7707963",
+            "Value": {
+                "id": "a28ec6cb-6a27-4947-9380-5ee867091b4d",
+                "resourcePath": "sprites\\spr_alarm\\spr_alarm.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -711,6 +727,14 @@
             }
         },
         {
+            "Key": "57a07c8e-8983-47ab-8a99-94c96c995aeb",
+            "Value": {
+                "id": "8db25b6d-911b-4748-970a-879cc926c11c",
+                "resourcePath": "sprites\\sprWall\\sprWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5ad1904c-40d6-479a-8c7b-549ccbe4f94e",
             "Value": {
                 "id": "72ce7325-fd90-4e29-81de-8e0f9c1ad553",
@@ -860,6 +884,14 @@
                 "id": "4561a349-cb91-4f4b-b06e-dcf0908393fa",
                 "resourcePath": "objects\\obj_TennisBall\\obj_TennisBall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e26e98a-dac3-40ea-97d5-7e303a23296a",
+            "Value": {
+                "id": "8bc84fbb-da2b-4e45-a6e2-cee94031d6b2",
+                "resourcePath": "scripts\\script_part_star_init\\script_part_star_init.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1115,6 +1147,22 @@
             "Value": {
                 "id": "a014508e-de26-4eac-b046-aef7315ec9ae",
                 "resourcePath": "objects\\obj_WaterBeam\\obj_WaterBeam.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a2ede1e-c0a9-4670-ae73-fe503e1fab1f",
+            "Value": {
+                "id": "dddc8ae1-fb1f-4f99-971d-4f4ee229368f",
+                "resourcePath": "objects\\obj_Alert\\obj_Alert.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b13c2df-9dbb-4957-9cbe-f16473a08b3a",
+            "Value": {
+                "id": "d14a878b-ff1f-4c6e-8848-fe2fedae04b5",
+                "resourcePath": "objects\\obj_alarm\\obj_alarm.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1452,6 +1500,22 @@
                 "id": "802ec434-3252-4df8-924d-4a93562fa4f6",
                 "resourcePath": "objects\\obj_PlayButton\\obj_PlayButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "abdc8509-d779-4abc-bde7-64791bc850bd",
+            "Value": {
+                "id": "0e308518-be2b-476b-967a-12eca04d0f69",
+                "resourcePath": "objects\\obj_doorway\\obj_doorway.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ade5e187-a2b0-43f5-83c5-279605939eb4",
+            "Value": {
+                "id": "e1c919bf-1ed3-4f4e-9530-fb1f9f6c8a2b",
+                "resourcePath": "sprites\\spr_alarm1\\spr_alarm1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2096,7 +2160,8 @@
         }
     ],
     "script_order": [
-        "f65bbb82-91d9-4d19-b612-a0047435586a"
+        "f65bbb82-91d9-4d19-b612-a0047435586a",
+        "6e26e98a-dac3-40ea-97d5-7e303a23296a"
     ],
     "tutorial": ""
 }
