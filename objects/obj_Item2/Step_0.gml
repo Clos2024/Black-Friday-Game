@@ -26,10 +26,12 @@ if(x <= 5){
 if(x != origin && held = false){
 	if(!countdown){
 		alarm[0] = room_speed * 5;
+		alarm[1] = 1;
 		countdown = true;
 	}
 }
 else{
 	countdown = false;
+	progress = 0;
 }
 

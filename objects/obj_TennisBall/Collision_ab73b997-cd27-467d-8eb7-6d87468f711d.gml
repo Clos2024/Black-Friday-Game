@@ -5,7 +5,7 @@
 if(obj_Enemy.hitable = true){
 	if(hit != noone){
 		hit.Health -= damage;
-		cash +=3;
+		cash +=5;
 		instance_destroy();
 	}
 }

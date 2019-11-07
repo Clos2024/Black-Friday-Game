@@ -3,3 +3,5 @@
 held = false;
 origin = x;
 countdown = false;
+progress = 0;
+progressMax = 300;

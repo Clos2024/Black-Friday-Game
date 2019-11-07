@@ -27,6 +27,10 @@ WalkBack = false;
 SearchForItem = false;
 SearchUpAndDown = false;
 RunHome = false;
+ImHolding = false;
 
 WalkDown = false;
 WalkUp = false;
+
+hitable = true;
+death = 0;

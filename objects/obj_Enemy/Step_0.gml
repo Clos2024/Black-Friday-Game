@@ -15,7 +15,7 @@ var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
 else{
 	attacking = false;
 	sprite_index = spr_EnemyBasicWalk;
-	speed = 1.35;
+	speed = 1;
 }
 ///////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -71,7 +71,7 @@ if(attacking){
 	sprite_index = spr_EnemyBasicAttack;
 }
 else{
-	speed = 1.35;
+	speed = 1;
 	sprite_index = spr_EnemyBasicWalk;
 }
 
@@ -81,7 +81,7 @@ if(damaged = true){
 }
 else if(damaged != true && attacking !=true){
 	sprite_index = spr_EnemyBasicWalk;
-	speed = 1.35;
+	speed = 1;
 }
 
 
@@ -96,6 +96,7 @@ if(WalkBack){
 }
 
 if(Health <= 0){
+	deathsound = irandom_range(1,3);
 	instance_destroy();
 	if(death <= 0){
 		instance_create_layer(x+5,y,"Enemy",obj_EnemyDeath);
