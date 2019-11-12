@@ -4,13 +4,23 @@ refund = global.TennisCost/2;
 //Towers range
 range = 1200;
 //Fire rate in seconds
+if(global.CardOneLevel <=2){
 fireRate = room_speed * 2;
+}
+else if(global.CardOneLevel >=3){
+fireRate = room_speed * 1;
+}
 //Shooting bool
 shooting = false;
 //What tower is shooting out
 enemyToShoot = noone;
 //Tower HP
+if(global.CardOneLevel < 4){
 Health = 20;
+}
+else if(global.CardOneLevel >= 4){
+Health = 40;
+}
 
 Damaged = false;
 

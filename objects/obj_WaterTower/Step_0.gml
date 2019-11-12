@@ -4,7 +4,7 @@ if(powered){
 
 if(Full){
 	if(mouse_check_button_pressed(mb_left)){
-		WaterPumped = 35;
+		WaterPumped = WaterPumpLimit;
 		pumpWater = false;
 		alarm[0] = room_speed * 1;
 	}
@@ -34,11 +34,11 @@ if(WaterPumped <= 0){
 }
 
 //WaterPumped clamp
-if(WaterPumped > 35){
+if(WaterPumped > WaterPumpLimit){
 	sprite_index = spr_watergunFilledUp;
 	Full = true
 }
-else if(WaterPumped < 35){
+else if(WaterPumped < WaterPumpLimit){
 	sprite_index = spr_watergunFillingUp;
 	Full = false;
 }
@@ -62,7 +62,7 @@ else if(WaterPumped = 25){
 else if(WaterPumped = 30){
 	image_index = 6;
 }
-else if(WaterPumped = 35){
+else if(WaterPumped = WaterPumpLimit){
 	image_index = 7;
 }
 
