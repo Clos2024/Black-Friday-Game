@@ -3,7 +3,8 @@
 //sprite_index = spr_EnemyBasicHurt;
 	damaged = true;
 	alarm[2] = 10;
-	x -= 1;
+
+	
 	var damagesound = irandom_range(1,3);
 	if(damagesound = 1){
 	audio_play_sound(HitSound1,1,0);
