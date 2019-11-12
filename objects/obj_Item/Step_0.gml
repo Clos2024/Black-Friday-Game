@@ -17,3 +17,7 @@ else{
 	countdown = false;
 	progress = 0;
 }
+
+if(x < 100){
+	instance_destroy();
+}
