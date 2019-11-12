@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_index = 1;
+WaterPumped +=3;
+pumpWater = false;
+alarm[2] = room_speed * 2;
