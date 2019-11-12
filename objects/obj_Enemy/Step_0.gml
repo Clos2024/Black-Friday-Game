@@ -32,6 +32,7 @@ if(iteminlane != noone && !iteminlane.BeingHeld){
 		WalkDown = false;
 		vspeed = 0;
 		y= iteminlane.y;
+		image_xscale = 1;
 		item=iteminlane;
 		if(collision_point(x,y,Parent_Item,false,false,) && !iteminlane.BeingHeld){
 			iteminlane.BeingHeld = true;
@@ -41,6 +42,7 @@ if(iteminlane != noone && !iteminlane.BeingHeld){
 else if(iteminlane = noone || iteminlane.BeingHeld){
 	if(x > 224 && ImHolding != true && tower = noone){
 		WalkBack = true
+		image_xscale = -1;
 	}
 	if(x <= 220 && ImHolding != true){
 		hspeed=0;
