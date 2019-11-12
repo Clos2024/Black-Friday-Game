@@ -61,3 +61,6 @@ if(Damaged){
 	Damaged = false;
 }
 }
+if(Health <= 0){
+	instance_destroy();
+}
