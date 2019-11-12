@@ -1519,14 +1519,6 @@
             }
         },
         {
-            "Key": "9568a2ed-ef55-47e1-8523-733c5686c6ab",
-            "Value": {
-                "id": "d6f0b135-bc6e-4505-8838-1e17041b30f6",
-                "resourcePath": "views\\9568a2ed-ef55-47e1-8523-733c5686c6ab.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "9659bb24-1922-4c83-a4be-c425b3ed5df8",
             "Value": {
                 "id": "0116a0b3-fac8-438e-9299-28438c0e7a66",
@@ -2119,6 +2111,14 @@
             }
         },
         {
+            "Key": "cdfbb161-f0b4-43ef-baa8-7c7fd927bf9c",
+            "Value": {
+                "id": "8520689d-6f9d-4888-8eb1-c4d5dd803904",
+                "resourcePath": "views\\cdfbb161-f0b4-43ef-baa8-7c7fd927bf9c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ce3361fb-cbfa-46d8-a83c-aa4173016d4f",
             "Value": {
                 "id": "de5ec979-e5a8-4943-a380-bd092e93d8fb",
@@ -2532,14 +2532,6 @@
                 "id": "20f99205-65da-4914-b986-eef1c4f96228",
                 "resourcePath": "sprites\\spr_nightTwo\\spr_nightTwo.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "fa15abca-43ff-4e7a-a0e7-5ddf636f1b4b",
-            "Value": {
-                "id": "f0df32b9-3ea5-4f54-98bb-b603e170a83e",
-                "resourcePath": "views\\fa15abca-43ff-4e7a-a0e7-5ddf636f1b4b.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
