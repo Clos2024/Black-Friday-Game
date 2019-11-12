@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "26a0b001-d453-4cd6-b0c1-fc286d0dc8ac",
+            "Value": {
+                "id": "dad56cad-60cc-48de-9395-c92c6e3a5649",
+                "resourcePath": "objects\\obj_StartWave1\\obj_StartWave1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2735e178-e2d3-46cd-9d39-ea2db7707963",
             "Value": {
                 "id": "a28ec6cb-6a27-4947-9380-5ee867091b4d",
@@ -2340,6 +2348,14 @@
                 "id": "21157b35-e888-4f69-83ed-29387668ff5c",
                 "resourcePath": "sounds\\BlitzAlert\\BlitzAlert.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e5c4352e-feaa-4ded-862a-dacc6b228c7d",
+            "Value": {
+                "id": "0dad1c09-d2f2-4305-a5fb-01332a7f69c5",
+                "resourcePath": "sprites\\spr_start1\\spr_start1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
