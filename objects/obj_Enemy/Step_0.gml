@@ -32,7 +32,6 @@ if(iteminlane != noone && !iteminlane.BeingHeld){
 		WalkDown = false;
 		vspeed = 0;
 		y= iteminlane.y;
-		image_xscale = 1;
 		item=iteminlane;
 		if(collision_point(x,y,Parent_Item,false,false,) && !iteminlane.BeingHeld){
 			iteminlane.BeingHeld = true;
@@ -42,7 +41,6 @@ if(iteminlane != noone && !iteminlane.BeingHeld){
 else if(iteminlane = noone || iteminlane.BeingHeld){
 	if(x > 224 && ImHolding != true && tower = noone){
 		WalkBack = true
-		image_xscale = -1;
 	}
 	if(x <= 220 && ImHolding != true){
 		hspeed=0;
@@ -68,20 +66,20 @@ if(WalkBack){
 
 if(WalkUp){
 	vspeed = -MovementSpeed;
-	image_xscale = 1;
 }
 if(WalkDown){
 	vspeed = MovementSpeed;
 	image_xscale = 1;
 }
 
-if(ImHolding && x>0){
-	
+if(ImHolding){
 	iteminlane.x = x;
-	if(!createAlert){
+	
+	if(!createAlert && myAlert = noone){
 		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
 		createAlert = true;
 	}
+	
 	myAlert.x = x;
 	
 	if(notattacking){
@@ -95,16 +93,10 @@ if(ImHolding && x>0){
 }
 if(damaged){
 	sprite_index = spr_EnemyBasicHurt;
-	image_xscale = .9;
-	image_yscale = .9;
 	if(!playsprite){
 		alarm[2] = 7;
 		playsprite = true;
 	}
-}
-else{
-	image_xscale = 1;
-	image_yscale = 1;
 }
 
 if(Health <= 0){
@@ -114,4 +106,8 @@ if(Health <= 0){
 		instance_create_layer(x+5,y,"Enemy",obj_EnemyDeath);
 		death += 1;
 	}
+}
+if(x < 100 && ImHolding){
+	instance_deactivate_object(self);
+	instance_destroy(myAlert);
 }
