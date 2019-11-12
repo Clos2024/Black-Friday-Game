@@ -3,6 +3,7 @@
 global.SelectedTowerOne = false;
 global.SelectedTowerTwo = false;
 global.SelectedTowerThree = false;
+global.SelectedTowerFour = false;
 global.Recycling = false;
 global.Editing = false;
 TowerOn = noone;

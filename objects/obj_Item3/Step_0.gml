@@ -2,7 +2,6 @@
 // You can write your code in this editor
 var EnemyHolding = collision_point(x,y,Parent_Enemies,false,true);
 
-var EnemyHolding2 = collision_point(x,y,obj_Enemy2,false,true);
 
 if(EnemyHolding != noone){
 	held = true;
@@ -15,19 +14,15 @@ if(x <= 5){
 	instance_destroy(self);
 }
 
-if(EnemyHolding2 != noone){
-	held = true;
-	if(held == true){
-		x = EnemyHolding2.x;
-		y = EnemyHolding2.y;
-		EnemyHolding.ImHolding = true;
-	}
-	else{
-		x = x;
-		y = y;
-		EnemyHolding.ImHolding = false;
+if(x != origin && held = false){
+	if(!countdown){
+		alarm[0] = room_speed * 5;
+		alarm[1] = 1;
+		countdown = true;
 	}
 }
 else{
-	held = false;
+	countdown = false;
+	progress = 0;
 }
+

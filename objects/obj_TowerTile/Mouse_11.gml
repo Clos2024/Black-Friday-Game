@@ -3,3 +3,4 @@
 TowerOneOver = false;
 TowerTwoOver = false;
 TowerThreeOver = false;
+TowerFourOver = false;

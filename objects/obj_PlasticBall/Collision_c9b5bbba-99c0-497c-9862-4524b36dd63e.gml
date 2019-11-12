@@ -3,11 +3,11 @@
 
 if(y > originY){
 hit = instance_place(x,y,Parent_Enemies);
-
+part_particles_create(global.ps,x,y,global.pt_star,10);
 if(hit != noone){
 	hit.Health -= damage;
 	hit.damage = true;
 	cash += 5;
-	instance_destroy(self);
+	instance_destroy();
 }
 }

@@ -5,7 +5,7 @@
 Health = 200;
 
 //path_start(path0,1,path_action_stop,false);
-speed = 1;
+speed = 1.35;
 
 //Attack Range
 range = 64;
@@ -33,3 +33,14 @@ RunHome = false;
 
 WalkDown = false;
 WalkUp = false;
+
+hitable = true;
+death = 0;
+
+createAlert = false;
+myAlert = noone;
+
+deathsound =0;
+
+global.ps = part_system_create();
+script_part_star_init();

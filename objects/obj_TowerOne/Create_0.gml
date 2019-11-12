@@ -13,3 +13,5 @@ enemyToShoot = noone;
 Health = 20;
 
 Damaged = false;
+
+powered = true;

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //HP
-Health = 240;
+Health = 180;
 
 speed = 2;
 
@@ -19,7 +19,7 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 15;
+attackDamage = 7;
 
 damaged = false;
 WalkBack = false;
@@ -31,3 +31,14 @@ ImHolding = false;
 
 WalkDown = false;
 WalkUp = false;
+
+hitable = true;
+death = 0;
+
+createAlert = false;
+myAlert = noone;
+
+deathsound =0;
+
+global.ps = part_system_create();
+script_part_star_init();

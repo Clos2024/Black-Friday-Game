@@ -6,3 +6,6 @@ if(OnTowerThreeUI = true){
 else{
 	image_index = 0;
 }
+if(cash<global.Wallcost){
+	image_index = 2;
+}

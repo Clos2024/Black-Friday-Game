@@ -5,16 +5,6 @@
     "name": "obj_Timer",
     "eventList": [
         {
-            "id": "cbebda5c-5063-424d-b4b3-a61bd21d8d31",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "d5c9d356-4ffe-4427-bfc6-812955b8b7a5"
-        },
-        {
             "id": "91ba6c58-5571-4d54-853d-f77805dd94f4",
             "modelName": "GMEvent",
             "mvc": "1.0",
