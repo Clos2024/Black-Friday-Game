@@ -2,6 +2,4 @@
 // You can write your code in this editor
 globalvar cash;
 cash = 0;
-global.roomtraveled = 0;
 MovementSpeed = 5;
-

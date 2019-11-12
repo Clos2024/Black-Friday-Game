@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(powered){
 if(OnTower){
 		if(mouse_check_button_pressed(mb_left)){
 			if(WaterPumped <=35){
@@ -58,4 +59,5 @@ else if(WaterPumped = 35){
 if(Damaged){
 	sprite_index = spr_watergunHit;
 	Damaged = false;
+}
 }

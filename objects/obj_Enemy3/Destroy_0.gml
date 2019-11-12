@@ -13,6 +13,7 @@ else if(deathsound = 3){
 
 instance_destroy(myAlert);
 
-
 //cash granted on death
 cash = cash + 50;
+
+global.Enemy3Killed += 1;

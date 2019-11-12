@@ -12,3 +12,5 @@ Damaged = false;
 
 enemyToShoot = noone;
 range = 640;
+
+powered = true;

@@ -1,11 +1,11 @@
  /// @description On creation
 // You can write your code in this editor
-
+audio_play_sound(SpawnSound,1,0);
 //HP
 Health = 200;
 
 //path_start(path0,1,path_action_stop,false);
-speed = 1.35;
+MovementSpeed = 1.35;
 
 //Attack Range
 range = 64;
@@ -21,6 +21,9 @@ towerToAttack = noone;
 
 //attack damage
 attackDamage = 10;
+
+//Cash given on death
+DeathCost = 10;
 
 damaged = false;
 WalkBack = false;
@@ -41,6 +44,10 @@ createAlert = false;
 myAlert = noone;
 
 deathsound =0;
+
+notattacking = false;
+
+playsprite = false;
 
 global.ps = part_system_create();
 script_part_star_init();

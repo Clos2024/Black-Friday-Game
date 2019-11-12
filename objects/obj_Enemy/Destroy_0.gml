@@ -13,6 +13,10 @@ else if(deathsound = 3){
 instance_destroy(myAlert);
 
 //cash granted on death
-cash = cash + 10;
+cash = cash + DeathCost;
 global.BasicEnemiesKilled += 1;
 ImHolding = false;
+
+if(item.BeingHeld){
+	item.BeingHeld = false;
+}

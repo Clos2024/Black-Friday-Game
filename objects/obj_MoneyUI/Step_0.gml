@@ -12,3 +12,9 @@ else if(room = RoomTwo){
 		pay = true;
 	}
 }
+else if(room = RoomThree){
+	if(!pay){
+		cash += 500;
+		pay = true;
+	}
+}

@@ -24,14 +24,20 @@ if(global.hours >= 4){
 }
 
 if(room = RoomOne){
-	if(global.hours = 4 && instance_number(obj_Enemy) = 0 && instance_number(obj_Enemy2) = 0){
-		room_goto_next();
-		cash = 500 + cash*.10;
+	if(global.hours = 4 && instance_number(Parent_Enemies)){
+		alarm[1] = room_speed * 8;
+	if(!roomOnePlaySound){
+		audio_play_sound(Fanfair,1,0);
+		roomOnePlaySound = true;
+	}
 	}
 }
 if(room = RoomTwo){
 	if(global.hours = 4 && instance_number(Parent_Enemies)){
-		room_goto(BuyingRoom);
-		cash = 500 + cash*.10;
+		alarm[1] = room_speed * 8;
+	if(!roomOnePlaySound){
+		audio_play_sound(Fanfair,1,0);
+		roomOnePlaySound = true;
+	}
 	}
 }

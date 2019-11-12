@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(powered){
 var enemy = collision_line(x,y,x-range,y,Parent_Enemies,false,true);
 
 if(enemy !=noone){
@@ -44,7 +45,7 @@ else if(DistanceToReticle = 512){
 else if(DistanceToReticle = 576){
 	UserSet = 125;
 }
-else if(DistanceToReticle = 640){
+else if(DistanceToReticle >= 640){
 	UserSet = 132;
 }
 
@@ -59,4 +60,5 @@ else{
 
 if(Health <=0){
 	instance_destroy();
+}
 }

@@ -8,6 +8,10 @@ else if(room = RoomTwo){
 	LaneNumber = 4;
 	EnemyNumber = 15;
 }
+else if(room = RoomThree){
+	LaneNumber = 5;
+	EnemyNumber = 25;
+}
 
 //Wave Times
 if(global.hours = 0){
@@ -50,8 +54,11 @@ if(EnemyType <= 3){
 else if(EnemyType > 3 && EnemyType < 13){
 	EnemyToSpawn = obj_Enemy;
 }
-else if(EnemyType >13){
+else if(EnemyType > 13 && EnemyType < 16){
 	EnemyToSpawn = obj_Enemy3;
+}
+else if(EnemyType > 16 && EnemyType < 26){
+	EnemyToSpawn = obj_Enemy4;
 }
 
 //Spawning

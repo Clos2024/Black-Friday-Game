@@ -3,7 +3,3 @@
 if(global.roomtraveled < 1){
 	sprite_index = spr_BuyCatapult11;
 }
-
-if(global.CatapultTower = true){
-	cost = 0;
-}
