@@ -71,6 +71,9 @@ if(Damaged){
 	Damaged = false;
 }
 }
+else{
+	sprite_index = spr_watergunFillingUp1;
+}
 if(Health <= 0){
 	instance_destroy();
 }

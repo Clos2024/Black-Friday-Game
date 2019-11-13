@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(instance_number(obj_TennisBuyingCard) = 0){
+if(global.CardOneLevel = 1){
 	global.roomtraveled += 1;
 	audio_play_sound(select,1,0);
 	if(global.roomtraveled <= 1){
@@ -13,7 +13,7 @@ if(instance_number(obj_TennisBuyingCard) = 0){
 		room_goto(RoomThree)
 	}
 }
-if(instance_number(obj_TennisBuyingCard) != 0){
+if(global.CardOneLevel != 1){
 	audio_play_sound(Alarm,0,0);
 }
 image_index = 1;

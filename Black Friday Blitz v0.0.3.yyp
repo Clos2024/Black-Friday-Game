@@ -543,14 +543,6 @@
             }
         },
         {
-            "Key": "2dca12ff-bd5c-49df-9c67-491244cfe4c8",
-            "Value": {
-                "id": "1f7718b5-ab42-4cd6-bcb6-3ff2e6c8c350",
-                "resourcePath": "sprites\\spr_CatapultGameSel\\spr_CatapultGameSel.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2ddb25f0-8c39-486a-977c-2da293b90fb3",
             "Value": {
                 "id": "6513bd87-97a7-49e3-8446-e9e3d7875806",
@@ -1299,6 +1291,14 @@
             "Value": {
                 "id": "4206470f-f364-4faf-9632-7c676bff1432",
                 "resourcePath": "sprites\\spr_shelf1\\spr_shelf1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7c335f03-b4c7-465e-b08f-414b577168cf",
+            "Value": {
+                "id": "e0a284f6-3e21-423a-8f00-cd568c85c2c5",
+                "resourcePath": "sprites\\spr_watergunFillingUp1\\spr_watergunFillingUp1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2540,6 +2540,14 @@
                 "id": "95555898-ae7d-4060-bf63-8d4329c87cce",
                 "resourcePath": "objects\\obj_EnemyStart111\\obj_EnemyStart111.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "efe66227-534f-4ce7-9a59-b6bf9e046839",
+            "Value": {
+                "id": "bbfdfdd9-19cb-498a-ab3c-3d3f7b00f9df",
+                "resourcePath": "sprites\\spr_CatapultGame1\\spr_CatapultGame1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
