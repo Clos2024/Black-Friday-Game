@@ -73,8 +73,7 @@ if(WalkDown){
 	image_xscale = 1;
 }
 
-if(ImHolding && x>0){
-	
+if(ImHolding){
 	iteminlane.x = x;
 	if(!createAlert){
 		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
@@ -89,8 +88,11 @@ if(ImHolding && x>0){
 	else{
 		WalkBack = false;
 	}
-	
 }
+else if(ImHolding && x<50){
+	instance_destroy(myAlert);
+}
+
 if(damaged){
 	sprite_index = spr_EnemyBasicHurt;
 	image_xscale = .9;
