@@ -71,13 +71,17 @@ if(WalkDown){
 	vspeed = MovementSpeed;
 	image_xscale = 1;
 }
-if(ImHolding && x>0){
+if(ImHolding){
 	iteminlane.x = x;
 	if(!createAlert){
 		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
 		createAlert = true;
 	}
-	myAlert.x = x;
+	
+	if(myAlert != noone){
+		myAlert.x = x;
+	}
+	
 	if(notattacking){
 		WalkBack = true;
 		sprite_index = spr_EnemyTankWalk;
@@ -86,6 +90,10 @@ if(ImHolding && x>0){
 		WalkBack = false;
 	}
 }
+else if(ImHolding && x<50){
+	instance_destroy(myAlert);
+}
+
 if(damaged){
 	sprite_index = spr_EnemyTankHurt;
 	image_xscale = .9;
@@ -107,4 +115,9 @@ if(Health <= 0){
 		instance_create_layer(x+5,y,"Enemy",obj_Enemy3Death);
 		death += 1;
 	}
+}
+
+if(x < 100 && ImHolding){
+	instance_deactivate_object(self);
+	instance_destroy(myAlert);
 }
