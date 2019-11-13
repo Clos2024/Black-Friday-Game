@@ -5,7 +5,7 @@ var enemy = collision_line(x,y,x-range,y,Parent_Enemies,false,true);
 
 if(enemy !=noone){
 	TowerReticle.x = enemy.x;
-	image_speed = 1;
+	image_speed = attackspeed;
 }
 else{
 	TowerReticle.x = x - 640;
