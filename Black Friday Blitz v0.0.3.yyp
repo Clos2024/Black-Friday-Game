@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "17cde581-c652-474d-a7c0-6cc41f9bcc9d",
+            "Value": {
+                "id": "ad608248-84ac-4301-b43e-4d6037822aa0",
+                "resourcePath": "objects\\obj_EnemyStart1111\\obj_EnemyStart1111.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1854b148-da8a-407c-94a1-3fe19cb0cca6",
             "Value": {
                 "id": "ed96ffa6-501c-45ac-adc5-127a3cd257a3",
@@ -812,6 +820,14 @@
                 "id": "3c9cbeb1-dd83-454a-853b-6f415e546613",
                 "resourcePath": "sprites\\spr_Enemy2Attack\\spr_Enemy2Attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4e306b3f-b9fa-4615-b896-d43cad3c74e1",
+            "Value": {
+                "id": "9fcb7bcd-c746-4165-8fe8-c287e3306622",
+                "resourcePath": "objects\\obj_EnemyStart1\\obj_EnemyStart1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1783,6 +1799,14 @@
             }
         },
         {
+            "Key": "ac83ac14-9102-4ba2-8f0f-ca01bdf20ee7",
+            "Value": {
+                "id": "ab6715e0-7c60-4a80-bf42-d40f1b26ce03",
+                "resourcePath": "objects\\obj_EnemyStart11\\obj_EnemyStart11.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ade5e187-a2b0-43f5-83c5-279605939eb4",
             "Value": {
                 "id": "e1c919bf-1ed3-4f4e-9530-fb1f9f6c8a2b",
@@ -2451,6 +2475,22 @@
             "Value": {
                 "id": "efbffae8-8884-43cb-926c-93227eb2c067",
                 "resourcePath": "objects\\obj_PlayButton2\\obj_PlayButton2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ef930c06-d9b7-4dd6-ba42-1b5c98758977",
+            "Value": {
+                "id": "20914508-cdf6-4886-84d6-60ddc9ca0af8",
+                "resourcePath": "objects\\obj_EnemyStart\\obj_EnemyStart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "efa19c75-1893-4966-b847-091e047fc0c9",
+            "Value": {
+                "id": "95555898-ae7d-4060-bf63-8d4329c87cce",
+                "resourcePath": "objects\\obj_EnemyStart111\\obj_EnemyStart111.yy",
                 "resourceType": "GMObject"
             }
         },
