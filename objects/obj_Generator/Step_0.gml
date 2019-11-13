@@ -3,30 +3,17 @@
 var player = collision_circle(x,y,70,obj_Player,false,false);
 
 if (player != noone){
-	Touching = true;
-}
-else{
-	Touching = false;
-}
-
-if(!EnterCode){
-if(Touching && keyboard_check_pressed(vk_enter)){
-	EnterCode = true;
-}
-}
-else{
-	if(Touching && keyboard_check_pressed(vk_enter)){
-	EnterCode = false;
+	if(keyboard_check_pressed(vk_enter) && powerOff && RestartBar = noone){
+		RestartBar = instance_create_layer(x+60,y-80,"instances_1",obj_RestartBar);
 	}
 }
-
-if(EnterCode && Touching){
-	instance_create_layer(x-100,y,"UI",obj_CodePuncher);
-}
 else{
-	instance_destroy(obj_CodePuncher);
+	instance_destroy(RestartBar);
+	RestartBar = noone;
 }
 
+
+////////////////////////////////////////////////////////////////////////////////////////
 var _list = ds_list_create();
 var _num = collision_line_list(x,y+50,x-1920,y+50,Parent_Towers,false,true,_list,true);
 if (_num > 0)

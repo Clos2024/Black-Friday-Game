@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "05ba38b8-662b-42f8-a83a-36100f92f1da",
+            "Value": {
+                "id": "20d7b327-e50b-4e3d-b132-69730a463e2d",
+                "resourcePath": "sprites\\spr_RestartBar\\spr_RestartBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06e70416-f292-4399-be72-b0342092660e",
             "Value": {
                 "id": "c8e3a0f6-a849-418d-8bda-157ade4102fc",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "2338bace-539b-49da-a49b-7c069dc296a5",
+            "Value": {
+                "id": "3936f58a-ff6b-477f-8bcf-17885e2172d0",
+                "resourcePath": "objects\\obj_RestartBarHitMark\\obj_RestartBarHitMark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24018149-1f28-4896-a801-0d74f6a3c7a1",
             "Value": {
                 "id": "a84b7257-0a9e-4937-ad25-9f525112104c",
@@ -443,6 +459,14 @@
             "Value": {
                 "id": "a28ec6cb-6a27-4947-9380-5ee867091b4d",
                 "resourcePath": "sprites\\spr_alarm\\spr_alarm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2812dae1-7075-4ff5-aeb9-b7fd074ba387",
+            "Value": {
+                "id": "8a873fe9-95ba-4d38-acbc-bafd9bbc0bf4",
+                "resourcePath": "sprites\\spr_RestartBarMarker\\spr_RestartBarMarker.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -932,6 +956,14 @@
                 "id": "c0d61ef3-0650-4563-8ac0-2f624346726e",
                 "resourcePath": "sprites\\spr_CatapultGameHover\\spr_CatapultGameHover.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5e12d6e0-cd54-4e58-9362-ed5c5db4f7f3",
+            "Value": {
+                "id": "1dddb73e-5dc0-4f35-ae6a-cc59e0760d39",
+                "resourcePath": "objects\\obj_RestartBar\\obj_RestartBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1631,6 +1663,14 @@
             }
         },
         {
+            "Key": "9d2eefb0-8372-4d0e-bb44-c9ee3180502e",
+            "Value": {
+                "id": "e02eb309-0142-43a9-ae29-bbe71c62b789",
+                "resourcePath": "sprites\\spr_RestartBarHitSpot\\spr_RestartBarHitSpot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e030784-0f02-4fb7-ac0f-ce353f1e67a3",
             "Value": {
                 "id": "76e5bdcd-4c73-478e-ab6c-c4afd5f73887",
@@ -2108,6 +2148,14 @@
                 "id": "7289cb9d-88a1-493b-a9ac-c91f9de91779",
                 "resourcePath": "sprites\\spr_HealthBarHalfFull\\spr_HealthBarHalfFull.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c8944f5e-64a4-4c1f-b80d-7f8c30636a9d",
+            "Value": {
+                "id": "bc3429f3-3bdc-470c-b527-8c3459532b0f",
+                "resourcePath": "objects\\obj_RestartBarMarker\\obj_RestartBarMarker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
