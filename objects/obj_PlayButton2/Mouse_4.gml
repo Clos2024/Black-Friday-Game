@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.CardOneLevel = 1){
+if(global.CardOneLevel >= 1){
 	global.roomtraveled += 1;
 	audio_play_sound(select,1,0);
 	if(global.roomtraveled <= 1){

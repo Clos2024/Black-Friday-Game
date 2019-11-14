@@ -1,6 +1,6 @@
 /// @description Insert description here
 Speed = 20;
-Angle = 96;
+Angle = 90;
 gra = .75;
 shoot = false;
 damage = 50;

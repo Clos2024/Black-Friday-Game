@@ -62,10 +62,14 @@ if(WalkBack){
 	speed = -MovementSpeed;
 	image_xscale = -1;
 }
+else{
+	image_xscale = 1;
+}
 
 
 if(WalkUp){
 	vspeed = -MovementSpeed;
+	image_xscale = 1;
 }
 if(WalkDown){
 	vspeed = MovementSpeed;

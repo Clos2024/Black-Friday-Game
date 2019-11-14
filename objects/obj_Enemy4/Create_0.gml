@@ -51,4 +51,4 @@ EnragedSettings = false;
 global.ps = part_system_create();
 script_part_star_init();
 children = noone;
-children = instance_create_layer(x,y+10, "enemy", obj_EnemyChildren);
+children = instance_create_layer(x+128,y, "enemy", obj_EnemyChildren);

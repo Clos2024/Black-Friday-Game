@@ -16,10 +16,10 @@ shooting = false;
 enemyToShoot = noone;
 //Tower HP
 if(global.CardOneLevel < 4){
-Health = 20;
+Health = 40;
 }
 else if(global.CardOneLevel >= 4){
-Health = 40;
+Health = 60;
 }
 
 Damaged = false;

@@ -96,17 +96,12 @@ else if(ImHolding && x<50){
 
 if(damaged){
 	sprite_index = spr_Enemy2Hurt;
-	image_xscale = .9;
-	image_yscale = .9;
 	if(!playsprite){
 		alarm[2] = 7;
 		playsprite = true;
 	}
 }
-else{
-	image_xscale = 1;
-	image_yscale = 1;
-}
+
 
 if(Health <= 0){
 	deathsound = irandom_range(1,3);

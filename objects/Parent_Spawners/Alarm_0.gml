@@ -55,6 +55,7 @@ if(room = RoomOne){
 				instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy);
 				instance_create_layer(obj_SpawnPoint3.x,obj_SpawnPoint3.y,"Enemy",obj_Enemy);
 				alarm[0] = room_speed * 1;
+				HordesSent +=1;
 			}
 			if(HordesSent <=1){
 				instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy);
@@ -127,6 +128,7 @@ if(room = RoomTwo){
 				instance_create_layer(obj_SpawnPoint3.x,obj_SpawnPoint3.y,"Enemy",obj_Enemy3);
 				instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy3);
 				instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy3);
+				HordesSent +=1;
 				alarm[0] = room_speed * 1.5;
 			}
 			if(HordesSent <=1){
@@ -203,6 +205,7 @@ if(room = RoomThree){
 				instance_create_layer(obj_SpawnPoint3.x,obj_SpawnPoint3.y,"Enemy",obj_Enemy4);
 				instance_create_layer(obj_SpawnPoint2.x,obj_SpawnPoint2.y,"Enemy",obj_Enemy4);
 				instance_create_layer(obj_SpawnPoint1.x,obj_SpawnPoint1.y,"Enemy",obj_Enemy4);
+				HordesSent +=1;
 				alarm[0] = room_speed * 1.5;
 			}
 			if(HordesSent <=1){

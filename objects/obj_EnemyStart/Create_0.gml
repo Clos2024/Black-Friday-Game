@@ -1,6 +1,5 @@
  /// @description On creation
 // You can write your code in this editor
-audio_play_sound(SpawnSound,1,0);
 //HP
 Health = 200;
 

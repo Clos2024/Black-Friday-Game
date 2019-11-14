@@ -511,14 +511,6 @@
             }
         },
         {
-            "Key": "2ba89bc3-9b1a-4603-b034-e8e1384914a9",
-            "Value": {
-                "id": "dde86e7f-231f-4d29-abcc-e922d58bb76a",
-                "resourcePath": "objects\\obj_CodePuncher\\obj_CodePuncher.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2d0683c6-f0a2-4323-91f3-39f27f1ce66e",
             "Value": {
                 "id": "84d9bcf2-8c9e-481d-ad82-1f3a198b3bfd",
@@ -884,6 +876,14 @@
                 "id": "c9885e71-86ea-4113-ac78-750568bd6f45",
                 "resourcePath": "objects\\obj_WallBuyingCard\\obj_WallBuyingCard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5553331d-43eb-4bf3-a543-536b37250e28",
+            "Value": {
+                "id": "f551d0e5-8a0a-4855-b77c-eca214510637",
+                "resourcePath": "sprites\\spr_poweroffalert\\spr_poweroffalert.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1751,6 +1751,14 @@
             }
         },
         {
+            "Key": "a37bf815-9a45-4888-be73-8f821c20c66a",
+            "Value": {
+                "id": "e813f0d5-8ff6-4d8c-ab4b-8c3a35ea21e0",
+                "resourcePath": "sprites\\spr_PauseButton\\spr_PauseButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a38f9350-e66c-4b91-97f0-0a115ae20778",
             "Value": {
                 "id": "86cba427-3fdb-4f7e-a48f-3df5391d93dc",
@@ -1780,6 +1788,14 @@
                 "id": "05e2d681-d5e6-474c-b024-ae7e9d4be693",
                 "resourcePath": "sprites\\spr_Childrenwalk\\spr_Childrenwalk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a7f78b11-1e14-4477-8496-89824850d65c",
+            "Value": {
+                "id": "5ff02d9d-b682-4343-b6d2-50f06dffc41b",
+                "resourcePath": "sounds\\PowerDown\\PowerDown.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1895,6 +1911,14 @@
             }
         },
         {
+            "Key": "b09d7df2-be29-4828-960b-9e55e3ea9288",
+            "Value": {
+                "id": "e25b705c-a21a-40ec-8576-4703f384321a",
+                "resourcePath": "objects\\obj_poweroffalert\\obj_poweroffalert.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b10cb27b-3c51-4c46-9b73-92489037ed00",
             "Value": {
                 "id": "3dd5cefe-4c26-444f-aadc-5520bcb6cf4d",
@@ -1940,6 +1964,14 @@
                 "id": "11fa4053-c7c3-447e-9e2d-d4eee902f0da",
                 "resourcePath": "views\\b69656d1-0c75-4882-9aea-3ba3fa68ab69.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b76f851c-53f7-4de4-8339-907b3b907150",
+            "Value": {
+                "id": "b3423846-5f66-4c3f-b371-11f49029796a",
+                "resourcePath": "objects\\Parent_PlayerCollidingObjects\\Parent_PlayerCollidingObjects.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2364,6 +2396,14 @@
                 "id": "4755b48c-4ab8-4cb4-80c2-13dce3c022b4",
                 "resourcePath": "sprites\\spr_BuyCatapult\\spr_BuyCatapult.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ddc0a935-aee8-435b-8211-fc837801a9d4",
+            "Value": {
+                "id": "3b5e34e6-1b59-4a7a-945d-3d5143b59887",
+                "resourcePath": "sounds\\PowerOn\\PowerOn.yy",
+                "resourceType": "GMSound"
             }
         },
         {
