@@ -5,10 +5,10 @@ audio_play_sound(TennisShoot,1,0);
 
 //KnockBack Power
 if(global.CardOneLevel = 1){
-	KnockBack = 1;
+	KnockBack = 5;
 }
 else if(global.CardOneLevel >= 2){
-	KnockBack = 8;
+	KnockBack = 10;
 }
 
 global.ps = part_system_create();
