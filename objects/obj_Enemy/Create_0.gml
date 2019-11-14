@@ -20,7 +20,7 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 10;
+attackDamage = 15;
 
 //Cash given on death
 DeathCost = 10;
