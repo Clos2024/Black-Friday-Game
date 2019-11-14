@@ -5,7 +5,7 @@ audio_play_sound(SpawnSound,1,0);
 Health = 200;
 
 //path_start(path0,1,path_action_stop,false);
-MovementSpeed = 1.35;
+MovementSpeed = 1.6;
 
 //Attack Range
 range = 64;

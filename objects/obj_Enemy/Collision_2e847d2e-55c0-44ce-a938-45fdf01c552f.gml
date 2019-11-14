@@ -3,13 +3,7 @@
 //sprite_index = spr_EnemyBasicHurt;
 	damaged = true;
 	alarm[2] = 10;
-	//knockback
-	if(global.CardOneLevel = 1){
-	x -= 1;
-	}
-	else if(global.CardOneLevel >= 2){
-	x -= 8;
-	}
+
 	
 	var damagesound = irandom_range(1,3);
 	if(damagesound = 1){

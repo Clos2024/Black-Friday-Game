@@ -1,13 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(powered){
-if(OnTower){
-		if(mouse_check_button_pressed(mb_left)){
-			if(WaterPumped <=35){
-			WaterPumped +=1;
-			}
-			alarm[0] = room_speed * 3;
-		}
+
+if(Full){
+	if(mouse_check_button_pressed(mb_left)){
+		WaterPumped = WaterPumpLimit;
+		pumpWater = false;
+		alarm[0] = room_speed * 1;
+	}
+		alarm[2] = 0;
+}
+else if(!Full && !Drain){
+	
+	if(!pumpWater){
+		alarm[2] = room_speed * 2;
+		pumpWater = true;
+	}
 }
 
 //Drain
@@ -26,11 +34,13 @@ if(WaterPumped <= 0){
 }
 
 //WaterPumped clamp
-if(WaterPumped >= 35){
+if(WaterPumped > WaterPumpLimit){
 	sprite_index = spr_watergunFilledUp;
+	Full = true
 }
-else if(WaterPumped < 35){
+else if(WaterPumped < WaterPumpLimit){
 	sprite_index = spr_watergunFillingUp;
+	Full = false;
 }
 
 //Water Filling up
@@ -52,7 +62,7 @@ else if(WaterPumped = 25){
 else if(WaterPumped = 30){
 	image_index = 6;
 }
-else if(WaterPumped = 35){
+else if(WaterPumped = WaterPumpLimit){
 	image_index = 7;
 }
 
@@ -61,6 +71,9 @@ if(Damaged){
 	Damaged = false;
 }
 }
+else{
+	sprite_index = spr_watergunFillingUp1;
+}
 if(Health <= 0){
-instance_destroy();
+	instance_destroy();
 }
