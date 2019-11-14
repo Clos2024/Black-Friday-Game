@@ -41,3 +41,12 @@ if(room = RoomTwo){
 	}
 	}
 }
+if(room = RoomThree){
+	if(global.hours = 4 && instance_number(Parent_Enemies)){
+		alarm[1] = room_speed * 8;
+	if(!roomOnePlaySound){
+		audio_play_sound(Fanfair,1,0);
+		roomOnePlaySound = true;
+	}
+	}
+}

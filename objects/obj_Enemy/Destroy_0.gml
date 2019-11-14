@@ -17,6 +17,4 @@ cash = cash + DeathCost;
 global.BasicEnemiesKilled += 1;
 ImHolding = false;
 
-if(item.BeingHeld){
-	item.BeingHeld = false;
-}
+

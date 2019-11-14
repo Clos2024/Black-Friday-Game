@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 room_goto_next();
-cash = 500;
+interest = cash * .20;
+cash = 500 + interest;

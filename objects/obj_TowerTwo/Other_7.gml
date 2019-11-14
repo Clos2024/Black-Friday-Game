@@ -10,3 +10,4 @@ if(sprite_index = spr_CatapultGame){
 		TowerProjectile.Angle = UserSet;
 	}
 }
+UserSet = 0;

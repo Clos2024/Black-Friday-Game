@@ -17,7 +17,7 @@ if(room = RoomOne){
 	waveonetime = 10;
 	wavetwotime = 8;
 	wavethreetime = 3;
-	wavefourtime = 2;
+	wavefourtime = 5;
 }
 if(room = RoomTwo){
 	wavezerotime = 10;
