@@ -54,8 +54,8 @@ if (_num > 0)
 			powered = true;
 		}
 			if(!restartshooting){
-			instance.shooting = false;
-			restartshooting = true;
+				instance.alarm[0] = 1;
+				restartshooting = true;
 			}
 		}
 	}

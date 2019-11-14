@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(powered){
-var enemy = collision_line(x+50,y,x-range,y,Parent_Enemies,false,true);
+var enemy = collision_line(x+50,y,x-range,y,Parent_Enemies,false,false);
 
 if(enemy != noone){
 	//if(point_distance(x,y,enemy.x,enemy.y) <= range){
