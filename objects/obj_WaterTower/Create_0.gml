@@ -13,9 +13,12 @@ pumpWater = false;
 
 powered = true;
 Full = false;
-if(global.CardFourLevel = 1){
+if(global.CardFourLevel > 0 && global.CardFourLevel < 2){
 	WaterPumpLimit = 35;
 }
-if(global.CardFourLevel >=3){
+if(global.CardFourLevel > 2 && global.CardFourLevel < 4){
 	WaterPumpLimit = 55;
+}
+else{
+	WaterPumpLimit = 25;
 }

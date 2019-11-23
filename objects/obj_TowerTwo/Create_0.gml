@@ -19,12 +19,15 @@ enemyToShoot = noone;
 range = 640;
 
 powered = true;
-if(global.CardTwoLevel=1){
+if(global.CardTwoLevel > 0 && global.CardTwoLevel < 2){
 attackspeed = 1.5;
 }
-else if(global.CardTwoLevel >= 2){
+else if(global.CardTwoLevel > 2 && global.CardTwoLevel < 4){
 attackspeed = 2;
 }
-else if(global.CardTwoLevel >= 3){
+else if(global.CardTwoLevel > 3 && global.CardTwoLevel < 5){
 attackspeed = 2.5;
+}
+else{
+attackspeed = 1.25;
 }
