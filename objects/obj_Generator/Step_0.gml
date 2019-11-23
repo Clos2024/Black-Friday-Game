@@ -53,10 +53,6 @@ if (_num > 0)
 		{
 			powered = true;
 		}
-			//if(!restartshooting){
-			//	instance.alarm[0] = 1;
-			//	restartshooting = true;
-			//}
 		}
 	}
 }

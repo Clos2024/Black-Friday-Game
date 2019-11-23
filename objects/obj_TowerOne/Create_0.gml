@@ -25,3 +25,4 @@ Health = 60;
 Damaged = false;
 
 powered = true;
+lookforenemy = true;

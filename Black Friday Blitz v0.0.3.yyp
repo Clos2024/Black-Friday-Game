@@ -2047,6 +2047,14 @@
             }
         },
         {
+            "Key": "ba2e6fbe-2f58-470a-9727-91eb040aec33",
+            "Value": {
+                "id": "516222db-779b-46fe-b76f-dcfb61be1cf6",
+                "resourcePath": "sprites\\spr_tableOrangeStore\\spr_tableOrangeStore.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb43182d-4c41-41a4-bd9a-f4cf5abc9a6c",
             "Value": {
                 "id": "f2ecd52e-f7b3-4581-84ec-063d0212155f",
@@ -2388,6 +2396,14 @@
                 "id": "7e5c40e9-b1a7-47dc-9b8f-b7f54dec85e0",
                 "resourcePath": "objects\\obj_EnemyDeath\\obj_EnemyDeath.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "db192c18-e1a4-4481-84d6-9bb3f3fae763",
+            "Value": {
+                "id": "c4b00565-f9f4-43e1-adda-95d8e56f0e60",
+                "resourcePath": "sprites\\spr_itemOrangeLaptop\\spr_itemOrangeLaptop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
