@@ -14,7 +14,7 @@ if(enemy !=noone){
 	//else{
 		TowerReticle.x = enemy.x;
 		DistanceToReticle = distance_to_object(Parent_Enemies);
-		UserSet = 96 + (DistanceToReticle * (42/640));
+		UserSet = 96 + (DistanceToReticle * (42/640)) - 10;
 		image_speed = attackspeed;
 	//}
 }
