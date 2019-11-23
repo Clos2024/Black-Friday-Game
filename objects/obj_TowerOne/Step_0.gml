@@ -1,24 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
+var enemy = collision_rectangle(x+50,y,x-range,y+10,Parent_Enemies,true,true);
 if(powered){
-	
-if(lookforenemy){
-	var enemy = collision_rectangle(x+50,y,x-range,y+10,Parent_Enemies,true,true);
-}
-
-if(enemy != noone){
-	if(point_distance(x,y,enemy.x,enemy.y) <= range){
-		if(!shooting){
-			alarm[0] = 1;
-			shooting = true;
+	if(enemy != noone){
+		if(point_distance(x,y,enemy.x,enemy.y) <= range){
+			if(!shooting){
+				alarm[0] = 1;
+				shooting = true;
+			}
+			enemyToShoot = enemy;
 		}
-		enemyToShoot = enemy;
+	}
+	else{
+		//shooting = false;
+		enemyToShoot = noone;
 	}
 }
 else{
-	shooting = false;
-	enemyToShoot = noone;
-}
+	enemy = noone;
 }
 
 
