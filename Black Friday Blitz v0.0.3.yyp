@@ -1607,6 +1607,14 @@
             }
         },
         {
+            "Key": "9593b550-3bb4-4558-ae09-022ef94313f2",
+            "Value": {
+                "id": "41abbf49-1d72-444d-89fd-720077653654",
+                "resourcePath": "sprites\\spr_endSceneBackgroung\\spr_endSceneBackgroung.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9659bb24-1922-4c83-a4be-c425b3ed5df8",
             "Value": {
                 "id": "0116a0b3-fac8-438e-9299-28438c0e7a66",
