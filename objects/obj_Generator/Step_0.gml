@@ -45,6 +45,7 @@ if (_num > 0)
 		with (instance)
 		{
 			powered = false;
+			alarm[0] = 0;
 		}
 		}
 		else{

@@ -22,6 +22,7 @@ else if(room != BuyingRoom){
 }
 else{
 	audio_stop_sound(Music);
+	songplaying1 = 0;
 }
 
 }
