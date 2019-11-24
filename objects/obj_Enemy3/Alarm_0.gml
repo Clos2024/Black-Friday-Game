@@ -5,6 +5,7 @@ if(instance_exists(towerToAttack)){
 	hit = instance_place(x,y,Parent_Towers);
 
 	if(hit != noone){
+	image_index = 8;
 	hit.Health -= attackDamage;
 	hit.Damaged = true;
 	audio_play_sound(TowerHit,1,0);

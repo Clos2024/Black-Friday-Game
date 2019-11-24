@@ -10,7 +10,7 @@ var tower = collision_point(x+range,y,Parent_Towers,false,false);
 			WalkBack = false;
 			if(!attacking){
 				alarm[0] = attackspeed;
-				//sprite_index = spr_EnemyTankAttack;
+				sprite_index = spr_EnemyTankAttack;
 				attacking = true;
 			}
 	}
@@ -94,7 +94,7 @@ else if(ImHolding && x<50){
 	instance_destroy(myAlert);
 }
 
-if(damaged){
+if(damaged && !attacking){
 	sprite_index = spr_EnemyTankHurt;
 	if(!playsprite){
 		alarm[2] = 7;
