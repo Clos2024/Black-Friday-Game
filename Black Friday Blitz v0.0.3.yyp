@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "242dbbbb-cac7-41b3-a739-ac4e74948f63",
+            "Value": {
+                "id": "0f0d7957-2362-4319-9e84-b3131494bac4",
+                "resourcePath": "objects\\obj_fillstatus\\obj_fillstatus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "249c34ef-57ba-4642-a9b3-1ec6080793b4",
             "Value": {
                 "id": "8ab86fea-ba92-44eb-b401-e73c682b6e66",
@@ -1103,6 +1111,14 @@
             }
         },
         {
+            "Key": "62ba94e9-fcb9-4981-a5e4-d3bafe89b949",
+            "Value": {
+                "id": "47fdcbcf-0327-4240-9fe8-0ee163e54346",
+                "resourcePath": "sprites\\spr_full\\spr_full.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62c7d98b-6167-47a0-8cbf-6e4cef5ee08a",
             "Value": {
                 "id": "fd9d51c9-e5ca-4601-a0ea-cc1ead8b23a3",
@@ -1667,6 +1683,14 @@
             "Value": {
                 "id": "87bb0d2c-b87f-4132-aead-df2e5961a1c5",
                 "resourcePath": "sprites\\spr_DoorBusterHurt\\spr_DoorBusterHurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9731ec9e-7c08-406a-8eba-bc56dd78787b",
+            "Value": {
+                "id": "bb87ac4b-53b3-4595-875b-5a8a63f2c46c",
+                "resourcePath": "sprites\\spr_notfull\\spr_notfull.yy",
                 "resourceType": "GMSprite"
             }
         },
