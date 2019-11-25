@@ -3,3 +3,4 @@
 globalvar cash;
 cash = 0;
 MovementSpeed = 5;
+alarm[0] = room_speed * 20;

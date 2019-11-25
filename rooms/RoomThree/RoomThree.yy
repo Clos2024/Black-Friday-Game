@@ -194,7 +194,8 @@
         "bc69ed8c-e2c6-4b10-9441-be5029820521",
         "8053530e-ee69-4788-b2c6-66fd96c74e6e",
         "a4690243-dd30-4c91-9d1e-a86ff51b4eeb",
-        "c105d1db-0da9-4a51-a15f-06578bf69500"
+        "c105d1db-0da9-4a51-a15f-06578bf69500",
+        "7220ca9f-e0cf-4fbd-8c2f-7c2b8f52e0c2"
     ],
     "IsDnD": false,
     "layers": [
@@ -256,7 +257,8 @@
 {"name": "inst_4EBA5FD4","id": "fa907a66-c231-4215-bf08-b62e3c942e38","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4EBA5FD4","objId": "8b13c2df-9dbb-4957-9cbe-f16473a08b3a","properties": null,"rotation": 0,"scaleX": 3.285714,"scaleY": 3.285714,"mvc": "1.1","x": 60,"y": 550},
 {"name": "inst_78D6EAEA","id": "e8726cf5-2d43-4ccf-912c-1717e9c013af","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_78D6EAEA","objId": "8b13c2df-9dbb-4957-9cbe-f16473a08b3a","properties": null,"rotation": 0,"scaleX": 3.285714,"scaleY": 3.285714,"mvc": "1.1","x": 60,"y": 400},
 {"name": "inst_6F1B6FC","id": "7674cd77-5eef-46e8-966f-61fec2492dde","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6F1B6FC","objId": "8b13c2df-9dbb-4957-9cbe-f16473a08b3a","properties": null,"rotation": 0,"scaleX": 3.285714,"scaleY": 3.285714,"mvc": "1.1","x": 70,"y": 250},
-{"name": "inst_10D093F2","id": "901d7795-2e92-489f-90e2-8d78ea406c7d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_10D093F2","objId": "26a0b001-d453-4cd6-b0c1-fc286d0dc8ac","properties": null,"rotation": 0,"scaleX": 5.608,"scaleY": 5.450331,"mvc": "1.1","x": 1020,"y": 490}
+{"name": "inst_10D093F2","id": "901d7795-2e92-489f-90e2-8d78ea406c7d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_10D093F2","objId": "26a0b001-d453-4cd6-b0c1-fc286d0dc8ac","properties": null,"rotation": 0,"scaleX": 5.608,"scaleY": 5.450331,"mvc": "1.1","x": 1020,"y": 490},
+{"name": "inst_4BA6D0C7","id": "7220ca9f-e0cf-4fbd-8c2f-7c2b8f52e0c2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4BA6D0C7","objId": "0d9907a0-d387-4488-adcb-780b59928fd9","properties": null,"rotation": 0,"scaleX": 5.748497,"scaleY": 5.620497,"mvc": "1.1","x": 1020,"y": 490}
             ],
             "layers": [
 
@@ -694,7 +696,7 @@
             "id": "a4624d62-1ad4-4b8f-9628-4bbf941e02ae",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4294967295 },
+            "colour": { "Value": 4278190080 },
             "depth": 1200,
             "grid_x": 32,
             "grid_y": 32,

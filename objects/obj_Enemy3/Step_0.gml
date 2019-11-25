@@ -1,6 +1,6 @@
 /// @description Attack Check
 // You can write your code in this editor
-var tower = collision_point(x,y,Parent_Towers,false,false);
+var tower = collision_point(x+range,y,Parent_Towers,false,false);
 
 	if(tower != noone){
 		if(point_distance(x,y,tower.x,tower.y) <= range){
@@ -74,7 +74,7 @@ if(WalkDown){
 if(ImHolding){
 	iteminlane.x = x;
 	if(!createAlert){
-		myAlert = instance_create_layer(x,y-50,"enemy",obj_Alert);
+		myAlert = instance_create_layer(x,y-130,"enemy",obj_Alert);
 		createAlert = true;
 	}
 	
@@ -94,7 +94,7 @@ else if(ImHolding && x<50){
 	instance_destroy(myAlert);
 }
 
-if(damaged){
+if(damaged && !attacking){
 	sprite_index = spr_EnemyTankHurt;
 	if(!playsprite){
 		alarm[2] = 7;

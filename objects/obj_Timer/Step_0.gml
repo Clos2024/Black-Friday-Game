@@ -24,28 +24,28 @@ if(global.hours >= 4){
 }
 
 if(room = RoomOne){
-	if(global.hours = 4 && instance_number(Parent_Enemies)){
+	if(global.hours = 4 && instance_number(Parent_Enemies) = 0){
 		alarm[1] = room_speed * 8;
 	if(!roomOnePlaySound){
-		audio_play_sound(Fanfair,1,0);
+		audio_play_sound(storeclosed,1,0);
 		roomOnePlaySound = true;
 	}
 	}
 }
 if(room = RoomTwo){
-	if(global.hours = 4 && instance_number(Parent_Enemies)){
+	if(global.hours = 4 && instance_number(Parent_Enemies) = 0){
 		alarm[1] = room_speed * 8;
 	if(!roomOnePlaySound){
-		audio_play_sound(Fanfair,1,0);
+		audio_play_sound(storeclosed,1,0);
 		roomOnePlaySound = true;
 	}
 	}
 }
 if(room = RoomThree){
-	if(global.hours = 4 && instance_number(Parent_Enemies)){
+	if(global.hours = 4 && instance_number(Parent_Enemies) = 0){
 		alarm[1] = room_speed * 8;
 	if(!roomOnePlaySound){
-		audio_play_sound(Fanfair,1,0);
+		audio_play_sound(storeclosed,1,0);
 		roomOnePlaySound = true;
 	}
 	}

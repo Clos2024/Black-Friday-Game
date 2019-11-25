@@ -25,7 +25,14 @@
         "0b11669b-a26d-47f9-8118-74f55893642a",
         "091c66fe-a227-400f-9f18-f7f4c5b9dffa",
         "a7f78b11-1e14-4477-8496-89824850d65c",
-        "ddc0a935-aee8-435b-8211-fc837801a9d4"
+        "ddc0a935-aee8-435b-8211-fc837801a9d4",
+        "7803553f-c45f-4dfa-9afd-405976794235",
+        "531b6fa9-c8f3-4c4c-9634-0beb769f3f9a",
+        "d8a6a2ba-9e7d-4b8a-98f5-130ce04807c2",
+        "6055f17c-fd95-4748-bd35-65fedf32651f",
+        "da81db7a-ad03-476c-9580-b46139e9ca07",
+        "1e5231c6-8cf7-4707-abac-dfad288ac2b1",
+        "caf47fa2-dae0-41f9-995e-5bde626b0103"
     ],
     "filterType": "GMSound",
     "folderName": "sounds",
