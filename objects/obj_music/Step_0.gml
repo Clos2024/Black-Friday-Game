@@ -29,3 +29,9 @@ else{
 if(room = LostScreen){
 	audio_stop_all();
 }
+if(room = EndRoom){
+		if(songplaying < 1){
+		audio_play_sound(MenuMusic,1,10);
+		songplaying += 1;
+		}
+}
