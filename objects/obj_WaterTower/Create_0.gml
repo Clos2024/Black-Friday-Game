@@ -10,6 +10,7 @@ Drain = false;
 WaterBeam = noone;
 Countdown = false;
 pumpWater = false;
+ontower = false;
 
 powered = true;
 Full = false;
@@ -22,3 +23,5 @@ if(global.CardFourLevel > 2 && global.CardFourLevel < 4){
 else{
 	WaterPumpLimit = 25;
 }
+
+filledstatus = instance_create_layer(x+30,y-90,"Towers",obj_fillstatus);

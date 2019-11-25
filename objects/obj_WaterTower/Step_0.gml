@@ -3,15 +3,16 @@
 if(powered){
 
 if(Full){
-	if(mouse_check_button_pressed(mb_left)){
+	filledstatus.sprite_index = spr_full;
+	if(mouse_check_button_pressed(mb_left) && ontower){
 		WaterPumped = WaterPumpLimit;
 		pumpWater = false;
-		alarm[0] = room_speed * 1;
+		alarm[0] = 1;
 	}
 		alarm[2] = 0;
 }
 else if(!Full && !Drain){
-	
+	filledstatus.sprite_index = spr_notfull;
 	if(!pumpWater){
 		alarm[2] = room_speed * 2;
 		pumpWater = true;
