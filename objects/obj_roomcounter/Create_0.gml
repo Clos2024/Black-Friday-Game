@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.roomtraveled = 2;
+global.roomtraveled = 0;
