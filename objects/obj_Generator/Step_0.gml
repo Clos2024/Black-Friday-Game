@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 var player = collision_circle(x,y,50,obj_Player,false,false);
 
 if (player != noone){
@@ -39,9 +38,10 @@ var _list = ds_list_create();
 if(room = RoomOne || room = RoomTwo){
 var _num = collision_line_list(x,y+50,x-1920,y+50,Parent_Towers,false,true,_list,true);
 }
-else if(room = RoomThree){
-var _num = collision_line_list(x,y+25,x-1920,y+25,Parent_Towers,false,true,_list,true);
+else{
+var _num = collision_rectangle_list(x,y+50,x-1920,y+192,Parent_Towers,false,true,_list,true);
 }
+
 if (_num > 0)
 {
 	for(var i = 0; i < _num; ++i)
