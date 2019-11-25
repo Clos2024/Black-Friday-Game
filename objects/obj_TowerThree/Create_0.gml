@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 refund = global.Wallcost/2;
-image_index = 1;
+image_index = 0;
 if(global.CardThreeLevel = 1){
 	Health = 60;
 }
