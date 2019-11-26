@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //////////////////////////////////////////////////////////////////////
 //var tower = collision_line(x,y,x+range,y,Parent_Towers,false,true);
-var tower = collision_point(x,y,Parent_Towers,false,false);
+var tower = collision_line(x,y,x+range,y,Parent_Towers,false,false);
 
 	if(tower != noone){
 		if(point_distance(x,y,tower.x,tower.y) <= range){
