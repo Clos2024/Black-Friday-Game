@@ -20,7 +20,7 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 30;
+attackDamage = 20;
 
 damaged = false;
 WalkBack = false;
