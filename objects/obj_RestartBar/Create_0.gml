@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 TopOfBar = y;
-BottomOfBar = y+267;
+BottomOfBar = y+234;
 stop = false;
 Correct = false;
 randomY = irandom_range(1,234);

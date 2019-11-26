@@ -5,7 +5,7 @@ if(powered){
 	if(enemy != noone){
 		if(point_distance(x,y,enemy.x,enemy.y) <= range){
 			if(!shooting){
-				alarm[0] = 1;
+				alarm[0] = 30;
 				shooting = true;
 			}
 			enemyToShoot = enemy;
