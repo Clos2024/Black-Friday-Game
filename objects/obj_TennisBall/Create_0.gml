@@ -5,7 +5,7 @@ audio_play_sound(TennisShoot,1,0);
 
 //KnockBack Power
 if(global.CardOneLevel = 1){
-	KnockBack = 2;
+	KnockBack = 0;
 }
 else if(global.CardOneLevel >= 2){
 	KnockBack = 10;

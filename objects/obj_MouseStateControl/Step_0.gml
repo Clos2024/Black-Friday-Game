@@ -102,7 +102,7 @@ if(Tile != noone){
 	
 	if(global.SelectedTowerThree != false){
 	if(TileOn.TowerThreeOver = true && mouse_check_button_pressed(mb_left) && global.Wallcost<=cash){
-		instance_create_layer(TileOn.x,TileOn.y,"Towers",obj_TowerThree);
+		instance_create_layer(TileOn.x,TileOn.y-20,"Towers",obj_TowerThree);
 		cash -= global.Wallcost;
 		global.SelectedTowerOne = false;
 		global.SelectedTowerTwo = false;
