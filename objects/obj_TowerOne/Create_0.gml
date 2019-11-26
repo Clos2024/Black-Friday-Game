@@ -5,7 +5,7 @@ refund = global.TennisCost/2;
 range = 1200;
 //Fire rate in seconds
 if(global.CardOneLevel <=2){
-fireRate = room_speed * 2;
+fireRate = room_speed * 1.2;
 }
 else if(global.CardOneLevel >=3){
 fireRate = room_speed * 1;

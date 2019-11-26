@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room != EndRoom){
+if(room != RoomThreeComplete){
 room_goto(BuyingRoom);
 }
 else{

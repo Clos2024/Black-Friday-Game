@@ -14,7 +14,7 @@ if(enemy !=noone){
 	//else{
 		TowerReticle.x = enemy.x;
 		DistanceToReticle = distance_to_object(Parent_Enemies);
-		UserSet = 96 + (DistanceToReticle * (42/640)) - 10;
+		UserSet = 96 + (DistanceToReticle * (42/640)) - 5;
 		if(UserSet < 96){
 			UserSet = 96;
 		}
