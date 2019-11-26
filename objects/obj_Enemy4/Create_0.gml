@@ -2,7 +2,7 @@
 // You can write your code in this editor
 audio_play_sound(SpawnSound,1,0);
 //HP
-Health = 750;
+Health = 700;
 
 //path_start(path0,1,path_action_stop,false);
 MovementSpeed = 1;
@@ -20,7 +20,7 @@ attacking = false;
 towerToAttack = noone;
 
 //attack damage
-attackDamage = 40;
+attackDamage = 30;
 
 damaged = false;
 WalkBack = false;
@@ -50,5 +50,5 @@ enraged = false;
 EnragedSettings = false;
 global.ps = part_system_create();
 script_part_star_init();
-children = noone;
+//children = noone;
 children = instance_create_layer(x+128,y, "enemy", obj_EnemyChildren);
