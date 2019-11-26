@@ -20,3 +20,13 @@ if(room = RoomTwo){
 	}
 	
 }
+if(room = RoomThree){
+	
+	if(instance_number(Parent_Enemies) <=0){
+		if(!countdown){
+			alarm[0] = room_speed * 5;
+			countdown = true;
+		}
+	}
+	
+}
