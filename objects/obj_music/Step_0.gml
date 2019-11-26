@@ -6,6 +6,12 @@ if(room = StartScreen){
 		songplaying += 1;
 		}
 }
+else if(room = EndRoom){
+		if(songplaying < 1){
+		audio_play_sound(MenuMusic,1,10);
+		songplaying += 1;
+		}
+}
 else{
 	audio_stop_sound(MenuMusic);
 }
@@ -28,10 +34,4 @@ else{
 }
 if(room = LostScreen){
 	audio_stop_all();
-}
-if(room = EndRoom){
-		if(songplaying < 1){
-		audio_play_sound(MenuMusic,1,10);
-		songplaying += 1;
-		}
 }
