@@ -11,7 +11,7 @@ MovementSpeed = 1.6;
 range = 64;
 
 //attack speed in seconds
-attackspeed = room_speed * 2;
+attackspeed = room_speed * 3;
 
 //attack bool
 attacking = false;
